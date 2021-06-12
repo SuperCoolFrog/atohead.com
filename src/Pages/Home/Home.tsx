@@ -1,10 +1,8 @@
-import React, { useEffect, useState } from 'react';
+import React from 'react';
 import { Col, Container, Jumbotron, Row } from 'react-bootstrap';
-import GameCard from '../../Components/GameCard/GameCard';
-import { default as GameCardModel } from '../../Models/GameCard';
 import './Home.scss';
 
-function App() {
+const App = () => {
   // const [cards, setCards] = useState<GameCardModel[]>([]);
   
   // useEffect(() => {
