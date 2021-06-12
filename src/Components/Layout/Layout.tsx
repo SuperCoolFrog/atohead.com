@@ -29,6 +29,10 @@ const Layout = ({ children }: LayoutProps) => {
         <main role="main">
             {children}
         </main>
+        <hr />
+        <footer className="container">
+            <p>I do not own <a href="https://acrosstheobelisk.com/"><i>Across the Obelisk</i></a> just like the game.</p>
+        </footer>
     </>);
 };
 

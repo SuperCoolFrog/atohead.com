@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from 'react';
-import { Container, Jumbotron } from 'react-bootstrap';
+import { Col, Container, Jumbotron, Row } from 'react-bootstrap';
 import GameCard from '../../Components/GameCard/GameCard';
 import { default as GameCardModel } from '../../Models/GameCard';
 import './Home.scss';
@@ -27,6 +27,13 @@ function App() {
         </p>
       </Container>
     </Jumbotron>
+    <Container>
+      <Row>
+        <Col md={4}>Something</Col>
+        <Col md={4}>Something</Col>
+        <Col md={4}>Something</Col>
+      </Row>
+    </Container>
   </>);
 }
 
