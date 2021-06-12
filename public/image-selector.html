@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Image Selector</title>
+</head>
+<body>
+    
+    <div id="output">
+
+    </div>
+    
+    <hr/>
+    
+    <div>
+        Url: <input id="imageUrl" />
+    </div>
+    <div>
+        Top: <input id="spriteTop" />
+    </div>
+    <div>
+        Left: <input id="spriteLeft" />
+    </div>
+    <div>
+        Width: <input id="spriteWidth" />
+    </div>
+    <div>
+        Height: <input id="spriteHeight" />
+    </div>
+    <div>
+        <button id="update" type="button">Update</button>
+    </div>
+    
+    <script>
+        const output = document.getElementById('output');
+
+        const btn = document.getElementById('update');
+
+        btn.onclick = function() {
+            const url = document.getElementById('imageUrl').value;
+            const spriteTop = document.getElementById('spriteTop').value;
+            const spriteLeft = document.getElementById('spriteLeft').value;
+            const spriteWidth = document.getElementById('spriteWidth').value;
+            const spriteHeight = document.getElementById('spriteHeight').value;
+
+            /***
+             * 
+                const background = `url(${card.image}) ${card.spriteLeft} ${card.spriteTop}`
+                return (<div onClick={handleClick} style={{ background, height: card.spriteHeight, width: card.spriteWidth }}></div>);
+             */
+            
+            output.style.background = `url(${url}) ${spriteLeft} ${spriteTop}`; 
+            output.style.width = spriteWidth;
+            output.style.height = spriteHeight;
+
+            // console.log({
+            //     url,
+            //     spriteTop,
+            //     spriteLeft,
+            //     spriteWidth,
+            //     spriteHeight
+            // })
+        };
+   </script> 
+
+    
+</body>
+</html>

@@ -1,5 +1,15 @@
 {
     "cards": [
-        { "characterType": "WARRIOR", "serialNumber": "1", "name": "Arsenal", "type": "Skill", "image": "/images/warrior_cards_page_1.png", "spriteLeft": "-347px", "spriteTop": "-160px", "spriteWidth": "160px", "spriteHeight": "235px" }
+        { "characterType": "WARRIOR", "serialNumber": "1", "name": "Arsenal", "type": "Skill", "image": "/images/warrior_cards_page_1.png", "spriteLeft": "-346px", "spriteTop": "-160px", "spriteWidth": "160px", "spriteHeight": "235px" },
+        { "characterType": "WARRIOR", "serialNumber": "2", "name": "Barbed Wire", "type": "Defense", "image": "/images/warrior_cards_page_1.png", "spriteLeft": "-547px", "spriteTop": "-160px", "spriteWidth": "160px", "spriteHeight": "235px" },
+        { "characterType": "WARRIOR", "serialNumber": "3", "name": "Barricade", "type": "Defense", "image": "/images/warrior_cards_page_1.png", "spriteLeft": "-748px", "spriteTop": "-160px", "spriteWidth": "160px", "spriteHeight": "235px" },
+
+        { "characterType": "WARRIOR", "serialNumber": "4", "name": "Battle Plan", "type": "Skill", "image": "/images/warrior_cards_page_1.png", "spriteLeft": "-346px", "spriteTop": "-440px", "spriteWidth": "160px", "spriteHeight": "235px" },
+        { "characterType": "WARRIOR", "serialNumber": "5", "name": "Battle Shout", "type": "Skill", "image": "/images/warrior_cards_page_1.png", "spriteLeft": "-547px", "spriteTop": "-440px", "spriteWidth": "160px", "spriteHeight": "235px" },
+        { "characterType": "WARRIOR", "serialNumber": "6", "name": "Blade Storm", "type": "Melee Attack", "image": "/images/warrior_cards_page_1.png", "spriteLeft": "-748px", "spriteTop": "-440px", "spriteWidth": "160px", "spriteHeight": "235px" },
+
+        { "characterType": "WARRIOR", "serialNumber": "7", "name": "Bleed Out", "type": "N/A", "image": "/images/warrior_cards_page_1.png", "spriteLeft": "-346px", "spriteTop": "-720px", "spriteWidth": "160px", "spriteHeight": "235px" },
+        { "characterType": "WARRIOR", "serialNumber": "8", "name": "Bloodbath", "type": "Melee Attack", "image": "/images/warrior_cards_page_1.png", "spriteLeft": "-547px", "spriteTop": "-720px", "spriteWidth": "160px", "spriteHeight": "235px" },
+        { "characterType": "WARRIOR", "serialNumber": "9", "name": "Blood Feeding", "type": "Skill", "image": "/images/warrior_cards_page_1.png", "spriteLeft": "-748px", "spriteTop": "-720px", "spriteWidth": "160px", "spriteHeight": "235px" }
     ]
 }

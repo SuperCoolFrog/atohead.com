@@ -99,7 +99,13 @@ const DeckBuilderTool = ({ deck }: DeckBuilderToolProps) => {
             <Col md={6} className={styles.rightContainer}>
                 <h3>Collection</h3>
                 <Container className={styles.collectionContainer}>
-                    {cards.map((card) => (<GameCard card={card} onClick={addCardToDeck} />))}
+                    <Row>
+                        {cards.map((card) => (
+                            <Col md={4} className={styles.cardContainer}>
+                                <GameCard card={card} onClick={addCardToDeck} />
+                            </Col>
+                        ))}
+                    </Row>
                 </Container>
             </Col>
         </Row>
