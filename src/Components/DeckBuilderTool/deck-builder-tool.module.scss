@@ -7,6 +7,23 @@
 }
 
 .deckContainer, .collectionContainer {
-    height: 80vh;
+    height: 65vh;
     overflow-y: scroll;
+}
+
+.characterTitleWarrior {
+    color: RED;
+    font-weight: bold;
+}
+.characterTitleScout {
+    color: green;
+    font-weight: bold;
+}
+.characterTitleMage {
+    color: darkblue;
+    font-weight: bold;
+}
+.characterTitleHealer {
+    color: goldenrod;
+    font-weight: bold;
 }

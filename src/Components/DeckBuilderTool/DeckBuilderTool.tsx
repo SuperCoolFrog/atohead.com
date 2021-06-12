@@ -11,6 +11,15 @@ interface DeckBuilderToolProps {
     deck: Deck;
 }
 
+function toTitleCase(str: string) {
+    return str.replace(
+        /\w\S*/g,
+        function(txt:string) {
+            return txt.charAt(0).toUpperCase() + txt.substr(1).toLowerCase();
+        }
+    );
+}
+
 const DeckBuilderTool = ({ deck }: DeckBuilderToolProps) => {
     const [cards, setCards] = useState<GameCardModel[]>([]);
     const [currentDeck, setCurrentDeck] = useState(deck);
@@ -45,8 +54,26 @@ const DeckBuilderTool = ({ deck }: DeckBuilderToolProps) => {
         
         setCurrentDeck(updatedDeck);
     };
+    
+    const url = window.location.toString();
+    const titleClassName = deck.characterType === CharacterType.WARRIOR
+    ? styles.characterTitleWarrior
+    : deck.characterType === CharacterType.SCOUT
+    ? styles.characterTitleScout
+    : deck.characterType === CharacterType.MAGE
+    ? styles.characterTitleMage
+    : styles.characterTitleHealer;
 
     return (<Container>
+        <h2>You are working with <span className={titleClassName}>{toTitleCase(deck.characterType)}</span> cards.</h2>
+        <p>
+            Click on the cards to add or remove from deck.  Your deck is automatically saved.
+            
+        </p>
+        <p>
+            You can use the url <a href={url}>{url}</a> to share or edit this deck;
+        </p>
+        <hr />
         <Row>
             <Col md={6}>
                 <h3>Deck</h3>
