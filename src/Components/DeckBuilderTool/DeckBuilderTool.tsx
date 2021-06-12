@@ -31,6 +31,20 @@ const DeckBuilderTool = ({ deck }: DeckBuilderToolProps) => {
         
         setCurrentDeck(updatedDeck);
     };
+    
+    const removeCardFromDeck = (card: GameCardModel) => {
+        const firstIdx = currentDeck.cards.findIndex((_card) => _card.serialNumber === card.serialNumber);
+        const nuCardsArr = [...currentDeck.cards];
+
+        nuCardsArr.splice(firstIdx, 1);
+
+        const updatedDeck = {
+            ...currentDeck,
+            cards: nuCardsArr
+        }
+        
+        setCurrentDeck(updatedDeck);
+    };
 
     return (<Container>
         <Row>
@@ -40,7 +54,7 @@ const DeckBuilderTool = ({ deck }: DeckBuilderToolProps) => {
                     <Row>
                         {currentDeck.cards.map((card) => (
                             <Col md={4} className={styles.cardContainer}>
-                                <GameCard card={card} />
+                                <GameCard card={card} onClick={removeCardFromDeck} />
                             </Col>
                         ))}
                     </Row>
