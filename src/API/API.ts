@@ -2,6 +2,7 @@ import GameCard from '../Models/GameCard';
 import uuid from 'short-uuid';
 import Deck from '../Models/Deck';
 import CharacterType from '../Models/CharacterType.enum';
+import fbAPI from './firebase-api';
 
 /** CARDS */
 
@@ -21,26 +22,59 @@ export const getCards = (): Promise<GameCard[]> => {
 };
 
 /** DECK */
-const db = {} as any;
+const deckCache = {} as any;
+const updatedDeckIds: string[] = [];
+
+const saveDeckToFirebase = () => {
+  if (!updatedDeckIds) { return; }
+
+  updatedDeckIds
+  .map((id) => deckCache[id] as Deck)
+  .forEach((deck) => {
+    if (updatedDeckIds) {
+      const idx = updatedDeckIds.findIndex((id) => id === deck.id);
+      updatedDeckIds.splice(idx, 1);
+    }
+    fbAPI.saveDeck(deck);
+  })
+};
 
 export const saveDeck = (deck: Deck): Promise<Deck> => {
-  db[deck.id] = deck;
+  deckCache[deck.id] = deck;
   
+  if (updatedDeckIds.indexOf(deck.id) < 0) {
+    updatedDeckIds.push(deck.id);
+    setTimeout(() => {
+      saveDeckToFirebase();
+    }, 1000)
+  }
+
   return Promise.resolve(deck);
 }; 
 
 export const getDeck = (id: string): Promise<Deck> => {
-    return Promise.resolve(db[id]);
+    if (deckCache[id]) {
+      return Promise.resolve(deckCache[id]);
+    }
+    
+    return fbAPI.getDeck(id);
 };
 
-export const createDeck = (characterType: CharacterType): Promise<Deck> => {
+export function createDeck(characterType: CharacterType): Promise<Deck> {
   const nuDeck  = {
     id: uuid.generate() as string,
     characterType,
     cards: [],
   } as Deck;
   
-  db[nuDeck.id] = nuDeck;
+  deckCache[nuDeck.id] = nuDeck;
+
+  if (updatedDeckIds.indexOf(nuDeck.id) < 0) {
+    updatedDeckIds.push(nuDeck.id);
+    setTimeout(() => {
+      saveDeckToFirebase();
+    }, 1000)
+  }
   
   return Promise.resolve(nuDeck);
 };
