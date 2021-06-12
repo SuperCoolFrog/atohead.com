@@ -1,5 +1,6 @@
 import firebase from "firebase/app";
 import "firebase/analytics";
+import "firebase/firestore";
 import Deck from '../Models/Deck';
 
 var firebaseConfig = {
@@ -13,16 +14,30 @@ var firebaseConfig = {
 };
 
 // Initialize Firebase
-firebase.initializeApp(firebaseConfig);
+
+if (!firebase.apps.length) {
+    firebase.initializeApp(firebaseConfig);
+ }else {
+    firebase.app(); // if already initialized, use that one
+ }
+
 firebase.analytics();
+firebase.firestore();
+
+const DECK_COLL = 'decks';
 
 export const getDeck = async (id: string): Promise<Deck> => {
-    return Promise.resolve({} as Deck);
+    return firebase.firestore().collection(DECK_COLL).doc(id).get()
+    .then((response) => {
+        return response.data() as Deck;
+    })
 };
 
 export const saveDeck = async (deck: Deck): Promise<Deck> => {
-    console.log(new Date());
-    return Promise.resolve(deck);
+    return firebase.firestore().collection(DECK_COLL).doc(deck.id).set(deck)
+    .then(() => {
+        return Promise.resolve(deck);
+    });
 };
 
 const firebaseAPI = {
