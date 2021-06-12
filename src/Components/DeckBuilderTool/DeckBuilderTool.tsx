@@ -6,6 +6,7 @@ import CharacterType from '../../Models/CharacterType.enum';
 import { Col, Container, Row } from 'react-bootstrap';
 import styles from './deck-builder-tool.module.scss';
 import Deck from '../../Models/Deck';
+import { saveDeck } from '../../API/API';
 
 interface DeckBuilderToolProps {
     deck: Deck;
@@ -39,6 +40,7 @@ const DeckBuilderTool = ({ deck }: DeckBuilderToolProps) => {
         }
         
         setCurrentDeck(updatedDeck);
+        saveDeck(updatedDeck);
     };
     
     const removeCardFromDeck = (card: GameCardModel) => {
@@ -53,6 +55,7 @@ const DeckBuilderTool = ({ deck }: DeckBuilderToolProps) => {
         }
         
         setCurrentDeck(updatedDeck);
+        saveDeck(updatedDeck);
     };
     
     const url = window.location.toString();
