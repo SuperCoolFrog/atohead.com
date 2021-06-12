@@ -100,7 +100,36 @@
 
         { "characterType": "WARRIOR", "serialNumber": "70", "name": "Shake it off", "type": "Skill", "energyCost": "1", "image": "/images/warrior_cards_page_4.png", "spriteLeft": "-1029px", "spriteTop": "-720px", "spriteWidth": "160px", "spriteHeight": "235px" },
         { "characterType": "WARRIOR", "serialNumber": "71", "name": "Sharing Is Caring", "type": "Defense", "energyCost": "1", "image": "/images/warrior_cards_page_4.png", "spriteLeft": "-1230px", "spriteTop": "-720px", "spriteWidth": "160px", "spriteHeight": "235px" },
-        { "characterType": "WARRIOR", "serialNumber": "72", "name": "Sharpen", "type": "Skill", "energyCost": "1", "image": "/images/warrior_cards_page_4.png", "spriteLeft": "-1431px", "spriteTop": "-720px", "spriteWidth": "160px", "spriteHeight": "235px" }
+        { "characterType": "WARRIOR", "serialNumber": "72", "name": "Sharpen", "type": "Skill", "energyCost": "1", "image": "/images/warrior_cards_page_4.png", "spriteLeft": "-1431px", "spriteTop": "-720px", "spriteWidth": "160px", "spriteHeight": "235px" },
 
+        
+
+        { "characterType": "WARRIOR", "serialNumber": "73", "name": "Shield Bash", "type": "Melee Attack", "energyCost": "2", "image": "/images/warrior_cards_page_5.png", "spriteLeft": "-346px", "spriteTop": "-160px", "spriteWidth": "160px", "spriteHeight": "235px" },
+        { "characterType": "WARRIOR", "serialNumber": "74", "name": "Shield Breaker", "type": "Melee Attack", "energyCost": "3", "image": "/images/warrior_cards_page_5.png", "spriteLeft": "-547px", "spriteTop": "-160px", "spriteWidth": "160px", "spriteHeight": "235px" },
+        { "characterType": "WARRIOR", "serialNumber": "75", "name": "Shield Charge", "type": "Melee Attack", "energyCost": "2", "image": "/images/warrior_cards_page_5.png", "spriteLeft": "-748px", "spriteTop": "-160px", "spriteWidth": "160px", "spriteHeight": "235px" },
+
+        { "characterType": "WARRIOR", "serialNumber": "76", "name": "Shield Slam", "type": "Melee Attack", "energyCost": "3", "image": "/images/warrior_cards_page_5.png", "spriteLeft": "-346px", "spriteTop": "-440px", "spriteWidth": "160px", "spriteHeight": "235px" },
+        { "characterType": "WARRIOR", "serialNumber": "77", "name": "Shield Throw", "type": "Melee Attack", "energyCost": "2", "image": "/images/warrior_cards_page_5.png", "spriteLeft": "-547px", "spriteTop": "-440px", "spriteWidth": "160px", "spriteHeight": "235px" },
+        { "characterType": "WARRIOR", "serialNumber": "78", "name": "Shield Wall", "type": "Defense", "energyCost": "5", "image": "/images/warrior_cards_page_5.png", "spriteLeft": "-748px", "spriteTop": "-440px", "spriteWidth": "160px", "spriteHeight": "235px" },
+
+        { "characterType": "WARRIOR", "serialNumber": "79", "name": "Siege Breaker", "type": "Melee Attack", "energyCost": "3", "image": "/images/warrior_cards_page_5.png", "spriteLeft": "-346px", "spriteTop": "-720px", "spriteWidth": "160px", "spriteHeight": "235px" },
+        { "characterType": "WARRIOR", "serialNumber": "80", "name": "Skullsplitter", "type": "Melee Attack", "energyCost": "5", "image": "/images/warrior_cards_page_5.png", "spriteLeft": "-547px", "spriteTop": "-720px", "spriteWidth": "160px", "spriteHeight": "235px" },
+        { "characterType": "WARRIOR", "serialNumber": "81", "name": "Spiked Shield", "type": "Defense", "energyCost": "2", "image": "/images/warrior_cards_page_5.png", "spriteLeft": "-748px", "spriteTop": "-720px", "spriteWidth": "160px", "spriteHeight": "235px" },
+
+        { "characterType": "WARRIOR", "serialNumber": "82", "name": "Steelskin", "type": "Defense", "energyCost": "2", "image": "/images/warrior_cards_page_5.png", "spriteLeft": "-1029px", "spriteTop": "-160px", "spriteWidth": "160px", "spriteHeight": "235px" },
+        { "characterType": "WARRIOR", "serialNumber": "83", "name": "Stockade", "type": "Defense", "energyCost": "3", "image": "/images/warrior_cards_page_5.png", "spriteLeft": "-1230px", "spriteTop": "-160px", "spriteWidth": "160px", "spriteHeight": "235px" },
+        { "characterType": "WARRIOR", "serialNumber": "84", "name": "Sunder Armor", "type": "Melee Attack", "energyCost": "3", "image": "/images/warrior_cards_page_5.png", "spriteLeft": "-1431px", "spriteTop": "-160px", "spriteWidth": "160px", "spriteHeight": "235px" },
+
+        { "characterType": "WARRIOR", "serialNumber": "85", "name": "Sweeping Strike", "type": "Melee Attack", "energyCost": "2", "image": "/images/warrior_cards_page_5.png", "spriteLeft": "-1029px", "spriteTop": "-440px", "spriteWidth": "160px", "spriteHeight": "235px" },
+        { "characterType": "WARRIOR", "serialNumber": "86", "name": "Thousand Needles", "type": "Defense", "energyCost": "3", "image": "/images/warrior_cards_page_5.png", "spriteLeft": "-1230px", "spriteTop": "-440px", "spriteWidth": "160px", "spriteHeight": "235px" },
+        { "characterType": "WARRIOR", "serialNumber": "87", "name": "Torment of Thorns", "type": "Skll", "energyCost": "1", "image": "/images/warrior_cards_page_5.png", "spriteLeft": "-1431px", "spriteTop": "-440px", "spriteWidth": "160px", "spriteHeight": "235px" },
+
+        { "characterType": "WARRIOR", "serialNumber": "88", "name": "Transfusion", "type": "Skill", "energyCost": "0", "image": "/images/warrior_cards_page_5.png", "spriteLeft": "-1029px", "spriteTop": "-720px", "spriteWidth": "160px", "spriteHeight": "235px" },
+        { "characterType": "WARRIOR", "serialNumber": "89", "name": "Warpaint", "type": "Skill", "energyCost": "0", "image": "/images/warrior_cards_page_5.png", "spriteLeft": "-1230px", "spriteTop": "-720px", "spriteWidth": "160px", "spriteHeight": "235px" },
+        { "characterType": "WARRIOR", "serialNumber": "90", "name": "Whirlwind", "type": "Melee Attack", "energyCost": "6", "image": "/images/warrior_cards_page_5.png", "spriteLeft": "-1431px", "spriteTop": "-720px", "spriteWidth": "160px", "spriteHeight": "235px" },
+        
+        
+
+        { "characterType": "WARRIOR", "serialNumber": "91", "name": "Wrecking Ball", "type": "Melee Attack", "energyCost": "3", "image": "/images/warrior_cards_page_6.png", "spriteLeft": "-346px", "spriteTop": "-160px", "spriteWidth": "160px", "spriteHeight": "235px" }
     ]
 }
