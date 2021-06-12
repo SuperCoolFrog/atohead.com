@@ -4,12 +4,14 @@ import GameCard from '../GameCard/GameCard';
 import { getCards } from '../../API/API';
 import CharacterType from '../../Models/CharacterType.enum';
 import { Col, Container, Row } from 'react-bootstrap';
+import styles from './deck-builder-tool.module.scss';
+import Deck from '../../Models/Deck';
 
 interface DeckBuilderToolProps {
-    characterType: CharacterType;
+    deck: Deck;
 }
 
-const DeckBuilderTool = (props: DeckBuilderToolProps) => {
+const DeckBuilderTool = ({ deck }: DeckBuilderToolProps) => {
     const [cards, setCards] = useState<GameCardModel[]>([]);
   
     useEffect(() => {
@@ -23,7 +25,7 @@ const DeckBuilderTool = (props: DeckBuilderToolProps) => {
             <Col md={6}>
                 <h3>Deck</h3>
             </Col>
-            <Col md={6}>
+            <Col md={6} className={styles.rightContainer}>
                 <h3>Collection</h3>
                 <Container>
                     {cards.map((card) => (<GameCard card={card} />))}

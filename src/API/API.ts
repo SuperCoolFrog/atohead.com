@@ -1,6 +1,7 @@
 import GameCard from '../Models/GameCard';
 import uuid from 'short-uuid';
 import Deck from '../Models/Deck';
+import CharacterType from '../Models/CharacterType.enum';
 
 /** CARDS */
 
@@ -28,13 +29,14 @@ export const saveDeck = (deck: Deck): Promise<Deck> => {
   return Promise.resolve(deck);
 }; 
 
-export const getDeck = (id: string|null = null): Promise<Deck> => {
-  if (id) {
+export const getDeck = (id: string): Promise<Deck> => {
     return Promise.resolve(db[id]);
-  }
-  
+};
+
+export const createDeck = (characterType: CharacterType): Promise<Deck> => {
   const nuDeck  = {
     id: uuid.generate() as string,
+    characterType,
   } as Deck;
   
   db[nuDeck.id] = nuDeck;

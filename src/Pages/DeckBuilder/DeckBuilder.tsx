@@ -2,7 +2,8 @@ import React, { useEffect, useState } from 'react';
 import DeckBuilderTool from '../../Components/DeckBuilderTool/DeckBuilderTool';
 import CharacterType from '../../Models/CharacterType.enum';
 import { Redirect, useParams, useLocation } from "react-router-dom";
-import { getDeck } from '../../API/API';
+import { createDeck, getDeck } from '../../API/API';
+import Deck from '../../Models/Deck';
 
 interface DeckBuilderRouteParams {
     characterType: string;
@@ -15,18 +16,29 @@ function useQuery() {
 
 const DeckBuilder = () => {
     const [redirectId, setRedirectId] = useState('');
+    const [deck, setDeck] = useState<Deck|null>(null);
     const { characterType } = useParams() as DeckBuilderRouteParams; 
     const query = useQuery(); 
     
     const id = query.get('id');
+    const enumCharacterType = characterType.toUpperCase() as CharacterType;
     
     useEffect(() => {
         if (!id) {
-            getDeck().then((deck) => {
+            createDeck(enumCharacterType).then((deck) => {
                 setRedirectId(deck.id);
             });
         } else {
             setRedirectId('');
+            getDeck(id).then((_deck) => {
+                if (!_deck) {
+                    return createDeck(enumCharacterType).then((deck) => {
+                        setRedirectId(deck.id);
+                    });
+                } else {
+                    setDeck(_deck);
+                }
+            })
         }
     }, [id]);
     
@@ -34,13 +46,11 @@ const DeckBuilder = () => {
         return <Redirect to={`/deck-builder/${characterType}?id=${redirectId}`} />;
     }
     
-    if (!(id && characterType)) {
+    if (!(deck)) {
         return null;
     }
     
-    const enumCharacterType = characterType.toUpperCase() as CharacterType;
-    
-    return (<DeckBuilderTool characterType={enumCharacterType} />)
+    return (<DeckBuilderTool deck={deck} />)
 };
 
 export default DeckBuilder;
