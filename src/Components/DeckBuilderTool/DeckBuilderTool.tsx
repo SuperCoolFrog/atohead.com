@@ -13,6 +13,7 @@ interface DeckBuilderToolProps {
 
 const DeckBuilderTool = ({ deck }: DeckBuilderToolProps) => {
     const [cards, setCards] = useState<GameCardModel[]>([]);
+    const [currentDeck, setCurrentDeck] = useState(deck);
   
     useEffect(() => {
         getCards().then((cards) => {
@@ -21,16 +22,34 @@ const DeckBuilderTool = ({ deck }: DeckBuilderToolProps) => {
             }));
         });
     }, [deck]);
+    
+    const addCardToDeck = (card: GameCardModel) => {
+        const updatedDeck = {
+            ...currentDeck,
+            cards: [...currentDeck.cards, card],
+        }
+        
+        setCurrentDeck(updatedDeck);
+    };
 
     return (<Container>
         <Row>
             <Col md={6}>
                 <h3>Deck</h3>
+                <Container className={styles.deckContainer}>
+                    <Row>
+                        {currentDeck.cards.map((card) => (
+                            <Col md={4} className={styles.cardContainer}>
+                                <GameCard card={card} />
+                            </Col>
+                        ))}
+                    </Row>
+                </Container>
             </Col>
             <Col md={6} className={styles.rightContainer}>
                 <h3>Collection</h3>
-                <Container>
-                    {cards.map((card) => (<GameCard card={card} />))}
+                <Container className={styles.collectionContainer}>
+                    {cards.map((card) => (<GameCard card={card} onClick={addCardToDeck} />))}
                 </Container>
             </Col>
         </Row>

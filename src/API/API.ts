@@ -37,6 +37,7 @@ export const createDeck = (characterType: CharacterType): Promise<Deck> => {
   const nuDeck  = {
     id: uuid.generate() as string,
     characterType,
+    cards: [],
   } as Deck;
   
   db[nuDeck.id] = nuDeck;

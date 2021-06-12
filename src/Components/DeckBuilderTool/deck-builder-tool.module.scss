@@ -1,3 +1,12 @@
 .rightContainer {
     border-left: 1px solid #20232a;
 }
+
+.cardContainer {
+    padding-bottom: 1em;
+}
+
+.deckContainer, .collectionContainer {
+    height: 80vh;
+    overflow-y: scroll;
+}
