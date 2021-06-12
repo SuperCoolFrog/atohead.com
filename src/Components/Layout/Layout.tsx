@@ -1,6 +1,7 @@
 import React from 'react';
 import { Nav, Navbar, NavDropdown } from 'react-bootstrap';
 import styles from './layout.module.scss';
+import { LinkContainer } from 'react-router-bootstrap'
 
 interface LayoutProps {
     children: React.ReactNode;
@@ -11,16 +12,28 @@ const Layout = ({ children }: LayoutProps) => {
     return (<>
         <div className={styles.layoutNavBarContainer}>
             <Navbar bg={"dark"} variant="dark" className={styles.layoutNavBar}>
-                <Navbar.Brand href="/home">ATO Head</Navbar.Brand>
+                <LinkContainer to="/home">
+                    <Navbar.Brand>ATO Head</Navbar.Brand>
+                </LinkContainer>
                 <Navbar.Toggle />
                 <Navbar.Collapse>
                     <Nav>
-                        <Nav.Link href="/home">Home</Nav.Link>
+                        <LinkContainer to="/home">
+                            <Nav.Link>Home</Nav.Link>
+                        </LinkContainer>
                         <NavDropdown title="Deck Builder Tool" id="basic-nav-dropdown">
-                            <NavDropdown.Item href="/deck-builder/warrior">Warrior</NavDropdown.Item>
-                            <NavDropdown.Item href="/deck-builder/scout">Scout</NavDropdown.Item>
-                            <NavDropdown.Item href="/deck-builder/mage">Mage</NavDropdown.Item>
-                            <NavDropdown.Item href="/deck-builder/healer">Healer</NavDropdown.Item>
+                            <LinkContainer to="/deck-builder/warrior">
+                                <NavDropdown.Item>Warrior</NavDropdown.Item>
+                            </LinkContainer>
+                            <LinkContainer to="/deck-builder/scout">
+                                <NavDropdown.Item>Scout</NavDropdown.Item>
+                            </LinkContainer>
+                            <LinkContainer to="/deck-builder/mage">
+                                <NavDropdown.Item>Mage</NavDropdown.Item>
+                            </LinkContainer>
+                            <LinkContainer to="/deck-builder/healer">
+                                <NavDropdown.Item>Healer</NavDropdown.Item>
+                            </LinkContainer>
                         </NavDropdown>
                     </Nav>
                 </Navbar.Collapse>
