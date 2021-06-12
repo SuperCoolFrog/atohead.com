@@ -1,5 +1,6 @@
 import React from 'react';
 import { default as GameCardModel } from '../../Models/GameCard';
+import styles from './game-card.module.scss';
 
 interface GameCardProps {
     card: GameCardModel;
@@ -15,7 +16,7 @@ const GameCard = ({ card, onClick }: GameCardProps) => {
         }
     };
 
-    return (<div onClick={handleClick} style={{ background, height: card.spriteHeight, width: card.spriteWidth }}></div>);
+    return (<div className={styles.gameCard} onClick={handleClick} style={{ background, height: card.spriteHeight, width: card.spriteWidth }}></div>);
 };
 
 export default GameCard;
