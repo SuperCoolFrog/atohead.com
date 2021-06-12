@@ -24,6 +24,8 @@
         { "characterType": "WARRIOR", "serialNumber": "17", "name": "Carnage", "type": "Melee Attack", "energyCost": "2", "image": "/images/warrior_cards_page_1.png", "spriteLeft": "-1230px", "spriteTop": "-720px", "spriteWidth": "160px", "spriteHeight": "235px" },
         { "characterType": "WARRIOR", "serialNumber": "18", "name": "Challenging Shout", "type": "N/A", "energyCost": "-1", "image": "/images/warrior_cards_page_1.png", "spriteLeft": "-1431px", "spriteTop": "-720px", "spriteWidth": "160px", "spriteHeight": "235px" },
         
+        
+
         { "characterType": "WARRIOR", "serialNumber": "19", "name": "Change Weapon", "type": "Skill", "energyCost": "1", "image": "/images/warrior_cards_page_2.png", "spriteLeft": "-346px", "spriteTop": "-160px", "spriteWidth": "160px", "spriteHeight": "235px" },
         { "characterType": "WARRIOR", "serialNumber": "20", "name": "Charge", "type": "Melee Attack", "energyCost": "2", "image": "/images/warrior_cards_page_2.png", "spriteLeft": "-547px", "spriteTop": "-160px", "spriteWidth": "160px", "spriteHeight": "235px" },
         { "characterType": "WARRIOR", "serialNumber": "21", "name": "Citadel", "type": "N/A", "energyCost": "-1", "image": "/images/warrior_cards_page_2.png", "spriteLeft": "-748px", "spriteTop": "-160px", "spriteWidth": "160px", "spriteHeight": "235px" },
@@ -48,6 +50,8 @@
         { "characterType": "WARRIOR", "serialNumber": "35", "name": "Furious Slash", "type": "Melee Attack", "energyCost": "3", "image": "/images/warrior_cards_page_2.png", "spriteLeft": "-1230px", "spriteTop": "-720px", "spriteWidth": "160px", "spriteHeight": "235px" },
         { "characterType": "WARRIOR", "serialNumber": "36", "name": "Garden of Thorns", "type": "Defense", "energyCost": "1", "image": "/images/warrior_cards_page_2.png", "spriteLeft": "-1431px", "spriteTop": "-720px", "spriteWidth": "160px", "spriteHeight": "235px" },
 
+        
+
         { "characterType": "WARRIOR", "serialNumber": "37", "name": "Grinding Wheel", "type": "Skill", "energyCost": "1", "image": "/images/warrior_cards_page_3.png", "spriteLeft": "-346px", "spriteTop": "-160px", "spriteWidth": "160px", "spriteHeight": "235px" },
         { "characterType": "WARRIOR", "serialNumber": "38", "name": "Ground Slam", "type": "Melee Attack", "energyCost": "3", "image": "/images/warrior_cards_page_3.png", "spriteLeft": "-547px", "spriteTop": "-160px", "spriteWidth": "160px", "spriteHeight": "235px" },
         { "characterType": "WARRIOR", "serialNumber": "39", "name": "Guard", "type": "Defense", "energyCost": "2", "image": "/images/warrior_cards_page_3.png", "spriteLeft": "-748px", "spriteTop": "-160px", "spriteWidth": "160px", "spriteHeight": "235px" },
@@ -70,6 +74,33 @@
 
         { "characterType": "WARRIOR", "serialNumber": "52", "name": "Mortal Strike", "type": "Melee Attack", "energyCost": "4", "image": "/images/warrior_cards_page_3.png", "spriteLeft": "-1029px", "spriteTop": "-720px", "spriteWidth": "160px", "spriteHeight": "235px" },
         { "characterType": "WARRIOR", "serialNumber": "53", "name": "Overpower", "type": "Melee Attack", "energyCost": "4", "image": "/images/warrior_cards_page_3.png", "spriteLeft": "-1230px", "spriteTop": "-720px", "spriteWidth": "160px", "spriteHeight": "235px" },
-        { "characterType": "WARRIOR", "serialNumber": "54", "name": "Piercing Howl", "type": "Skill", "energyCost": "1", "image": "/images/warrior_cards_page_3.png", "spriteLeft": "-1431px", "spriteTop": "-720px", "spriteWidth": "160px", "spriteHeight": "235px" }
+        { "characterType": "WARRIOR", "serialNumber": "54", "name": "Piercing Howl", "type": "Skill", "energyCost": "1", "image": "/images/warrior_cards_page_3.png", "spriteLeft": "-1431px", "spriteTop": "-720px", "spriteWidth": "160px", "spriteHeight": "235px" },
+
+
+
+        { "characterType": "WARRIOR", "serialNumber": "55", "name": "Pommel", "type": "Melee Attack", "energyCost": "1", "image": "/images/warrior_cards_page_4.png", "spriteLeft": "-346px", "spriteTop": "-160px", "spriteWidth": "160px", "spriteHeight": "235px" },
+        { "characterType": "WARRIOR", "serialNumber": "56", "name": "Precise Strike", "type": "Melee Attack", "energyCost": "2", "image": "/images/warrior_cards_page_4.png", "spriteLeft": "-547px", "spriteTop": "-160px", "spriteWidth": "160px", "spriteHeight": "235px" },
+        { "characterType": "WARRIOR", "serialNumber": "57", "name": "Provoke", "type": "Defense", "energyCost": "2", "image": "/images/warrior_cards_page_4.png", "spriteLeft": "-748px", "spriteTop": "-160px", "spriteWidth": "160px", "spriteHeight": "235px" },
+
+        { "characterType": "WARRIOR", "serialNumber": "58", "name": "Pulverize", "type": "Melee Attack", "energyCost": "2", "image": "/images/warrior_cards_page_4.png", "spriteLeft": "-346px", "spriteTop": "-440px", "spriteWidth": "160px", "spriteHeight": "235px" },
+        { "characterType": "WARRIOR", "serialNumber": "59", "name": "Pummel", "type": "Melee Attack", "energyCost": "2", "image": "/images/warrior_cards_page_4.png", "spriteLeft": "-547px", "spriteTop": "-440px", "spriteWidth": "160px", "spriteHeight": "235px" },
+        { "characterType": "WARRIOR", "serialNumber": "60", "name": "Punch", "type": "Melee Attack", "energyCost": "0", "image": "/images/warrior_cards_page_4.png", "spriteLeft": "-748px", "spriteTop": "-440px", "spriteWidth": "160px", "spriteHeight": "235px" },
+
+        { "characterType": "WARRIOR", "serialNumber": "61", "name": "Rampage", "type": "Melee Attack", "energyCost": "2", "image": "/images/warrior_cards_page_4.png", "spriteLeft": "-346px", "spriteTop": "-720px", "spriteWidth": "160px", "spriteHeight": "235px" },
+        { "characterType": "WARRIOR", "serialNumber": "62", "name": "Reckless Charge", "type": "Melee Attack", "energyCost": "3", "image": "/images/warrior_cards_page_4.png", "spriteLeft": "-547px", "spriteTop": "-720px", "spriteWidth": "160px", "spriteHeight": "235px" },
+        { "characterType": "WARRIOR", "serialNumber": "63", "name": "Reinforced Steel", "type": "Defense", "energyCost": "3", "image": "/images/warrior_cards_page_4.png", "spriteLeft": "-748px", "spriteTop": "-720px", "spriteWidth": "160px", "spriteHeight": "235px" },
+
+        { "characterType": "WARRIOR", "serialNumber": "64", "name": "Rend", "type": "Melee Attack", "energyCost": "2", "image": "/images/warrior_cards_page_4.png", "spriteLeft": "-1029px", "spriteTop": "-160px", "spriteWidth": "160px", "spriteHeight": "235px" },
+        { "characterType": "WARRIOR", "serialNumber": "65", "name": "Repair Armor", "type": "Defense", "energyCost": "1", "image": "/images/warrior_cards_page_4.png", "spriteLeft": "-1230px", "spriteTop": "-160px", "spriteWidth": "160px", "spriteHeight": "235px" },
+        { "characterType": "WARRIOR", "serialNumber": "66", "name": "Repetition Training", "type": "Skill", "energyCost": "1", "image": "/images/warrior_cards_page_4.png", "spriteLeft": "-1431px", "spriteTop": "-160px", "spriteWidth": "160px", "spriteHeight": "235px" },
+
+        { "characterType": "WARRIOR", "serialNumber": "67", "name": "Safeguard", "type": "Defense", "energyCost": "4", "image": "/images/warrior_cards_page_4.png", "spriteLeft": "-1029px", "spriteTop": "-440px", "spriteWidth": "160px", "spriteHeight": "235px" },
+        { "characterType": "WARRIOR", "serialNumber": "68", "name": "Second Wind", "type": "Skill", "energyCost": "2", "image": "/images/warrior_cards_page_4.png", "spriteLeft": "-1230px", "spriteTop": "-440px", "spriteWidth": "160px", "spriteHeight": "235px" },
+        { "characterType": "WARRIOR", "serialNumber": "69", "name": "Sever Artery", "type": "Melee Attack", "energyCost": "4", "image": "/images/warrior_cards_page_4.png", "spriteLeft": "-1431px", "spriteTop": "-440px", "spriteWidth": "160px", "spriteHeight": "235px" },
+
+        { "characterType": "WARRIOR", "serialNumber": "70", "name": "Shake it off", "type": "Skill", "energyCost": "1", "image": "/images/warrior_cards_page_4.png", "spriteLeft": "-1029px", "spriteTop": "-720px", "spriteWidth": "160px", "spriteHeight": "235px" },
+        { "characterType": "WARRIOR", "serialNumber": "71", "name": "Sharing Is Caring", "type": "Defense", "energyCost": "1", "image": "/images/warrior_cards_page_4.png", "spriteLeft": "-1230px", "spriteTop": "-720px", "spriteWidth": "160px", "spriteHeight": "235px" },
+        { "characterType": "WARRIOR", "serialNumber": "72", "name": "Sharpen", "type": "Skill", "energyCost": "1", "image": "/images/warrior_cards_page_4.png", "spriteLeft": "-1431px", "spriteTop": "-720px", "spriteWidth": "160px", "spriteHeight": "235px" }
+
     ]
 }
