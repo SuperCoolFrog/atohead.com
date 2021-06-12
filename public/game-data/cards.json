@@ -1,5 +1,5 @@
 {
     "cards": [
-        { "characterType": "warrior", "serialNumber": "1", "name": "Arsenal", "type": "Skill", "image": "/images/warrior_cards_page_1.png", "spriteLeft": "-347px", "spriteTop": "-160px", "spriteWidth": "160px", "spriteHeight": "235px" }
+        { "characterType": "WARRIOR", "serialNumber": "1", "name": "Arsenal", "type": "Skill", "image": "/images/warrior_cards_page_1.png", "spriteLeft": "-347px", "spriteTop": "-160px", "spriteWidth": "160px", "spriteHeight": "235px" }
     ]
 }
