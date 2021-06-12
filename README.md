@@ -34,6 +34,7 @@
     Name: string,
     Type: string,
     Image: string,
+    Cost: number,
     Target: string,
     Description: Markdown(since images are used)
 }
