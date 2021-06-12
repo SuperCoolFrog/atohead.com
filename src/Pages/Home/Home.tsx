@@ -36,6 +36,8 @@ const App = () => {
         <Col md={3}>Mage</Col>
         <Col md={3}>Healer</Col>
       </Row>
+    
+      <hr />
 
       <h2>Read or Submit Guides</h2>
       <p>
