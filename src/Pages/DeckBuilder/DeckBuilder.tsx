@@ -25,6 +25,7 @@ const DeckBuilder = () => {
     
     useEffect(() => {
         if (!id) {
+            setDeck(null);
             createDeck(enumCharacterType).then((deck) => {
                 setRedirectId(deck.id);
             });
@@ -32,6 +33,7 @@ const DeckBuilder = () => {
             setRedirectId('');
             getDeck(id).then((_deck) => {
                 if (!_deck) {
+                    setDeck(null);
                     return createDeck(enumCharacterType).then((deck) => {
                         setRedirectId(deck.id);
                     });

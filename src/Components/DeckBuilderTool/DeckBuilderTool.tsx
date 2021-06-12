@@ -16,9 +16,11 @@ const DeckBuilderTool = ({ deck }: DeckBuilderToolProps) => {
   
     useEffect(() => {
         getCards().then((cards) => {
-            setCards(cards);
+            setCards(cards.filter((card) => {
+                return card.characterType === deck.characterType;
+            }));
         });
-    }, []);
+    }, [deck]);
 
     return (<Container>
         <Row>
