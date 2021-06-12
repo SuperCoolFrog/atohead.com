@@ -58,6 +58,12 @@ const DeckBuilderTool = ({ deck }: DeckBuilderToolProps) => {
         saveDeck(updatedDeck);
     };
     
+    const copyToClipboard = (str: string) => () => {
+        navigator.clipboard.writeText(str).then(() => {
+            alert('Link has been copied to Clipboard');
+        })
+    };
+    
     const url = window.location.toString();
     const titleClassName = deck.characterType === CharacterType.WARRIOR
     ? styles.characterTitleWarrior
@@ -74,7 +80,7 @@ const DeckBuilderTool = ({ deck }: DeckBuilderToolProps) => {
             
         </p>
         <p>
-            You can use the url <a href={url}>{url}</a> to share or edit this deck;
+            You can use the url <a title="Copy" onClick={copyToClipboard(url)} className={styles.copyUrl}>{url}</a> to share or edit this deck.
         </p>
         <hr />
         <Row>
