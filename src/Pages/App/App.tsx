@@ -1,20 +1,10 @@
 import React, { useEffect, useState } from 'react';
+import GameCard from '../../Components/GameCard/GameCard';
+import { default as GameCardModel } from '../../Models/GameCard';
 import './App.scss';
 
-interface Card {
-    characterType: string;
-    serialNumber: number;
-    name: string;
-    type: string;
-    image: string;
-    spriteLeft: string;
-    spriteTop: string;
-    spriteWidth: string;
-    spriteHeight: string;
-}
-
 function App() {
-  const [card, setCard] = useState<null|Card>(null);
+  const [cards, setCards] = useState<GameCardModel[]>([]);
   
   useEffect(() => {
     
@@ -22,20 +12,18 @@ function App() {
     .then(response => response.json())
     .then(data => { 
       console.log(data)
-      const first = data.cards[0];
-      setCard(first as Card);
+      setCards(data.cards);
     });
     
   }, []);
-  
-  const background = `url(${card?.image}) ${card?.spriteLeft} ${card?.spriteTop}`
 
   return (
     <div className="App">
       <header className="App-header">
       </header>
-      {/* <div className="game-card" style={{ background: 'url(/images/warrior_cards_page_1.png) -347px -160px' }}></div> */}
-      <div style={{ background, height: card?.spriteHeight, width: card?.spriteWidth }}></div>
+      {cards.map((card) => (
+        <GameCard card={card}></GameCard>
+      ))}
     </div>
   );
 }
