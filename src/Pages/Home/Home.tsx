@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from 'react';
 import GameCard from '../../Components/GameCard/GameCard';
 import { default as GameCardModel } from '../../Models/GameCard';
-import './App.scss';
+import './Home.scss';
 
 function App() {
   const [cards, setCards] = useState<GameCardModel[]>([]);
@@ -22,7 +22,7 @@ function App() {
       <header className="App-header">
       </header>
       {cards.map((card) => (
-        <GameCard card={card}></GameCard>
+        <GameCard card={card} key={card.characterType + card.serialNumber}></GameCard>
       ))}
     </div>
   );
