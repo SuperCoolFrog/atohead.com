@@ -214,29 +214,29 @@
 
 
 
-        { "characterType": "SCOUT", "serialNumber": "55", "name": "Pommel", "type": "Melee Attack", "energyCost": "1", "image": "/images/scout_cards_page_4.png", "spriteLeft": "-346px", "spriteTop": "-160px", "spriteWidth": "160px", "spriteHeight": "235px" },
-        { "characterType": "SCOUT", "serialNumber": "56", "name": "Precise Strike", "type": "Melee Attack", "energyCost": "2", "image": "/images/scout_cards_page_4.png", "spriteLeft": "-547px", "spriteTop": "-160px", "spriteWidth": "160px", "spriteHeight": "235px" },
-        { "characterType": "SCOUT", "serialNumber": "57", "name": "Provoke", "type": "Defense", "energyCost": "2", "image": "/images/scout_cards_page_4.png", "spriteLeft": "-748px", "spriteTop": "-160px", "spriteWidth": "160px", "spriteHeight": "235px" },
+        { "characterType": "SCOUT", "serialNumber": "55", "name": "Poison Flask", "type": "Small Weapon", "energyCost": "3", "image": "/images/scout_cards_page_4.png", "spriteLeft": "-346px", "spriteTop": "-160px", "spriteWidth": "160px", "spriteHeight": "235px" },
+        { "characterType": "SCOUT", "serialNumber": "56", "name": "Poisonous Blood", "type": "Skill", "energyCost": "0", "image": "/images/scout_cards_page_4.png", "spriteLeft": "-547px", "spriteTop": "-160px", "spriteWidth": "160px", "spriteHeight": "235px" },
+        { "characterType": "SCOUT", "serialNumber": "57", "name": "Poisonous Shot", "type": "Ranged Attack", "energyCost": "2", "image": "/images/scout_cards_page_4.png", "spriteLeft": "-748px", "spriteTop": "-160px", "spriteWidth": "160px", "spriteHeight": "235px" },
 
-        { "characterType": "SCOUT", "serialNumber": "58", "name": "Pulverize", "type": "Melee Attack", "energyCost": "2", "image": "/images/scout_cards_page_4.png", "spriteLeft": "-346px", "spriteTop": "-440px", "spriteWidth": "160px", "spriteHeight": "235px" },
-        { "characterType": "SCOUT", "serialNumber": "59", "name": "Pummel", "type": "Melee Attack", "energyCost": "2", "image": "/images/scout_cards_page_4.png", "spriteLeft": "-547px", "spriteTop": "-440px", "spriteWidth": "160px", "spriteHeight": "235px" },
-        { "characterType": "SCOUT", "serialNumber": "60", "name": "Punch", "type": "Melee Attack", "energyCost": "0", "image": "/images/scout_cards_page_4.png", "spriteLeft": "-748px", "spriteTop": "-440px", "spriteWidth": "160px", "spriteHeight": "235px" },
+        { "characterType": "SCOUT", "serialNumber": "58", "name": "Poison Spray", "type": "Ranged Attack", "energyCost": "3", "image": "/images/scout_cards_page_4.png", "spriteLeft": "-346px", "spriteTop": "-440px", "spriteWidth": "160px", "spriteHeight": "235px" },
+        { "characterType": "SCOUT", "serialNumber": "59", "name": "Puncture", "type": "Melee Attack", "energyCost": "2", "image": "/images/scout_cards_page_4.png", "spriteLeft": "-547px", "spriteTop": "-440px", "spriteWidth": "160px", "spriteHeight": "235px" },
+        { "characterType": "SCOUT", "serialNumber": "60", "name": "Quick Shot", "type": "Ranged Attack", "energyCost": "1", "image": "/images/scout_cards_page_4.png", "spriteLeft": "-748px", "spriteTop": "-440px", "spriteWidth": "160px", "spriteHeight": "235px" },
 
-        { "characterType": "SCOUT", "serialNumber": "61", "name": "Rampage", "type": "Melee Attack", "energyCost": "2", "image": "/images/scout_cards_page_4.png", "spriteLeft": "-346px", "spriteTop": "-720px", "spriteWidth": "160px", "spriteHeight": "235px" },
-        { "characterType": "SCOUT", "serialNumber": "62", "name": "Reckless Charge", "type": "Melee Attack", "energyCost": "3", "image": "/images/scout_cards_page_4.png", "spriteLeft": "-547px", "spriteTop": "-720px", "spriteWidth": "160px", "spriteHeight": "235px" },
-        { "characterType": "SCOUT", "serialNumber": "63", "name": "Reinforced Steel", "type": "Defense", "energyCost": "3", "image": "/images/scout_cards_page_4.png", "spriteLeft": "-748px", "spriteTop": "-720px", "spriteWidth": "160px", "spriteHeight": "235px" },
+        { "characterType": "SCOUT", "serialNumber": "61", "name": "Rain of Arrows", "type": "Ranged Attack", "energyCost": "6", "image": "/images/scout_cards_page_4.png", "spriteLeft": "-346px", "spriteTop": "-720px", "spriteWidth": "160px", "spriteHeight": "235px" },
+        { "characterType": "SCOUT", "serialNumber": "62", "name": "Rapid Fire", "type": "Ranged Attack", "energyCost": "3", "image": "/images/scout_cards_page_4.png", "spriteLeft": "-547px", "spriteTop": "-720px", "spriteWidth": "160px", "spriteHeight": "235px" },
+        { "characterType": "SCOUT", "serialNumber": "63", "name": "Reverberant Verse", "type": "Song", "energyCost": "3", "image": "/images/scout_cards_page_4.png", "spriteLeft": "-748px", "spriteTop": "-720px", "spriteWidth": "160px", "spriteHeight": "235px" },
 
-        { "characterType": "SCOUT", "serialNumber": "64", "name": "Rend", "type": "Melee Attack", "energyCost": "2", "image": "/images/scout_cards_page_4.png", "spriteLeft": "-1029px", "spriteTop": "-160px", "spriteWidth": "160px", "spriteHeight": "235px" },
-        { "characterType": "SCOUT", "serialNumber": "65", "name": "Repair Armor", "type": "Defense", "energyCost": "1", "image": "/images/scout_cards_page_4.png", "spriteLeft": "-1230px", "spriteTop": "-160px", "spriteWidth": "160px", "spriteHeight": "235px" },
-        { "characterType": "SCOUT", "serialNumber": "66", "name": "Repetition Training", "type": "Skill", "energyCost": "1", "image": "/images/scout_cards_page_4.png", "spriteLeft": "-1431px", "spriteTop": "-160px", "spriteWidth": "160px", "spriteHeight": "235px" },
+        { "characterType": "SCOUT", "serialNumber": "64", "name": "Ricochet", "type": "Ranged Attack", "energyCost": "2", "image": "/images/scout_cards_page_4.png", "spriteLeft": "-1029px", "spriteTop": "-160px", "spriteWidth": "160px", "spriteHeight": "235px" },
+        { "characterType": "SCOUT", "serialNumber": "65", "name": "Rupture", "type": "Melee Attack", "energyCost": "2", "image": "/images/scout_cards_page_4.png", "spriteLeft": "-1230px", "spriteTop": "-160px", "spriteWidth": "160px", "spriteHeight": "235px" },
+        { "characterType": "SCOUT", "serialNumber": "66", "name": "Sarcastic Sonnet", "type": "Song", "energyCost": "4", "image": "/images/scout_cards_page_4.png", "spriteLeft": "-1431px", "spriteTop": "-160px", "spriteWidth": "160px", "spriteHeight": "235px" },
 
-        { "characterType": "SCOUT", "serialNumber": "67", "name": "Safeguard", "type": "Defense", "energyCost": "4", "image": "/images/scout_cards_page_4.png", "spriteLeft": "-1029px", "spriteTop": "-440px", "spriteWidth": "160px", "spriteHeight": "235px" },
-        { "characterType": "SCOUT", "serialNumber": "68", "name": "Second Wind", "type": "Skill", "energyCost": "2", "image": "/images/scout_cards_page_4.png", "spriteLeft": "-1230px", "spriteTop": "-440px", "spriteWidth": "160px", "spriteHeight": "235px" },
-        { "characterType": "SCOUT", "serialNumber": "69", "name": "Sever Artery", "type": "Melee Attack", "energyCost": "4", "image": "/images/scout_cards_page_4.png", "spriteLeft": "-1431px", "spriteTop": "-440px", "spriteWidth": "160px", "spriteHeight": "235px" },
+        { "characterType": "SCOUT", "serialNumber": "67", "name": "Saw Blade", "type": "Small Weapon", "energyCost": "2", "image": "/images/scout_cards_page_4.png", "spriteLeft": "-1029px", "spriteTop": "-440px", "spriteWidth": "160px", "spriteHeight": "235px" },
+        { "characterType": "SCOUT", "serialNumber": "68", "name": "Sawtooth Knife", "type": "Small Weapon", "energyCost": "1", "image": "/images/scout_cards_page_4.png", "spriteLeft": "-1230px", "spriteTop": "-440px", "spriteWidth": "160px", "spriteHeight": "235px" },
+        { "characterType": "SCOUT", "serialNumber": "69", "name": "Scavenge", "type": "Skill", "energyCost": "0", "image": "/images/scout_cards_page_4.png", "spriteLeft": "-1431px", "spriteTop": "-440px", "spriteWidth": "160px", "spriteHeight": "235px" },
 
-        { "characterType": "SCOUT", "serialNumber": "70", "name": "Shake it off", "type": "Skill", "energyCost": "1", "image": "/images/scout_cards_page_4.png", "spriteLeft": "-1029px", "spriteTop": "-720px", "spriteWidth": "160px", "spriteHeight": "235px" },
-        { "characterType": "SCOUT", "serialNumber": "71", "name": "Sharing Is Caring", "type": "Defense", "energyCost": "1", "image": "/images/scout_cards_page_4.png", "spriteLeft": "-1230px", "spriteTop": "-720px", "spriteWidth": "160px", "spriteHeight": "235px" },
-        { "characterType": "SCOUT", "serialNumber": "72", "name": "Sharpen", "type": "Skill", "energyCost": "1", "image": "/images/scout_cards_page_4.png", "spriteLeft": "-1431px", "spriteTop": "-720px", "spriteWidth": "160px", "spriteHeight": "235px" },
+        { "characterType": "SCOUT", "serialNumber": "70", "name": "Setup", "type": "Skill", "energyCost": "1", "image": "/images/scout_cards_page_4.png", "spriteLeft": "-1029px", "spriteTop": "-720px", "spriteWidth": "160px", "spriteHeight": "235px" },
+        { "characterType": "SCOUT", "serialNumber": "71", "name": "Shadowstep", "type": "Skill", "energyCost": "1", "image": "/images/scout_cards_page_4.png", "spriteLeft": "-1230px", "spriteTop": "-720px", "spriteWidth": "160px", "spriteHeight": "235px" },
+        { "characterType": "SCOUT", "serialNumber": "72", "name": "Sharpening Knife", "type": "Small Weapon", "energyCost": "2", "image": "/images/scout_cards_page_4.png", "spriteLeft": "-1431px", "spriteTop": "-720px", "spriteWidth": "160px", "spriteHeight": "235px" },
 
         
 
