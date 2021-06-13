@@ -152,7 +152,7 @@
         { "characterType": "SCOUT", "serialNumber": "11", "name": "Bane", "type": "Melee Attack", "energyCost": "2", "image": "/images/scout_cards_page_1.png", "spriteLeft": "-1230px", "spriteTop": "-160px", "spriteWidth": "160px", "spriteHeight": "235px" },
         { "characterType": "SCOUT", "serialNumber": "12", "name": "Barrage", "type": "N/A", "energyCost": "-1", "image": "/images/scout_cards_page_1.png", "spriteLeft": "-1431px", "spriteTop": "-160px", "spriteWidth": "160px", "spriteHeight": "235px" },
 
-        { "characterType": "SCOUT", "serialNumber": "13", "name": "Blade Danec", "type": "Melee Attack", "energyCost": "4", "image": "/images/scout_cards_page_1.png", "spriteLeft": "-1029px", "spriteTop": "-440px", "spriteWidth": "160px", "spriteHeight": "235px" },
+        { "characterType": "SCOUT", "serialNumber": "13", "name": "Blade Dance", "type": "Melee Attack", "energyCost": "4", "image": "/images/scout_cards_page_1.png", "spriteLeft": "-1029px", "spriteTop": "-440px", "spriteWidth": "160px", "spriteHeight": "235px" },
         { "characterType": "SCOUT", "serialNumber": "14", "name": "Blade Flurry", "type": "Melee Attack", "energyCost": "3", "image": "/images/scout_cards_page_1.png", "spriteLeft": "-1230px", "spriteTop": "-440px", "spriteWidth": "160px", "spriteHeight": "235px" },
         { "characterType": "SCOUT", "serialNumber": "15", "name": "Blur", "type": "Skill", "energyCost": "1", "image": "/images/scout_cards_page_1.png", "spriteLeft": "-1431px", "spriteTop": "-440px", "spriteWidth": "160px", "spriteHeight": "235px" },
 
@@ -276,6 +276,156 @@
 
         { "characterType": "SCOUT", "serialNumber": "97", "name": "Weapon Cache", "type": "Skill", "energyCost": "4", "image": "/images/scout_cards_page_6.png", "spriteLeft": "-346px", "spriteTop": "-720px", "spriteWidth": "160px", "spriteHeight": "235px" },
         { "characterType": "SCOUT", "serialNumber": "98", "name": "Whispering Lies", "type": "Song", "energyCost": "1", "image": "/images/scout_cards_page_6.png", "spriteLeft": "-547px", "spriteTop": "-720px", "spriteWidth": "160px", "spriteHeight": "235px" },
-        { "characterType": "SCOUT", "serialNumber": "99", "name": "Wicked Craftsman", "type": "Skill", "energyCost": "1", "image": "/images/scout_cards_page_6.png", "spriteLeft": "-748px", "spriteTop": "-720px", "spriteWidth": "160px", "spriteHeight": "235px" }
+        { "characterType": "SCOUT", "serialNumber": "99", "name": "Wicked Craftsman", "type": "Skill", "energyCost": "1", "image": "/images/scout_cards_page_6.png", "spriteLeft": "-748px", "spriteTop": "-720px", "spriteWidth": "160px", "spriteHeight": "235px" },
+        
+
+
+
+        
+        { "characterType": "MAGE", "serialNumber": "1", "name": "Ball Lightning", "type": "Lightning Spell", "energyCost": "7", "image": "/images/mage_cards_page_1.png", "spriteLeft": "-346px", "spriteTop": "-160px", "spriteWidth": "160px", "spriteHeight": "235px" },
+        { "characterType": "MAGE", "serialNumber": "2", "name": "Blizzard", "type": "Cold Spell", "energyCost": "5", "image": "/images/mage_cards_page_1.png", "spriteLeft": "-547px", "spriteTop": "-160px", "spriteWidth": "160px", "spriteHeight": "235px" },
+        { "characterType": "MAGE", "serialNumber": "3", "name": "Book of Nightmares", "type": "Book", "energyCost": "2", "image": "/images/mage_cards_page_1.png", "spriteLeft": "-748px", "spriteTop": "-160px", "spriteWidth": "160px", "spriteHeight": "235px" },
+
+        { "characterType": "MAGE", "serialNumber": "4", "name": "Bookworm", "type": "Skill", "energyCost": "1", "image": "/images/mage_cards_page_1.png", "spriteLeft": "-346px", "spriteTop": "-440px", "spriteWidth": "160px", "spriteHeight": "235px" },
+        { "characterType": "MAGE", "serialNumber": "5", "name": "Cauterize", "type": "Skill", "energyCost": "0", "image": "/images/mage_cards_page_1.png", "spriteLeft": "-547px", "spriteTop": "-440px", "spriteWidth": "160px", "spriteHeight": "235px" },
+        { "characterType": "MAGE", "serialNumber": "6", "name": "Chain Lightning", "type": "Lightning Spell", "energyCost": "3", "image": "/images/mage_cards_page_1.png", "spriteLeft": "-748px", "spriteTop": "-440px", "spriteWidth": "160px", "spriteHeight": "235px" },
+
+        { "characterType": "MAGE", "serialNumber": "7", "name": "Charge Battery", "type": "Lightning Spell", "energyCost": "1", "image": "/images/mage_cards_page_1.png", "spriteLeft": "-346px", "spriteTop": "-720px", "spriteWidth": "160px", "spriteHeight": "235px" },
+        { "characterType": "MAGE", "serialNumber": "8", "name": "Clear Instructions", "type": "Book", "energyCost": "1", "image": "/images/mage_cards_page_1.png", "spriteLeft": "-547px", "spriteTop": "-720px", "spriteWidth": "160px", "spriteHeight": "235px" },
+        { "characterType": "MAGE", "serialNumber": "9", "name": "Cold Snap", "type": "Cold Spell", "energyCost": "1", "image": "/images/mage_cards_page_1.png", "spriteLeft": "-748px", "spriteTop": "-720px", "spriteWidth": "160px", "spriteHeight": "235px" },
+
+        { "characterType": "MAGE", "serialNumber": "10", "name": "Combustion", "type": "Fire Spell", "energyCost": "3", "image": "/images/mage_cards_page_1.png", "spriteLeft": "-1029px", "spriteTop": "-160px", "spriteWidth": "160px", "spriteHeight": "235px" },
+        { "characterType": "MAGE", "serialNumber": "11", "name": "Cursenomicon", "type": "N/A", "energyCost": "-1", "image": "/images/mage_cards_page_1.png", "spriteLeft": "-1230px", "spriteTop": "-160px", "spriteWidth": "160px", "spriteHeight": "235px" },
+        { "characterType": "MAGE", "serialNumber": "12", "name": "Curse of Agony", "type": "Curse Spell", "energyCost": "3", "image": "/images/mage_cards_page_1.png", "spriteLeft": "-1431px", "spriteTop": "-160px", "spriteWidth": "160px", "spriteHeight": "235px" },
+
+        { "characterType": "MAGE", "serialNumber": "13", "name": "Curse of Decay", "type": "Curse Spell", "energyCost": "4", "image": "/images/mage_cards_page_1.png", "spriteLeft": "-1029px", "spriteTop": "-440px", "spriteWidth": "160px", "spriteHeight": "235px" },
+        { "characterType": "MAGE", "serialNumber": "14", "name": "Curse of Elements", "type": "Curse Spell", "energyCost": "2", "image": "/images/mage_cards_page_1.png", "spriteLeft": "-1230px", "spriteTop": "-440px", "spriteWidth": "160px", "spriteHeight": "235px" },
+        { "characterType": "MAGE", "serialNumber": "15", "name": "Curse of Exhaustion", "type": "Curse Spell", "energyCost": "1", "image": "/images/mage_cards_page_1.png", "spriteLeft": "-1431px", "spriteTop": "-440px", "spriteWidth": "160px", "spriteHeight": "235px" },
+
+        { "characterType": "MAGE", "serialNumber": "16", "name": "Curse of Fragility", "type": "Curse Spell", "energyCost": "2", "image": "/images/mage_cards_page_1.png", "spriteLeft": "-1029px", "spriteTop": "-720px", "spriteWidth": "160px", "spriteHeight": "235px" },
+        { "characterType": "MAGE", "serialNumber": "17", "name": "Curse of Madness", "type": "Curse Spell", "energyCost": "4", "image": "/images/mage_cards_page_1.png", "spriteLeft": "-1230px", "spriteTop": "-720px", "spriteWidth": "160px", "spriteHeight": "235px" },
+        { "characterType": "MAGE", "serialNumber": "18", "name": "Curse of Shadows", "type": "Curse Spell", "energyCost": "2", "image": "/images/mage_cards_page_1.png", "spriteLeft": "-1431px", "spriteTop": "-720px", "spriteWidth": "160px", "spriteHeight": "235px" },
+        
+        
+
+        { "characterType": "MAGE", "serialNumber": "19", "name": "Curse of Vulnerability", "type": "Curse Spell", "energyCost": "3", "image": "/images/mage_cards_page_2.png", "spriteLeft": "-346px", "spriteTop": "-160px", "spriteWidth": "160px", "spriteHeight": "235px" },
+        { "characterType": "MAGE", "serialNumber": "20", "name": "Curse of Weakness", "type": "Curse Spell", "energyCost": "3", "image": "/images/mage_cards_page_2.png", "spriteLeft": "-547px", "spriteTop": "-160px", "spriteWidth": "160px", "spriteHeight": "235px" },
+        { "characterType": "MAGE", "serialNumber": "21", "name": "Dark Future", "type": "Shadow Spell", "energyCost": "2", "image": "/images/mage_cards_page_2.png", "spriteLeft": "-748px", "spriteTop": "-160px", "spriteWidth": "160px", "spriteHeight": "235px" },
+
+        { "characterType": "MAGE", "serialNumber": "22", "name": "Darkness Falls", "type": "Shadow Spell", "energyCost": "4", "image": "/images/mage_cards_page_2.png", "spriteLeft": "-346px", "spriteTop": "-440px", "spriteWidth": "160px", "spriteHeight": "235px" },
+        { "characterType": "MAGE", "serialNumber": "23", "name": "Dark Pact", "type": "Shadow Spell", "energyCost": "1", "image": "/images/mage_cards_page_2.png", "spriteLeft": "-547px", "spriteTop": "-440px", "spriteWidth": "160px", "spriteHeight": "235px" },
+        { "characterType": "MAGE", "serialNumber": "24", "name": "Dark Ritual", "type": "Skill", "energyCost": "1", "image": "/images/mage_cards_page_2.png", "spriteLeft": "-748px", "spriteTop": "-440px", "spriteWidth": "160px", "spriteHeight": "235px" },
+
+        { "characterType": "MAGE", "serialNumber": "25", "name": "Deep Darkness", "type": "Shadow Spell", "energyCost": "3", "image": "/images/mage_cards_page_2.png", "spriteLeft": "-346px", "spriteTop": "-720px", "spriteWidth": "160px", "spriteHeight": "235px" },
+        { "characterType": "MAGE", "serialNumber": "26", "name": "Disintegrate", "type": "Fire Spell", "energyCost": "9", "image": "/images/mage_cards_page_2.png", "spriteLeft": "-547px", "spriteTop": "-720px", "spriteWidth": "160px", "spriteHeight": "235px" },
+        { "characterType": "MAGE", "serialNumber": "27", "name": "Drain Life", "type": "Shadow Spell", "energyCost": "2", "image": "/images/mage_cards_page_2.png", "spriteLeft": "-748px", "spriteTop": "-720px", "spriteWidth": "160px", "spriteHeight": "235px" },
+
+        { "characterType": "MAGE", "serialNumber": "28", "name": "Electric Discharge", "type": "Lightning Spell", "energyCost": "2", "image": "/images/mage_cards_page_2.png", "spriteLeft": "-1029px", "spriteTop": "-160px", "spriteWidth": "160px", "spriteHeight": "235px" },
+        { "characterType": "MAGE", "serialNumber": "29", "name": "Electricity Manual", "type": "Book", "energyCost": "1", "image": "/images/mage_cards_page_2.png", "spriteLeft": "-1230px", "spriteTop": "-160px", "spriteWidth": "160px", "spriteHeight": "235px" },
+        { "characterType": "MAGE", "serialNumber": "30", "name": "Electrocute", "type": "N/A", "energyCost": "-1", "image": "/images/mage_cards_page_2.png", "spriteLeft": "-1431px", "spriteTop": "-160px", "spriteWidth": "160px", "spriteHeight": "235px" },
+
+        { "characterType": "MAGE", "serialNumber": "31", "name": "Elemental Bolt", "type": "Fire Spell", "energyCost": "2", "image": "/images/mage_cards_page_2.png", "spriteLeft": "-1029px", "spriteTop": "-440px", "spriteWidth": "160px", "spriteHeight": "235px" },
+        { "characterType": "MAGE", "serialNumber": "32", "name": "Elemental Ward", "type": "Skill", "energyCost": "1", "image": "/images/mage_cards_page_2.png", "spriteLeft": "-1230px", "spriteTop": "-440px", "spriteWidth": "160px", "spriteHeight": "235px" },
+        { "characterType": "MAGE", "serialNumber": "33", "name": "Emberstorm", "type": "Fire Spell", "energyCost": "1", "image": "/images/mage_cards_page_2.png", "spriteLeft": "-1431px", "spriteTop": "-440px", "spriteWidth": "160px", "spriteHeight": "235px" },
+
+        { "characterType": "MAGE", "serialNumber": "34", "name": "Endless Abyss", "type": "Shadow Spell", "energyCost": "6", "image": "/images/mage_cards_page_2.png", "spriteLeft": "-1029px", "spriteTop": "-720px", "spriteWidth": "160px", "spriteHeight": "235px" },
+        { "characterType": "MAGE", "serialNumber": "35", "name": "Equivalent Exchange", "type": "N/A", "energyCost": "-1", "image": "/images/mage_cards_page_2.png", "spriteLeft": "-1230px", "spriteTop": "-720px", "spriteWidth": "160px", "spriteHeight": "235px" },
+        { "characterType": "MAGE", "serialNumber": "36", "name": "Evocation", "type": "Skill", "energyCost": "2", "image": "/images/mage_cards_page_2.png", "spriteLeft": "-1431px", "spriteTop": "-720px", "spriteWidth": "160px", "spriteHeight": "235px" },
+
+        
+
+        { "characterType": "MAGE", "serialNumber": "37", "name": "Fireball", "type": "Fire Spell", "energyCost": "3", "image": "/images/mage_cards_page_3.png", "spriteLeft": "-346px", "spriteTop": "-160px", "spriteWidth": "160px", "spriteHeight": "235px" },
+        { "characterType": "MAGE", "serialNumber": "38", "name": "Fire Blast", "type": "Fire Spell", "energyCost": "0", "image": "/images/mage_cards_page_3.png", "spriteLeft": "-547px", "spriteTop": "-160px", "spriteWidth": "160px", "spriteHeight": "235px" },
+        { "characterType": "MAGE", "serialNumber": "39", "name": "Firestorm", "type": "Fire Spell", "energyCost": "4", "image": "/images/mage_cards_page_3.png", "spriteLeft": "-748px", "spriteTop": "-160px", "spriteWidth": "160px", "spriteHeight": "235px" },
+
+        { "characterType": "MAGE", "serialNumber": "40", "name": "Flamestrike", "type": "Fire Spell", "energyCost": "5", "image": "/images/mage_cards_page_3.png", "spriteLeft": "-346px", "spriteTop": "-440px", "spriteWidth": "160px", "spriteHeight": "235px" },
+        { "characterType": "MAGE", "serialNumber": "41", "name": "Flare", "type": "Fire Spell", "energyCost": "2", "image": "/images/mage_cards_page_3.png", "spriteLeft": "-547px", "spriteTop": "-440px", "spriteWidth": "160px", "spriteHeight": "235px" },
+        { "characterType": "MAGE", "serialNumber": "42", "name": "Flash Freeze", "type": "Cold Spell", "energyCost": "2", "image": "/images/mage_cards_page_3.png", "spriteLeft": "-748px", "spriteTop": "-440px", "spriteWidth": "160px", "spriteHeight": "235px" },
+
+        { "characterType": "MAGE", "serialNumber": "43", "name": "Frostbolt", "type": "Cold Spell", "energyCost": "2", "image": "/images/mage_cards_page_3.png", "spriteLeft": "-346px", "spriteTop": "-720px", "spriteWidth": "160px", "spriteHeight": "235px" },
+        { "characterType": "MAGE", "serialNumber": "44", "name": "Frost Nova", "type": "Cold Spell", "energyCost": "2", "image": "/images/mage_cards_page_3.png", "spriteLeft": "-547px", "spriteTop": "-720px", "spriteWidth": "160px", "spriteHeight": "235px" },
+        { "characterType": "MAGE", "serialNumber": "45", "name": "Geyser", "type": "Fire Spell", "energyCost": "3", "image": "/images/mage_cards_page_3.png", "spriteLeft": "-748px", "spriteTop": "-720px", "spriteWidth": "160px", "spriteHeight": "235px" },
+
+        { "characterType": "MAGE", "serialNumber": "46", "name": "Grimoire of Flames", "type": "Book", "energyCost": "3", "image": "/images/mage_cards_page_3.png", "spriteLeft": "-1029px", "spriteTop": "-160px", "spriteWidth": "160px", "spriteHeight": "235px" },
+        { "characterType": "MAGE", "serialNumber": "47", "name": "Heat Wave", "type": "Fire Spell", "energyCost": "0", "image": "/images/mage_cards_page_3.png", "spriteLeft": "-1230px", "spriteTop": "-160px", "spriteWidth": "160px", "spriteHeight": "235px" },
+        { "characterType": "MAGE", "serialNumber": "48", "name": "Ice Barrier", "type": "Cold Spell", "energyCost": "1", "image": "/images/mage_cards_page_3.png", "spriteLeft": "-1431px", "spriteTop": "-160px", "spriteWidth": "160px", "spriteHeight": "235px" },
+
+        { "characterType": "MAGE", "serialNumber": "49", "name": "Ice Comet", "type": "Cold Spell", "energyCost": "7", "image": "/images/mage_cards_page_3.png", "spriteLeft": "-1029px", "spriteTop": "-440px", "spriteWidth": "160px", "spriteHeight": "235px" },
+        { "characterType": "MAGE", "serialNumber": "50", "name": "Ice Lance", "type": "Cold Spell", "energyCost": "0", "image": "/images/mage_cards_page_3.png", "spriteLeft": "-1230px", "spriteTop": "-440px", "spriteWidth": "160px", "spriteHeight": "235px" },
+        { "characterType": "MAGE", "serialNumber": "51", "name": "Icicle", "type": "Cold Spell", "energyCost": "1", "image": "/images/mage_cards_page_3.png", "spriteLeft": "-1431px", "spriteTop": "-440px", "spriteWidth": "160px", "spriteHeight": "235px" },
+
+        { "characterType": "MAGE", "serialNumber": "52", "name": "Icicle Barrage", "type": "Cold Spell", "energyCost": "2", "image": "/images/mage_cards_page_3.png", "spriteLeft": "-1029px", "spriteTop": "-720px", "spriteWidth": "160px", "spriteHeight": "235px" },
+        { "characterType": "MAGE", "serialNumber": "53", "name": "Icy Veins", "type": "Skill", "energyCost": "0", "image": "/images/mage_cards_page_3.png", "spriteLeft": "-1230px", "spriteTop": "-720px", "spriteWidth": "160px", "spriteHeight": "235px" },
+        { "characterType": "MAGE", "serialNumber": "54", "name": "Ignite", "type": "Fire Spell", "energyCost": "2", "image": "/images/mage_cards_page_3.png", "spriteLeft": "-1431px", "spriteTop": "-720px", "spriteWidth": "160px", "spriteHeight": "235px" },
+
+
+
+        { "characterType": "MAGE", "serialNumber": "55", "name": "Immolate", "type": "Fire Spell", "energyCost": "2", "image": "/images/mage_cards_page_4.png", "spriteLeft": "-346px", "spriteTop": "-160px", "spriteWidth": "160px", "spriteHeight": "235px" },
+        { "characterType": "MAGE", "serialNumber": "56", "name": "Inner Combustion", "type": "Fire Spell", "energyCost": "1", "image": "/images/mage_cards_page_4.png", "spriteLeft": "-547px", "spriteTop": "-160px", "spriteWidth": "160px", "spriteHeight": "235px" },
+        { "characterType": "MAGE", "serialNumber": "57", "name": "Invisibility", "type": "Skill", "energyCost": "1", "image": "/images/mage_cards_page_4.png", "spriteLeft": "-748px", "spriteTop": "-160px", "spriteWidth": "160px", "spriteHeight": "235px" },
+
+        { "characterType": "MAGE", "serialNumber": "58", "name": "Librarian", "type": "Skill", "energyCost": "1", "image": "/images/mage_cards_page_4.png", "spriteLeft": "-346px", "spriteTop": "-440px", "spriteWidth": "160px", "spriteHeight": "235px" },
+        { "characterType": "MAGE", "serialNumber": "59", "name": "Life Tap", "type": "Skill", "energyCost": "0", "image": "/images/mage_cards_page_4.png", "spriteLeft": "-547px", "spriteTop": "-440px", "spriteWidth": "160px", "spriteHeight": "235px" },
+        { "characterType": "MAGE", "serialNumber": "60", "name": "Living Flame", "type": "Fire Spell", "energyCost": "2", "image": "/images/mage_cards_page_4.png", "spriteLeft": "-748px", "spriteTop": "-440px", "spriteWidth": "160px", "spriteHeight": "235px" },
+
+        { "characterType": "MAGE", "serialNumber": "61", "name": "Malicious Eye", "type": "Shadow Spell", "energyCost": "0", "image": "/images/mage_cards_page_4.png", "spriteLeft": "-346px", "spriteTop": "-720px", "spriteWidth": "160px", "spriteHeight": "235px" },
+        { "characterType": "MAGE", "serialNumber": "62", "name": "Mana gem", "type": "Skill", "energyCost": "0", "image": "/images/mage_cards_page_4.png", "spriteLeft": "-547px", "spriteTop": "-720px", "spriteWidth": "160px", "spriteHeight": "235px" },
+        { "characterType": "MAGE", "serialNumber": "63", "name": "Mana Shield", "type": "Skill", "energyCost": "1", "image": "/images/mage_cards_page_4.png", "spriteLeft": "-748px", "spriteTop": "-720px", "spriteWidth": "160px", "spriteHeight": "235px" },
+
+        { "characterType": "MAGE", "serialNumber": "64", "name": "Mana Surge", "type": "Skill", "energyCost": "2", "image": "/images/mage_cards_page_4.png", "spriteLeft": "-1029px", "spriteTop": "-160px", "spriteWidth": "160px", "spriteHeight": "235px" },
+        { "characterType": "MAGE", "serialNumber": "65", "name": "Mass Invisibility", "type": "N/A", "energyCost": "-1", "image": "/images/mage_cards_page_4.png", "spriteLeft": "-1230px", "spriteTop": "-160px", "spriteWidth": "160px", "spriteHeight": "235px" },
+        { "characterType": "MAGE", "serialNumber": "66", "name": "Meteorite", "type": "Fire Spell", "energyCost": "7", "image": "/images/mage_cards_page_4.png", "spriteLeft": "-1431px", "spriteTop": "-160px", "spriteWidth": "160px", "spriteHeight": "235px" },
+
+        { "characterType": "MAGE", "serialNumber": "67", "name": "Meteor Shower", "type": "N/A", "energyCost": "-1", "image": "/images/mage_cards_page_4.png", "spriteLeft": "-1029px", "spriteTop": "-440px", "spriteWidth": "160px", "spriteHeight": "235px" },
+        { "characterType": "MAGE", "serialNumber": "68", "name": "Mirror Images", "type": "Skill", "energyCost": "2", "image": "/images/mage_cards_page_4.png", "spriteLeft": "-1230px", "spriteTop": "-440px", "spriteWidth": "160px", "spriteHeight": "235px" },
+        { "characterType": "MAGE", "serialNumber": "69", "name": "Necrotic Burst", "type": "Shadow Spell", "energyCost": "1", "image": "/images/mage_cards_page_4.png", "spriteLeft": "-1431px", "spriteTop": "-440px", "spriteWidth": "160px", "spriteHeight": "235px" },
+
+        { "characterType": "MAGE", "serialNumber": "70", "name": "Nightmare", "type": "Shadow Spell", "energyCost": "2", "image": "/images/mage_cards_page_4.png", "spriteLeft": "-1029px", "spriteTop": "-720px", "spriteWidth": "160px", "spriteHeight": "235px" },
+        { "characterType": "MAGE", "serialNumber": "71", "name": "Noxious Eruption", "type": "Shadow Spell", "energyCost": "3", "image": "/images/mage_cards_page_4.png", "spriteLeft": "-1230px", "spriteTop": "-720px", "spriteWidth": "160px", "spriteHeight": "235px" },
+        { "characterType": "MAGE", "serialNumber": "72", "name": "Pestilence", "type": "Shadow Spell", "energyCost": "2", "image": "/images/mage_cards_page_4.png", "spriteLeft": "-1431px", "spriteTop": "-720px", "spriteWidth": "160px", "spriteHeight": "235px" },
+
+        
+
+        { "characterType": "MAGE", "serialNumber": "73", "name": "Prismatic Field", "type": "Skill", "energyCost": "2", "image": "/images/mage_cards_page_5.png", "spriteLeft": "-346px", "spriteTop": "-160px", "spriteWidth": "160px", "spriteHeight": "235px" },
+        { "characterType": "MAGE", "serialNumber": "74", "name": "Pyroblast", "type": "Fire Spell", "energyCost": "5", "image": "/images/mage_cards_page_5.png", "spriteLeft": "-547px", "spriteTop": "-160px", "spriteWidth": "160px", "spriteHeight": "235px" },
+        { "characterType": "MAGE", "serialNumber": "75", "name": "Rain", "type": "Cold Spell", "energyCost": "0", "image": "/images/mage_cards_page_5.png", "spriteLeft": "-748px", "spriteTop": "-160px", "spriteWidth": "160px", "spriteHeight": "235px" },
+
+        { "characterType": "MAGE", "serialNumber": "76", "name": "Ray of Frost", "type": "Cold Spell", "energyCost": "4", "image": "/images/mage_cards_page_5.png", "spriteLeft": "-346px", "spriteTop": "-440px", "spriteWidth": "160px", "spriteHeight": "235px" },
+        { "characterType": "MAGE", "serialNumber": "77", "name": "Recurring Nightmare", "type": "Shadow Spell", "energyCost": "1", "image": "/images/mage_cards_page_5.png", "spriteLeft": "-547px", "spriteTop": "-440px", "spriteWidth": "160px", "spriteHeight": "235px" },
+        { "characterType": "MAGE", "serialNumber": "78", "name": "Replenishment", "type": "Skill", "energyCost": "5", "image": "/images/mage_cards_page_5.png", "spriteLeft": "-748px", "spriteTop": "-440px", "spriteWidth": "160px", "spriteHeight": "235px" },
+
+        { "characterType": "MAGE", "serialNumber": "79", "name": "Scorching Ray", "type": "Fire Spell", "energyCost": "3", "image": "/images/mage_cards_page_5.png", "spriteLeft": "-346px", "spriteTop": "-720px", "spriteWidth": "160px", "spriteHeight": "235px" },
+        { "characterType": "MAGE", "serialNumber": "80", "name": "Scroll of Defense", "type": "Book", "energyCost": "0", "image": "/images/mage_cards_page_5.png", "spriteLeft": "-547px", "spriteTop": "-720px", "spriteWidth": "160px", "spriteHeight": "235px" },
+        { "characterType": "MAGE", "serialNumber": "81", "name": "Scroll of Intellect", "type": "Book", "energyCost": "0", "image": "/images/mage_cards_page_5.png", "spriteLeft": "-748px", "spriteTop": "-720px", "spriteWidth": "160px", "spriteHeight": "235px" },
+
+        { "characterType": "MAGE", "serialNumber": "82", "name": "Scroll of Speed", "type": "Book", "energyCost": "0", "image": "/images/mage_cards_page_5.png", "spriteLeft": "-1029px", "spriteTop": "-160px", "spriteWidth": "160px", "spriteHeight": "235px" },
+        { "characterType": "MAGE", "serialNumber": "83", "name": "Searing Nova", "type": "Fire Spell", "energyCost": "2", "image": "/images/mage_cards_page_5.png", "spriteLeft": "-1230px", "spriteTop": "-160px", "spriteWidth": "160px", "spriteHeight": "235px" },
+        { "characterType": "MAGE", "serialNumber": "84", "name": "Searing Touch", "type": "Fire Spell", "energyCost": "1", "image": "/images/mage_cards_page_5.png", "spriteLeft": "-1431px", "spriteTop": "-160px", "spriteWidth": "160px", "spriteHeight": "235px" },
+
+        { "characterType": "MAGE", "serialNumber": "85", "name": "Shadow Binding", "type": "N/A", "energyCost": "-1", "image": "/images/mage_cards_page_5.png", "spriteLeft": "-1029px", "spriteTop": "-440px", "spriteWidth": "160px", "spriteHeight": "235px" },
+        { "characterType": "MAGE", "serialNumber": "86", "name": "Shadow Bolt", "type": "Shadow Spell", "energyCost": "2", "image": "/images/mage_cards_page_5.png", "spriteLeft": "-1230px", "spriteTop": "-440px", "spriteWidth": "160px", "spriteHeight": "235px" },
+        { "characterType": "MAGE", "serialNumber": "87", "name": "Shatter", "type": "Cold Spell", "energyCost": "2", "image": "/images/mage_cards_page_5.png", "spriteLeft": "-1431px", "spriteTop": "-440px", "spriteWidth": "160px", "spriteHeight": "235px" },
+
+        { "characterType": "MAGE", "serialNumber": "88", "name": "Shifting Scroll", "type": "Book", "energyCost": "0", "image": "/images/mage_cards_page_5.png", "spriteLeft": "-1029px", "spriteTop": "-720px", "spriteWidth": "160px", "spriteHeight": "235px" },
+        { "characterType": "MAGE", "serialNumber": "89", "name": "Shock Nova", "type": "Lightning Spell", "energyCost": "4", "image": "/images/mage_cards_page_5.png", "spriteLeft": "-1230px", "spriteTop": "-720px", "spriteWidth": "160px", "spriteHeight": "235px" },
+        { "characterType": "MAGE", "serialNumber": "90", "name": "Siphon Life", "type": "N/A", "energyCost": "-1", "image": "/images/mage_cards_page_5.png", "spriteLeft": "-1431px", "spriteTop": "-720px", "spriteWidth": "160px", "spriteHeight": "235px" },
+        
+        
+
+        { "characterType": "MAGE", "serialNumber": "91", "name": "Squall", "type": "Cold Spell", "energyCost": "3", "image": "/images/mage_cards_page_6.png", "spriteLeft": "-346px", "spriteTop": "-160px", "spriteWidth": "160px", "spriteHeight": "235px" },
+        { "characterType": "MAGE", "serialNumber": "92", "name": "Superconductor", "type": "Lightning Spell", "energyCost": "2", "image": "/images/mage_cards_page_6.png", "spriteLeft": "-547px", "spriteTop": "-160px", "spriteWidth": "160px", "spriteHeight": "235px" },
+        { "characterType": "MAGE", "serialNumber": "93", "name": "The Encyclopedia", "type": "Book", "energyCost": "2", "image": "/images/mage_cards_page_6.png", "spriteLeft": "-748px", "spriteTop": "-160px", "spriteWidth": "160px", "spriteHeight": "235px" },
+
+        { "characterType": "MAGE", "serialNumber": "94", "name": "Tome of Intellect", "type": "Book", "energyCost": "2", "image": "/images/mage_cards_page_6.png", "spriteLeft": "-346px", "spriteTop": "-440px", "spriteWidth": "160px", "spriteHeight": "235px" },
+        { "characterType": "MAGE", "serialNumber": "95", "name": "Transmission", "type": "Skill", "energyCost": "2", "image": "/images/mage_cards_page_6.png", "spriteLeft": "-547px", "spriteTop": "-440px", "spriteWidth": "160px", "spriteHeight": "235px" },
+        { "characterType": "MAGE", "serialNumber": "96", "name": "Unstable Power", "type": "Skill", "energyCost": "0", "image": "/images/mage_cards_page_6.png", "spriteLeft": "-748px", "spriteTop": "-440px", "spriteWidth": "160px", "spriteHeight": "235px" },
+
+        { "characterType": "MAGE", "serialNumber": "97", "name": "Vampiric Tutor", "type": "N/A", "energyCost": "-1", "image": "/images/mage_cards_page_6.png", "spriteLeft": "-346px", "spriteTop": "-720px", "spriteWidth": "160px", "spriteHeight": "235px" },
+        { "characterType": "MAGE", "serialNumber": "98", "name": "Water Jet", "type": "Cold Spell", "energyCost": "1", "image": "/images/mage_cards_page_6.png", "spriteLeft": "-547px", "spriteTop": "-720px", "spriteWidth": "160px", "spriteHeight": "235px" },
+        { "characterType": "MAGE", "serialNumber": "99", "name": "Winter is Coming", "type": "Cold Spell", "energyCost": "3", "image": "/images/mage_cards_page_6.png", "spriteLeft": "-748px", "spriteTop": "-720px", "spriteWidth": "160px", "spriteHeight": "235px" },
+
+        { "characterType": "MAGE", "serialNumber": "100", "name": "Winter Orb", "type": "Cold Spell", "energyCost": "4", "image": "/images/mage_cards_page_6.png", "spriteLeft": "-1029px", "spriteTop": "-160px", "spriteWidth": "160px", "spriteHeight": "235px" },
+        { "characterType": "MAGE", "serialNumber": "101", "name": "Winter's Night Tale", "type": "Book", "energyCost": "2", "image": "/images/mage_cards_page_6.png", "spriteLeft": "-1230px", "spriteTop": "-160px", "spriteWidth": "160px", "spriteHeight": "235px" },
+        { "characterType": "MAGE", "serialNumber": "102", "name": "Zap", "type": "Lightning Spell", "energyCost": "0", "image": "/images/mage_cards_page_6.png", "spriteLeft": "-1431px", "spriteTop": "-160px", "spriteWidth": "160px", "spriteHeight": "235px" }
     ]
 }
