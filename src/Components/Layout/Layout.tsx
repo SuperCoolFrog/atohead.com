@@ -44,7 +44,7 @@ const Layout = ({ children }: LayoutProps) => {
         </main>
         <footer className="container fixed-bottom">
             <hr />
-            <p>I do not own <a href="https://acrosstheobelisk.com/"><i>Across the Obelisk</i></a> ... just like the game.</p>
+            <p>I do not own <a href="https://acrosstheobelisk.com/"><i>Across the Obelisk</i></a> ... I just like playing the game.</p>
         </footer>
     </>);
 };

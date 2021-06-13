@@ -1,27 +1,26 @@
 import React from 'react';
 import { Col, Container, Jumbotron, Row } from 'react-bootstrap';
 import './Home.scss';
+import CharacterTypeSymbol from '../../Components/CharacterTypeSymbol/CharacterTypeSymbol';
+import CharacterType from '../../Models/CharacterType.enum';
+import { Link } from 'react-router-dom';
+import styles from './home.module.scss';
 
 const App = () => {
-  // const [cards, setCards] = useState<GameCardModel[]>([]);
-  
-  // useEffect(() => {
-    
-  //   fetch('/game-data/cards.json')
-  //   .then(response => response.json())
-  //   .then(data => { 
-  //     console.log(data)
-  //     setCards(data.cards);
-  //   });
-    
-  // }, []);
-
   return (<>
     <Jumbotron>
       <Container>
         <h1>Across the Obelisk - Tools and Guides</h1>
         <p>
-          gghf
+          This site is a <em>Work in Progress</em>.  I wanted a way to share deck builds with my friend who got me into the game.  After searching online,
+          I realized the game was too new to have something like this, so I created my own.  Feel free to use it.
+        </p>
+        <p>
+          If you have any questions or concerns, please feel free to email me at <a href="mailto:michael.vasquez@smountaintech.com">michael.vasquez@smountaintech.com</a>.
+        </p>
+        <p>
+          gghf,<br />
+          Michael Vasquez
         </p>
       </Container>
     </Jumbotron>
@@ -30,22 +29,40 @@ const App = () => {
       <p>
         Create a deck with the deck builder tool.  You will get a shareable link that you can post or share with a friend.
       </p>
-      <Row>
-        <Col md={3}>Warrior</Col>
-        <Col md={3}>Scout</Col>
-        <Col md={3}>Mage</Col>
-        <Col md={3}>Healer</Col>
+      <Row className={styles.deckBuilderLinkContainer}>
+        <Col md={3}>
+          <Link to="/deck-builder/warrior">
+            <CharacterTypeSymbol characterType={CharacterType.WARRIOR}></CharacterTypeSymbol>
+          </Link>
+        </Col>
+        <Col md={3}>
+          <Link to="/deck-builder/scout">
+            <CharacterTypeSymbol characterType={CharacterType.SCOUT}></CharacterTypeSymbol>
+          </Link>
+        </Col>
+        <Col md={3}>
+          <Link to="/deck-builder/mage">
+            <CharacterTypeSymbol characterType={CharacterType.MAGE}></CharacterTypeSymbol>
+          </Link>
+        </Col>
+        <Col md={3}>
+          <Link to="/deck-builder/healer">
+            <CharacterTypeSymbol characterType={CharacterType.HEALER}></CharacterTypeSymbol>
+          </Link>
+        </Col>
       </Row>
     
       <hr />
 
-      <h2>Read or Submit Guides</h2>
+      <h2>ATO WIP and Coming Soon</h2>
       <p>
-        Want to try a cool build?  Did you come up with a cool build?  Check out our guides and feel free to submit your own.
+        Current work being done in the following areas to improve ATO Head:
+        <ul>
+          <li>Team Building Tool - Create a team and deck</li>
+          <li>News Updates and highlights about Across the Obelisk</li>
+          <li>Guides on teams and decks to try out</li>
+        </ul>
       </p>
-      <Row>
-        <Col md={3}>Guides</Col>
-      </Row>
     </Container>
   </>);
 }
