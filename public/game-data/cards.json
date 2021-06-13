@@ -240,32 +240,42 @@
 
         
 
-        { "characterType": "SCOUT", "serialNumber": "73", "name": "Shield Bash", "type": "Melee Attack", "energyCost": "2", "image": "/images/scout_cards_page_5.png", "spriteLeft": "-346px", "spriteTop": "-160px", "spriteWidth": "160px", "spriteHeight": "235px" },
-        { "characterType": "SCOUT", "serialNumber": "74", "name": "Shield Breaker", "type": "Melee Attack", "energyCost": "3", "image": "/images/scout_cards_page_5.png", "spriteLeft": "-547px", "spriteTop": "-160px", "spriteWidth": "160px", "spriteHeight": "235px" },
-        { "characterType": "SCOUT", "serialNumber": "75", "name": "Shield Charge", "type": "Melee Attack", "energyCost": "2", "image": "/images/scout_cards_page_5.png", "spriteLeft": "-748px", "spriteTop": "-160px", "spriteWidth": "160px", "spriteHeight": "235px" },
+        { "characterType": "SCOUT", "serialNumber": "73", "name": "Shiv", "type": "Small Weapon", "energyCost": "0", "image": "/images/scout_cards_page_5.png", "spriteLeft": "-346px", "spriteTop": "-160px", "spriteWidth": "160px", "spriteHeight": "235px" },
+        { "characterType": "SCOUT", "serialNumber": "74", "name": "Shrapnel Shot", "type": "Ranged Attack", "energyCost": "2", "image": "/images/scout_cards_page_5.png", "spriteLeft": "-547px", "spriteTop": "-160px", "spriteWidth": "160px", "spriteHeight": "235px" },
+        { "characterType": "SCOUT", "serialNumber": "75", "name": "Slice", "type": "Melee Attack", "energyCost": "1", "image": "/images/scout_cards_page_5.png", "spriteLeft": "-748px", "spriteTop": "-160px", "spriteWidth": "160px", "spriteHeight": "235px" },
 
-        { "characterType": "SCOUT", "serialNumber": "76", "name": "Shield Slam", "type": "Melee Attack", "energyCost": "3", "image": "/images/scout_cards_page_5.png", "spriteLeft": "-346px", "spriteTop": "-440px", "spriteWidth": "160px", "spriteHeight": "235px" },
-        { "characterType": "SCOUT", "serialNumber": "77", "name": "Shield Throw", "type": "Melee Attack", "energyCost": "2", "image": "/images/scout_cards_page_5.png", "spriteLeft": "-547px", "spriteTop": "-440px", "spriteWidth": "160px", "spriteHeight": "235px" },
-        { "characterType": "SCOUT", "serialNumber": "78", "name": "Shield Wall", "type": "Defense", "energyCost": "5", "image": "/images/scout_cards_page_5.png", "spriteLeft": "-748px", "spriteTop": "-440px", "spriteWidth": "160px", "spriteHeight": "235px" },
+        { "characterType": "SCOUT", "serialNumber": "76", "name": "Smoke Bomb", "type": "Skill", "energyCost": "2", "image": "/images/scout_cards_page_5.png", "spriteLeft": "-346px", "spriteTop": "-440px", "spriteWidth": "160px", "spriteHeight": "235px" },
+        { "characterType": "SCOUT", "serialNumber": "77", "name": "Sneak Peek", "type": "Skill", "energyCost": "0", "image": "/images/scout_cards_page_5.png", "spriteLeft": "-547px", "spriteTop": "-440px", "spriteWidth": "160px", "spriteHeight": "235px" },
+        { "characterType": "SCOUT", "serialNumber": "78", "name": "Sneaky Strike", "type": "Melee Attack", "energyCost": "2", "image": "/images/scout_cards_page_5.png", "spriteLeft": "-748px", "spriteTop": "-440px", "spriteWidth": "160px", "spriteHeight": "235px" },
 
-        { "characterType": "SCOUT", "serialNumber": "79", "name": "Siege Breaker", "type": "Melee Attack", "energyCost": "3", "image": "/images/scout_cards_page_5.png", "spriteLeft": "-346px", "spriteTop": "-720px", "spriteWidth": "160px", "spriteHeight": "235px" },
-        { "characterType": "SCOUT", "serialNumber": "80", "name": "Skullsplitter", "type": "Melee Attack", "energyCost": "5", "image": "/images/scout_cards_page_5.png", "spriteLeft": "-547px", "spriteTop": "-720px", "spriteWidth": "160px", "spriteHeight": "235px" },
-        { "characterType": "SCOUT", "serialNumber": "81", "name": "Spiked Shield", "type": "Defense", "energyCost": "2", "image": "/images/scout_cards_page_5.png", "spriteLeft": "-748px", "spriteTop": "-720px", "spriteWidth": "160px", "spriteHeight": "235px" },
+        { "characterType": "SCOUT", "serialNumber": "79", "name": "Sniper Shot", "type": "N/A", "energyCost": "-1", "image": "/images/scout_cards_page_5.png", "spriteLeft": "-346px", "spriteTop": "-720px", "spriteWidth": "160px", "spriteHeight": "235px" },
+        { "characterType": "SCOUT", "serialNumber": "80", "name": "Song of Celerity", "type": "Song", "energyCost": "1", "image": "/images/scout_cards_page_5.png", "spriteLeft": "-547px", "spriteTop": "-720px", "spriteWidth": "160px", "spriteHeight": "235px" },
+        { "characterType": "SCOUT", "serialNumber": "81", "name": "Song of Quickness", "type": "Song", "energyCost": "2", "image": "/images/scout_cards_page_5.png", "spriteLeft": "-748px", "spriteTop": "-720px", "spriteWidth": "160px", "spriteHeight": "235px" },
 
-        { "characterType": "SCOUT", "serialNumber": "82", "name": "Steelskin", "type": "Defense", "energyCost": "2", "image": "/images/scout_cards_page_5.png", "spriteLeft": "-1029px", "spriteTop": "-160px", "spriteWidth": "160px", "spriteHeight": "235px" },
-        { "characterType": "SCOUT", "serialNumber": "83", "name": "Stockade", "type": "Defense", "energyCost": "3", "image": "/images/scout_cards_page_5.png", "spriteLeft": "-1230px", "spriteTop": "-160px", "spriteWidth": "160px", "spriteHeight": "235px" },
-        { "characterType": "SCOUT", "serialNumber": "84", "name": "Sunder Armor", "type": "Melee Attack", "energyCost": "3", "image": "/images/scout_cards_page_5.png", "spriteLeft": "-1431px", "spriteTop": "-160px", "spriteWidth": "160px", "spriteHeight": "235px" },
+        { "characterType": "SCOUT", "serialNumber": "82", "name": "Sprint", "type": "Skill", "energyCost": "0", "image": "/images/scout_cards_page_5.png", "spriteLeft": "-1029px", "spriteTop": "-160px", "spriteWidth": "160px", "spriteHeight": "235px" },
+        { "characterType": "SCOUT", "serialNumber": "83", "name": "Stoneskin", "type": "Skill", "energyCost": "1", "image": "/images/scout_cards_page_5.png", "spriteLeft": "-1230px", "spriteTop": "-160px", "spriteWidth": "160px", "spriteHeight": "235px" },
+        { "characterType": "SCOUT", "serialNumber": "84", "name": "Sweet Melody", "type": "Song", "energyCost": "2", "image": "/images/scout_cards_page_5.png", "spriteLeft": "-1431px", "spriteTop": "-160px", "spriteWidth": "160px", "spriteHeight": "235px" },
 
-        { "characterType": "SCOUT", "serialNumber": "85", "name": "Sweeping Strike", "type": "Melee Attack", "energyCost": "2", "image": "/images/scout_cards_page_5.png", "spriteLeft": "-1029px", "spriteTop": "-440px", "spriteWidth": "160px", "spriteHeight": "235px" },
-        { "characterType": "SCOUT", "serialNumber": "86", "name": "Thousand Needles", "type": "Defense", "energyCost": "3", "image": "/images/scout_cards_page_5.png", "spriteLeft": "-1230px", "spriteTop": "-440px", "spriteWidth": "160px", "spriteHeight": "235px" },
-        { "characterType": "SCOUT", "serialNumber": "87", "name": "Torment of Thorns", "type": "Skll", "energyCost": "1", "image": "/images/scout_cards_page_5.png", "spriteLeft": "-1431px", "spriteTop": "-440px", "spriteWidth": "160px", "spriteHeight": "235px" },
+        { "characterType": "SCOUT", "serialNumber": "85", "name": "Tedious Poem", "type": "Song", "energyCost": "5", "image": "/images/scout_cards_page_5.png", "spriteLeft": "-1029px", "spriteTop": "-440px", "spriteWidth": "160px", "spriteHeight": "235px" },
+        { "characterType": "SCOUT", "serialNumber": "86", "name": "Toxic Rain", "type": "Ranged Attack", "energyCost": "0", "image": "/images/scout_cards_page_5.png", "spriteLeft": "-1230px", "spriteTop": "-440px", "spriteWidth": "160px", "spriteHeight": "235px" },
+        { "characterType": "SCOUT", "serialNumber": "87", "name": "Toxic Strike", "type": "Melee Attack", "energyCost": "3", "image": "/images/scout_cards_page_5.png", "spriteLeft": "-1431px", "spriteTop": "-440px", "spriteWidth": "160px", "spriteHeight": "235px" },
 
-        { "characterType": "SCOUT", "serialNumber": "88", "name": "Transfusion", "type": "Skill", "energyCost": "0", "image": "/images/scout_cards_page_5.png", "spriteLeft": "-1029px", "spriteTop": "-720px", "spriteWidth": "160px", "spriteHeight": "235px" },
-        { "characterType": "SCOUT", "serialNumber": "89", "name": "Warpaint", "type": "Skill", "energyCost": "0", "image": "/images/scout_cards_page_5.png", "spriteLeft": "-1230px", "spriteTop": "-720px", "spriteWidth": "160px", "spriteHeight": "235px" },
-        { "characterType": "SCOUT", "serialNumber": "90", "name": "Whirlwind", "type": "Melee Attack", "energyCost": "6", "image": "/images/scout_cards_page_5.png", "spriteLeft": "-1431px", "spriteTop": "-720px", "spriteWidth": "160px", "spriteHeight": "235px" },
+        { "characterType": "SCOUT", "serialNumber": "88", "name": "Trace", "type": "Skill", "energyCost": "0", "image": "/images/scout_cards_page_5.png", "spriteLeft": "-1029px", "spriteTop": "-720px", "spriteWidth": "160px", "spriteHeight": "235px" },
+        { "characterType": "SCOUT", "serialNumber": "89", "name": "Tune Up", "type": "Skill", "energyCost": "1", "image": "/images/scout_cards_page_5.png", "spriteLeft": "-1230px", "spriteTop": "-720px", "spriteWidth": "160px", "spriteHeight": "235px" },
+        { "characterType": "SCOUT", "serialNumber": "90", "name": "Uproot", "type": "Skill", "energyCost": "1", "image": "/images/scout_cards_page_5.png", "spriteLeft": "-1431px", "spriteTop": "-720px", "spriteWidth": "160px", "spriteHeight": "235px" },
         
         
 
-        { "characterType": "SCOUT", "serialNumber": "91", "name": "Wrecking Ball", "type": "Melee Attack", "energyCost": "3", "image": "/images/scout_cards_page_6.png", "spriteLeft": "-346px", "spriteTop": "-160px", "spriteWidth": "160px", "spriteHeight": "235px" }
+        { "characterType": "SCOUT", "serialNumber": "91", "name": "Vanish", "type": "Skill", "energyCost": "0", "image": "/images/scout_cards_page_6.png", "spriteLeft": "-346px", "spriteTop": "-160px", "spriteWidth": "160px", "spriteHeight": "235px" },
+        { "characterType": "SCOUT", "serialNumber": "92", "name": "Vexing Crescendo", "type": "N/A", "energyCost": "-1", "image": "/images/scout_cards_page_6.png", "spriteLeft": "-547px", "spriteTop": "-160px", "spriteWidth": "160px", "spriteHeight": "235px" },
+        { "characterType": "SCOUT", "serialNumber": "93", "name": "Vigilance", "type": "Skill", "energyCost": "1", "image": "/images/scout_cards_page_6.png", "spriteLeft": "-748px", "spriteTop": "-160px", "spriteWidth": "160px", "spriteHeight": "235px" },
+
+        { "characterType": "SCOUT", "serialNumber": "94", "name": "Viper Strike", "type": "Melee Attack", "energyCost": "1", "image": "/images/scout_cards_page_6.png", "spriteLeft": "-346px", "spriteTop": "-440px", "spriteWidth": "160px", "spriteHeight": "235px" },
+        { "characterType": "SCOUT", "serialNumber": "95", "name": "Vitalizing Serenade", "type": "Song", "energyCost": "3", "image": "/images/scout_cards_page_6.png", "spriteLeft": "-547px", "spriteTop": "-440px", "spriteWidth": "160px", "spriteHeight": "235px" },
+        { "characterType": "SCOUT", "serialNumber": "96", "name": "Volley", "type": "Ranged Attack", "energyCost": "4", "image": "/images/scout_cards_page_6.png", "spriteLeft": "-748px", "spriteTop": "-440px", "spriteWidth": "160px", "spriteHeight": "235px" },
+
+        { "characterType": "SCOUT", "serialNumber": "97", "name": "Weapon Cache", "type": "Skill", "energyCost": "4", "image": "/images/scout_cards_page_6.png", "spriteLeft": "-346px", "spriteTop": "-720px", "spriteWidth": "160px", "spriteHeight": "235px" },
+        { "characterType": "SCOUT", "serialNumber": "98", "name": "Whispering Lies", "type": "Song", "energyCost": "1", "image": "/images/scout_cards_page_6.png", "spriteLeft": "-547px", "spriteTop": "-720px", "spriteWidth": "160px", "spriteHeight": "235px" },
+        { "characterType": "SCOUT", "serialNumber": "99", "name": "Wicked Craftsman", "type": "Skill", "energyCost": "1", "image": "/images/scout_cards_page_6.png", "spriteLeft": "-748px", "spriteTop": "-720px", "spriteWidth": "160px", "spriteHeight": "235px" }
     ]
 }
