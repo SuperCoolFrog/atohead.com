@@ -15,8 +15,10 @@ const GameCard = ({ card, onClick }: GameCardProps) => {
             onClick(card);
         }
     };
-
-    return (<div className={styles.gameCard} onClick={handleClick} style={{ background, height: card.spriteHeight, width: card.spriteWidth }}></div>);
+    
+    return (<div className={styles.gameCard} onClick={handleClick} style={{ background, height: card.spriteHeight, width: card.spriteWidth }}>
+        { card.energyCost === "-1" && (<span className={styles.cardName}>{card.name}</span>) }
+    </div>);
 };
 
 export default GameCard;

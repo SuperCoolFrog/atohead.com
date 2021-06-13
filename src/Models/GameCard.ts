@@ -3,6 +3,7 @@ interface GameCard {
     serialNumber: number;
     name: string;
     type: string;
+    energyCost: string;
     image: string;
     spriteLeft: string;
     spriteTop: string;

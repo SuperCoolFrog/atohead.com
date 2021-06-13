@@ -1,3 +1,14 @@
 .gameCard {
     border-radius: 12px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.cardName {
+    font-weight: 700;
+    background-color: darkslategrey;
+    color: white;
+    text-align: center;
+    opacity: .75;
 }
