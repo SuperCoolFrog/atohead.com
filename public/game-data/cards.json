@@ -426,6 +426,147 @@
 
         { "characterType": "MAGE", "serialNumber": "100", "name": "Winter Orb", "type": "Cold Spell", "energyCost": "4", "image": "/images/mage_cards_page_6.png", "spriteLeft": "-1029px", "spriteTop": "-160px", "spriteWidth": "160px", "spriteHeight": "235px" },
         { "characterType": "MAGE", "serialNumber": "101", "name": "Winter's Night Tale", "type": "Book", "energyCost": "2", "image": "/images/mage_cards_page_6.png", "spriteLeft": "-1230px", "spriteTop": "-160px", "spriteWidth": "160px", "spriteHeight": "235px" },
-        { "characterType": "MAGE", "serialNumber": "102", "name": "Zap", "type": "Lightning Spell", "energyCost": "0", "image": "/images/mage_cards_page_6.png", "spriteLeft": "-1431px", "spriteTop": "-160px", "spriteWidth": "160px", "spriteHeight": "235px" }
+        { "characterType": "MAGE", "serialNumber": "102", "name": "Zap", "type": "Lightning Spell", "energyCost": "0", "image": "/images/mage_cards_page_6.png", "spriteLeft": "-1431px", "spriteTop": "-160px", "spriteWidth": "160px", "spriteHeight": "235px" },
+
+
+
+
+        
+        { "characterType": "HEALER", "serialNumber": "1", "name": "Anthem of Hope", "type": "Defense", "energyCost": "2", "image": "/images/healer_cards_page_1.png", "spriteLeft": "-346px", "spriteTop": "-160px", "spriteWidth": "160px", "spriteHeight": "235px" },
+        { "characterType": "HEALER", "serialNumber": "2", "name": "Bad Augury", "type": "Shadow Spell", "energyCost": "0", "image": "/images/healer_cards_page_1.png", "spriteLeft": "-547px", "spriteTop": "-160px", "spriteWidth": "160px", "spriteHeight": "235px" },
+        { "characterType": "HEALER", "serialNumber": "3", "name": "Baptism", "type": "Skill", "energyCost": "2", "image": "/images/healer_cards_page_1.png", "spriteLeft": "-748px", "spriteTop": "-160px", "spriteWidth": "160px", "spriteHeight": "235px" },
+
+        { "characterType": "HEALER", "serialNumber": "4", "name": "Barrier", "type": "Defense", "energyCost": "1", "image": "/images/healer_cards_page_1.png", "spriteLeft": "-346px", "spriteTop": "-440px", "spriteWidth": "160px", "spriteHeight": "235px" },
+        { "characterType": "HEALER", "serialNumber": "5", "name": "Benediction", "type": "Healing Spell", "energyCost": "2", "image": "/images/healer_cards_page_1.png", "spriteLeft": "-547px", "spriteTop": "-440px", "spriteWidth": "160px", "spriteHeight": "235px" },
+        { "characterType": "HEALER", "serialNumber": "6", "name": "Binding Heal", "type": "Healing Spell", "energyCost": "2", "image": "/images/healer_cards_page_1.png", "spriteLeft": "-748px", "spriteTop": "-440px", "spriteWidth": "160px", "spriteHeight": "235px" },
+
+        { "characterType": "HEALER", "serialNumber": "7", "name": "Black Karma", "type": "Shadow Spell", "energyCost": "1", "image": "/images/healer_cards_page_1.png", "spriteLeft": "-346px", "spriteTop": "-720px", "spriteWidth": "160px", "spriteHeight": "235px" },
+        { "characterType": "HEALER", "serialNumber": "8", "name": "Bulk Heal", "type": "Healing Spell", "energyCost": "3", "image": "/images/healer_cards_page_1.png", "spriteLeft": "-547px", "spriteTop": "-720px", "spriteWidth": "160px", "spriteHeight": "235px" },
+        { "characterType": "HEALER", "serialNumber": "9", "name": "Celestial Brillance", "type": "Holy Spell", "energyCost": "7", "image": "/images/healer_cards_page_1.png", "spriteLeft": "-748px", "spriteTop": "-720px", "spriteWidth": "160px", "spriteHeight": "235px" },
+
+        { "characterType": "HEALER", "serialNumber": "10", "name": "Chain Heal", "type": "Healing Spell", "energyCost": "3", "image": "/images/healer_cards_page_1.png", "spriteLeft": "-1029px", "spriteTop": "-160px", "spriteWidth": "160px", "spriteHeight": "235px" },
+        { "characterType": "HEALER", "serialNumber": "11", "name": "Circle of Healing", "type": "Healing Spell", "energyCost": "5", "image": "/images/healer_cards_page_1.png", "spriteLeft": "-1230px", "spriteTop": "-160px", "spriteWidth": "160px", "spriteHeight": "235px" },
+        { "characterType": "HEALER", "serialNumber": "12", "name": "Clairvoyance", "type": "Mind Spell", "energyCost": "2", "image": "/images/healer_cards_page_1.png", "spriteLeft": "-1431px", "spriteTop": "-160px", "spriteWidth": "160px", "spriteHeight": "235px" },
+
+        { "characterType": "HEALER", "serialNumber": "13", "name": "Clarity", "type": "Skill", "energyCost": "0", "image": "/images/healer_cards_page_1.png", "spriteLeft": "-1029px", "spriteTop": "-440px", "spriteWidth": "160px", "spriteHeight": "235px" },
+        { "characterType": "HEALER", "serialNumber": "14", "name": "Condemnation", "type": "Shadow Spell", "energyCost": "4", "image": "/images/healer_cards_page_1.png", "spriteLeft": "-1230px", "spriteTop": "-440px", "spriteWidth": "160px", "spriteHeight": "235px" },
+        { "characterType": "HEALER", "serialNumber": "15", "name": "Crescent Light", "type": "Holy Spell", "energyCost": "5", "image": "/images/healer_cards_page_1.png", "spriteLeft": "-1431px", "spriteTop": "-440px", "spriteWidth": "160px", "spriteHeight": "235px" },
+
+        { "characterType": "HEALER", "serialNumber": "16", "name": "Dark Outbreak", "type": "Shadow Spell", "energyCost": "3", "image": "/images/healer_cards_page_1.png", "spriteLeft": "-1029px", "spriteTop": "-720px", "spriteWidth": "160px", "spriteHeight": "235px" },
+        { "characterType": "HEALER", "serialNumber": "17", "name": "Dawnlight", "type": "Holy Spell", "energyCost": "0", "image": "/images/healer_cards_page_1.png", "spriteLeft": "-1230px", "spriteTop": "-720px", "spriteWidth": "160px", "spriteHeight": "235px" },
+        { "characterType": "HEALER", "serialNumber": "18", "name": "Death's Reach", "type": "Shadow Spell", "energyCost": "5", "image": "/images/healer_cards_page_1.png", "spriteLeft": "-1431px", "spriteTop": "-720px", "spriteWidth": "160px", "spriteHeight": "235px" },
+        
+        
+
+        { "characterType": "HEALER", "serialNumber": "19", "name": "Delay Response", "type": "Skill", "energyCost": "1", "image": "/images/healer_cards_page_2.png", "spriteLeft": "-346px", "spriteTop": "-160px", "spriteWidth": "160px", "spriteHeight": "235px" },
+        { "characterType": "HEALER", "serialNumber": "20", "name": "Demonic Tutor", "type": "N/A", "energyCost": "-1", "image": "/images/healer_cards_page_2.png", "spriteLeft": "-547px", "spriteTop": "-160px", "spriteWidth": "160px", "spriteHeight": "235px" },
+        { "characterType": "HEALER", "serialNumber": "21", "name": "Desperate Prayer", "type": "Healing Spell", "energyCost": "4", "image": "/images/healer_cards_page_2.png", "spriteLeft": "-748px", "spriteTop": "-160px", "spriteWidth": "160px", "spriteHeight": "235px" },
+
+        { "characterType": "HEALER", "serialNumber": "22", "name": "Detoxify", "type": "Skill", "energyCost": "0", "image": "/images/healer_cards_page_2.png", "spriteLeft": "-346px", "spriteTop": "-440px", "spriteWidth": "160px", "spriteHeight": "235px" },
+        { "characterType": "HEALER", "serialNumber": "23", "name": "Dilute", "type": "Skill", "energyCost": "1", "image": "/images/healer_cards_page_2.png", "spriteLeft": "-547px", "spriteTop": "-440px", "spriteWidth": "160px", "spriteHeight": "235px" },
+        { "characterType": "HEALER", "serialNumber": "24", "name": "Dispel Magic", "type": "Skill", "energyCost": "1", "image": "/images/healer_cards_page_2.png", "spriteLeft": "-748px", "spriteTop": "-440px", "spriteWidth": "160px", "spriteHeight": "235px" },
+
+        { "characterType": "HEALER", "serialNumber": "25", "name": "Divine Insight", "type": "Holy Spell", "energyCost": "5", "image": "/images/healer_cards_page_2.png", "spriteLeft": "-346px", "spriteTop": "-720px", "spriteWidth": "160px", "spriteHeight": "235px" },
+        { "characterType": "HEALER", "serialNumber": "26", "name": "Divine Ire", "type": "Holy Spell", "energyCost": "6", "image": "/images/healer_cards_page_2.png", "spriteLeft": "-547px", "spriteTop": "-720px", "spriteWidth": "160px", "spriteHeight": "235px" },
+        { "characterType": "HEALER", "serialNumber": "27", "name": "Divine Power", "type": "Skill", "energyCost": "3", "image": "/images/healer_cards_page_2.png", "spriteLeft": "-748px", "spriteTop": "-720px", "spriteWidth": "160px", "spriteHeight": "235px" },
+
+        { "characterType": "HEALER", "serialNumber": "28", "name": "Enervate", "type": "Mind Spell", "energyCost": "3", "image": "/images/healer_cards_page_2.png", "spriteLeft": "-1029px", "spriteTop": "-160px", "spriteWidth": "160px", "spriteHeight": "235px" },
+        { "characterType": "HEALER", "serialNumber": "29", "name": "Expected Prophecy", "type": "Skill", "energyCost": "1", "image": "/images/healer_cards_page_2.png", "spriteLeft": "-1230px", "spriteTop": "-160px", "spriteWidth": "160px", "spriteHeight": "235px" },
+        { "characterType": "HEALER", "serialNumber": "30", "name": "Fade", "type": "Skill", "energyCost": "1", "image": "/images/healer_cards_page_2.png", "spriteLeft": "-1431px", "spriteTop": "-160px", "spriteWidth": "160px", "spriteHeight": "235px" },
+
+        { "characterType": "HEALER", "serialNumber": "31", "name": "Fanaticism", "type": "Skill", "energyCost": "0", "image": "/images/healer_cards_page_2.png", "spriteLeft": "-1029px", "spriteTop": "-440px", "spriteWidth": "160px", "spriteHeight": "235px" },
+        { "characterType": "HEALER", "serialNumber": "32", "name": "Flash", "type": "Holy Spell", "energyCost": "1", "image": "/images/healer_cards_page_2.png", "spriteLeft": "-1230px", "spriteTop": "-440px", "spriteWidth": "160px", "spriteHeight": "235px" },
+        { "characterType": "HEALER", "serialNumber": "33", "name": "Flash Heal", "type": "Healing Spell", "energyCost": "1", "image": "/images/healer_cards_page_2.png", "spriteLeft": "-1431px", "spriteTop": "-440px", "spriteWidth": "160px", "spriteHeight": "235px" },
+
+        { "characterType": "HEALER", "serialNumber": "34", "name": "Foresight", "type": "Skill", "energyCost": "0", "image": "/images/healer_cards_page_2.png", "spriteLeft": "-1029px", "spriteTop": "-720px", "spriteWidth": "160px", "spriteHeight": "235px" },
+        { "characterType": "HEALER", "serialNumber": "35", "name": "Fortune Telling", "type": "Skill", "energyCost": "1", "image": "/images/healer_cards_page_2.png", "spriteLeft": "-1230px", "spriteTop": "-720px", "spriteWidth": "160px", "spriteHeight": "235px" },
+        { "characterType": "HEALER", "serialNumber": "36", "name": "Greater Heal", "type": "Healing Spell", "energyCost": "4", "image": "/images/healer_cards_page_2.png", "spriteLeft": "-1431px", "spriteTop": "-720px", "spriteWidth": "160px", "spriteHeight": "235px" },
+
+        
+
+        { "characterType": "HEALER", "serialNumber": "37", "name": "Guardian Angel", "type": "Defense", "energyCost": "5", "image": "/images/healer_cards_page_3.png", "spriteLeft": "-346px", "spriteTop": "-160px", "spriteWidth": "160px", "spriteHeight": "235px" },
+        { "characterType": "HEALER", "serialNumber": "38", "name": "Hallucination", "type": "Mind Spell", "energyCost": "2", "image": "/images/healer_cards_page_3.png", "spriteLeft": "-547px", "spriteTop": "-160px", "spriteWidth": "160px", "spriteHeight": "235px" },
+        { "characterType": "HEALER", "serialNumber": "39", "name": "Heal", "type": "Healing Spell", "energyCost": "2", "image": "/images/healer_cards_page_3.png", "spriteLeft": "-748px", "spriteTop": "-160px", "spriteWidth": "160px", "spriteHeight": "235px" },
+
+        { "characterType": "HEALER", "serialNumber": "40", "name": "Healing Rain", "type": "Healing Spell", "energyCost": "0", "image": "/images/healer_cards_page_3.png", "spriteLeft": "-346px", "spriteTop": "-440px", "spriteWidth": "160px", "spriteHeight": "235px" },
+        { "characterType": "HEALER", "serialNumber": "41", "name": "Heavenly Blessing", "type": "Healing Spell", "energyCost": "7", "image": "/images/healer_cards_page_3.png", "spriteLeft": "-547px", "spriteTop": "-440px", "spriteWidth": "160px", "spriteHeight": "235px" },
+        { "characterType": "HEALER", "serialNumber": "42", "name": "Holy Aegis", "type": "Defense", "energyCost": "4", "image": "/images/healer_cards_page_3.png", "spriteLeft": "-748px", "spriteTop": "-440px", "spriteWidth": "160px", "spriteHeight": "235px" },
+
+        { "characterType": "HEALER", "serialNumber": "43", "name": "Holy Blast", "type": "Holy Spell", "energyCost": "2", "image": "/images/healer_cards_page_3.png", "spriteLeft": "-346px", "spriteTop": "-720px", "spriteWidth": "160px", "spriteHeight": "235px" },
+        { "characterType": "HEALER", "serialNumber": "44", "name": "Holy Fire", "type": "Holy Spell", "energyCost": "3", "image": "/images/healer_cards_page_3.png", "spriteLeft": "-547px", "spriteTop": "-720px", "spriteWidth": "160px", "spriteHeight": "235px" },
+        { "characterType": "HEALER", "serialNumber": "45", "name": "Holy Nova", "type": "Holy Spell", "energyCost": "2", "image": "/images/healer_cards_page_3.png", "spriteLeft": "-748px", "spriteTop": "-720px", "spriteWidth": "160px", "spriteHeight": "235px" },
+
+        { "characterType": "HEALER", "serialNumber": "46", "name": "Holy Ripple", "type": "Holy Spell", "energyCost": "3", "image": "/images/healer_cards_page_3.png", "spriteLeft": "-1029px", "spriteTop": "-160px", "spriteWidth": "160px", "spriteHeight": "235px" },
+        { "characterType": "HEALER", "serialNumber": "47", "name": "Holy Smite", "type": "Holy Spell", "energyCost": "2", "image": "/images/healer_cards_page_3.png", "spriteLeft": "-1230px", "spriteTop": "-160px", "spriteWidth": "160px", "spriteHeight": "235px" },
+        { "characterType": "HEALER", "serialNumber": "48", "name": "Holy Storm", "type": "Holy Spell", "energyCost": "4", "image": "/images/healer_cards_page_3.png", "spriteLeft": "-1431px", "spriteTop": "-160px", "spriteWidth": "160px", "spriteHeight": "235px" },
+
+        { "characterType": "HEALER", "serialNumber": "49", "name": "Infuse Courage", "type": "Defense", "energyCost": "1", "image": "/images/healer_cards_page_3.png", "spriteLeft": "-1029px", "spriteTop": "-440px", "spriteWidth": "160px", "spriteHeight": "235px" },
+        { "characterType": "HEALER", "serialNumber": "50", "name": "Inner Fire", "type": "Skill", "energyCost": "0", "image": "/images/healer_cards_page_3.png", "spriteLeft": "-1230px", "spriteTop": "-440px", "spriteWidth": "160px", "spriteHeight": "235px" },
+        { "characterType": "HEALER", "serialNumber": "51", "name": "Innervate", "type": "Skill", "energyCost": "1", "image": "/images/healer_cards_page_3.png", "spriteLeft": "-1431px", "spriteTop": "-440px", "spriteWidth": "160px", "spriteHeight": "235px" },
+
+        { "characterType": "HEALER", "serialNumber": "52", "name": "Mass Dispell", "type": "Skill", "energyCost": "3", "image": "/images/healer_cards_page_3.png", "spriteLeft": "-1029px", "spriteTop": "-720px", "spriteWidth": "160px", "spriteHeight": "235px" },
+        { "characterType": "HEALER", "serialNumber": "53", "name": "Meditate", "type": "Skill", "energyCost": "0", "image": "/images/healer_cards_page_3.png", "spriteLeft": "-1230px", "spriteTop": "-720px", "spriteWidth": "160px", "spriteHeight": "235px" },
+        { "characterType": "HEALER", "serialNumber": "54", "name": "Mental Shake", "type": "Mind Spell", "energyCost": "2", "image": "/images/healer_cards_page_3.png", "spriteLeft": "-1431px", "spriteTop": "-720px", "spriteWidth": "160px", "spriteHeight": "235px" },
+
+
+
+        { "characterType": "HEALER", "serialNumber": "55", "name": "Mesmeric Mirage", "type": "Mind Spell", "energyCost": "7", "image": "/images/healer_cards_page_4.png", "spriteLeft": "-346px", "spriteTop": "-160px", "spriteWidth": "160px", "spriteHeight": "235px" },
+        { "characterType": "HEALER", "serialNumber": "56", "name": "Mind Blast", "type": "Mind Spell", "energyCost": "1", "image": "/images/healer_cards_page_4.png", "spriteLeft": "-547px", "spriteTop": "-160px", "spriteWidth": "160px", "spriteHeight": "235px" },
+        { "characterType": "HEALER", "serialNumber": "57", "name": "Mind Twist", "type": "Mind Spell", "energyCost": "3", "image": "/images/healer_cards_page_4.png", "spriteLeft": "-748px", "spriteTop": "-160px", "spriteWidth": "160px", "spriteHeight": "235px" },
+
+        { "characterType": "HEALER", "serialNumber": "58", "name": "Mind Visions", "type": "Mind Spell", "energyCost": "2", "image": "/images/healer_cards_page_4.png", "spriteLeft": "-346px", "spriteTop": "-440px", "spriteWidth": "160px", "spriteHeight": "235px" },
+        { "characterType": "HEALER", "serialNumber": "59", "name": "Omen of Peril", "type": "Skill", "energyCost": "1", "image": "/images/healer_cards_page_4.png", "spriteLeft": "-547px", "spriteTop": "-440px", "spriteWidth": "160px", "spriteHeight": "235px" },
+        { "characterType": "HEALER", "serialNumber": "60", "name": "Pain Suppression", "type": "Defense", "energyCost": "3", "image": "/images/healer_cards_page_4.png", "spriteLeft": "-748px", "spriteTop": "-440px", "spriteWidth": "160px", "spriteHeight": "235px" },
+
+        { "characterType": "HEALER", "serialNumber": "61", "name": "Panacea", "type": "Healing Spell", "energyCost": "3", "image": "/images/healer_cards_page_4.png", "spriteLeft": "-346px", "spriteTop": "-720px", "spriteWidth": "160px", "spriteHeight": "235px" },
+        { "characterType": "HEALER", "serialNumber": "62", "name": "Pandemonium", "type": "Mind Spell", "energyCost": "5", "image": "/images/healer_cards_page_4.png", "spriteLeft": "-547px", "spriteTop": "-720px", "spriteWidth": "160px", "spriteHeight": "235px" },
+        { "characterType": "HEALER", "serialNumber": "63", "name": "Penance", "type": "Holy Spel", "energyCost": "3", "image": "/images/healer_cards_page_4.png", "spriteLeft": "-748px", "spriteTop": "-720px", "spriteWidth": "160px", "spriteHeight": "235px" },
+
+        { "characterType": "HEALER", "serialNumber": "64", "name": "Prayer of Healing", "type": "Healing Spell", "energyCost": "2", "image": "/images/healer_cards_page_4.png", "spriteLeft": "-1029px", "spriteTop": "-160px", "spriteWidth": "160px", "spriteHeight": "235px" },
+        { "characterType": "HEALER", "serialNumber": "65", "name": "Prayer of Protection", "type": "Defense", "energyCost": "2", "image": "/images/healer_cards_page_4.png", "spriteLeft": "-1230px", "spriteTop": "-160px", "spriteWidth": "160px", "spriteHeight": "235px" },
+        { "characterType": "HEALER", "serialNumber": "66", "name": "Prescription", "type": "Skill", "energyCost": "1", "image": "/images/healer_cards_page_4.png", "spriteLeft": "-1431px", "spriteTop": "-160px", "spriteWidth": "160px", "spriteHeight": "235px" },
+
+        { "characterType": "HEALER", "serialNumber": "67", "name": "Profance", "type": "Shadow Spell", "energyCost": "1", "image": "/images/healer_cards_page_4.png", "spriteLeft": "-1029px", "spriteTop": "-440px", "spriteWidth": "160px", "spriteHeight": "235px" },
+        { "characterType": "HEALER", "serialNumber": "68", "name": "Protect from Evil", "type": "Defense", "energyCost": "3", "image": "/images/healer_cards_page_4.png", "spriteLeft": "-1230px", "spriteTop": "-440px", "spriteWidth": "160px", "spriteHeight": "235px" },
+        { "characterType": "HEALER", "serialNumber": "69", "name": "Pulsing Heal", "type": "Healing Spell", "energyCost": "3", "image": "/images/healer_cards_page_4.png", "spriteLeft": "-1431px", "spriteTop": "-440px", "spriteWidth": "160px", "spriteHeight": "235px" },
+
+        { "characterType": "HEALER", "serialNumber": "70", "name": "Purging Ray", "type": "Holy Spell", "energyCost": "3", "image": "/images/healer_cards_page_4.png", "spriteLeft": "-1029px", "spriteTop": "-720px", "spriteWidth": "160px", "spriteHeight": "235px" },
+        { "characterType": "HEALER", "serialNumber": "71", "name": "Radiant Assault", "type": "Holy Spell", "energyCost": "5", "image": "/images/healer_cards_page_4.png", "spriteLeft": "-1230px", "spriteTop": "-720px", "spriteWidth": "160px", "spriteHeight": "235px" },
+        { "characterType": "HEALER", "serialNumber": "72", "name": "Ray of Hope", "type": "Healing Spell", "energyCost": "2", "image": "/images/healer_cards_page_4.png", "spriteLeft": "-1431px", "spriteTop": "-720px", "spriteWidth": "160px", "spriteHeight": "235px" },
+
+        
+
+        { "characterType": "HEALER", "serialNumber": "73", "name": "Renew", "type": "Healing Spell", "energyCost": "2", "image": "/images/healer_cards_page_5.png", "spriteLeft": "-346px", "spriteTop": "-160px", "spriteWidth": "160px", "spriteHeight": "235px" },
+        { "characterType": "HEALER", "serialNumber": "74", "name": "Ruin Bolt", "type": "Shadow Spell", "energyCost": "3", "image": "/images/healer_cards_page_5.png", "spriteLeft": "-547px", "spriteTop": "-160px", "spriteWidth": "160px", "spriteHeight": "235px" },
+        { "characterType": "HEALER", "serialNumber": "75", "name": "Sacred Bolt", "type": "Holy Spell", "energyCost": "2", "image": "/images/healer_cards_page_5.png", "spriteLeft": "-748px", "spriteTop": "-160px", "spriteWidth": "160px", "spriteHeight": "235px" },
+
+        { "characterType": "HEALER", "serialNumber": "76", "name": "Sacred Ceremony", "type": "Healing Spell", "energyCost": "5", "image": "/images/healer_cards_page_5.png", "spriteLeft": "-346px", "spriteTop": "-440px", "spriteWidth": "160px", "spriteHeight": "235px" },
+        { "characterType": "HEALER", "serialNumber": "77", "name": "Sanctification", "type": "N/A", "energyCost": "-1", "image": "/images/healer_cards_page_5.png", "spriteLeft": "-547px", "spriteTop": "-440px", "spriteWidth": "160px", "spriteHeight": "235px" },
+        { "characterType": "HEALER", "serialNumber": "78", "name": "Sanctuary", "type": "Defense", "energyCost": "5", "image": "/images/healer_cards_page_5.png", "spriteLeft": "-748px", "spriteTop": "-440px", "spriteWidth": "160px", "spriteHeight": "235px" },
+
+        { "characterType": "HEALER", "serialNumber": "79", "name": "Save It for Later", "type": "Defense", "energyCost": "1", "image": "/images/healer_cards_page_5.png", "spriteLeft": "-346px", "spriteTop": "-720px", "spriteWidth": "160px", "spriteHeight": "235px" },
+        { "characterType": "HEALER", "serialNumber": "80", "name": "Scry", "type": "Skill", "energyCost": "0", "image": "/images/healer_cards_page_5.png", "spriteLeft": "-547px", "spriteTop": "-720px", "spriteWidth": "160px", "spriteHeight": "235px" },
+        { "characterType": "HEALER", "serialNumber": "81", "name": "Shadow Mend", "type": "Healing Spell", "energyCost": "", "image": "/images/healer_cards_page_5.png", "spriteLeft": "-748px", "spriteTop": "-720px", "spriteWidth": "160px", "spriteHeight": "235px" },
+
+        { "characterType": "HEALER", "serialNumber": "82", "name": "Shield of Warding", "type": "Defense", "energyCost": "2", "image": "/images/healer_cards_page_5.png", "spriteLeft": "-1029px", "spriteTop": "-160px", "spriteWidth": "160px", "spriteHeight": "235px" },
+        { "characterType": "HEALER", "serialNumber": "83", "name": "Shining Force", "type": "Holy Spell", "energyCost": "3", "image": "/images/healer_cards_page_5.png", "spriteLeft": "-1230px", "spriteTop": "-160px", "spriteWidth": "160px", "spriteHeight": "235px" },
+        { "characterType": "HEALER", "serialNumber": "84", "name": "Spark of Life", "type": "Healing Spell", "energyCost": "3", "image": "/images/healer_cards_page_5.png", "spriteLeft": "-1431px", "spriteTop": "-160px", "spriteWidth": "160px", "spriteHeight": "235px" },
+
+        { "characterType": "HEALER", "serialNumber": "85", "name": "Spectral Missiles", "type": "Mind Spell", "energyCost": "2", "image": "/images/healer_cards_page_5.png", "spriteLeft": "-1029px", "spriteTop": "-440px", "spriteWidth": "160px", "spriteHeight": "235px" },
+        { "characterType": "HEALER", "serialNumber": "86", "name": "Sunbeam", "type": "Holy Spell", "energyCost": "1", "image": "/images/healer_cards_page_5.png", "spriteLeft": "-1230px", "spriteTop": "-440px", "spriteWidth": "160px", "spriteHeight": "235px" },
+        { "characterType": "HEALER", "serialNumber": "87", "name": "Tabula Rasa", "type": "Skill", "energyCost": "2", "image": "/images/healer_cards_page_5.png", "spriteLeft": "-1431px", "spriteTop": "-440px", "spriteWidth": "160px", "spriteHeight": "235px" },
+
+        { "characterType": "HEALER", "serialNumber": "88", "name": "Temporal Chains", "type": "Mind Spell", "energyCost": "3", "image": "/images/healer_cards_page_5.png", "spriteLeft": "-1029px", "spriteTop": "-720px", "spriteWidth": "160px", "spriteHeight": "235px" },
+        { "characterType": "HEALER", "serialNumber": "89", "name": "Terrorize", "type": "Mind Spell", "energyCost": "4", "image": "/images/healer_cards_page_5.png", "spriteLeft": "-1230px", "spriteTop": "-720px", "spriteWidth": "160px", "spriteHeight": "235px" },
+        { "characterType": "HEALER", "serialNumber": "90", "name": "Unholy Storm", "type": "Shadow Spell", "energyCost": "4", "image": "/images/healer_cards_page_5.png", "spriteLeft": "-1431px", "spriteTop": "-720px", "spriteWidth": "160px", "spriteHeight": "235px" },
+        
+        
+
+        { "characterType": "HEALER", "serialNumber": "91", "name": "Vampiric Touch", "type": "Shadow Spell", "energyCost": "1", "image": "/images/healer_cards_page_6.png", "spriteLeft": "-346px", "spriteTop": "-160px", "spriteWidth": "160px", "spriteHeight": "235px" },
+        { "characterType": "HEALER", "serialNumber": "92", "name": "Vile Gas", "type": "Shadow Spell", "energyCost": "2", "image": "/images/healer_cards_page_6.png", "spriteLeft": "-547px", "spriteTop": "-160px", "spriteWidth": "160px", "spriteHeight": "235px" },
+        { "characterType": "HEALER", "serialNumber": "93", "name": "Vile Lance", "type": "Shadow Spell", "energyCost": "2", "image": "/images/healer_cards_page_6.png", "spriteLeft": "-748px", "spriteTop": "-160px", "spriteWidth": "160px", "spriteHeight": "235px" },
+
+        { "characterType": "HEALER", "serialNumber": "94", "name": "Vitalize", "type": "Healing Spell", "energyCost": "2", "image": "/images/healer_cards_page_6.png", "spriteLeft": "-346px", "spriteTop": "-440px", "spriteWidth": "160px", "spriteHeight": "235px" },
+        { "characterType": "HEALER", "serialNumber": "95", "name": "Yin Yang Bolt", "type": "Holy Spell", "energyCost": "3", "image": "/images/healer_cards_page_6.png", "spriteLeft": "-547px", "spriteTop": "-440px", "spriteWidth": "160px", "spriteHeight": "235px" }
     ]
 }
