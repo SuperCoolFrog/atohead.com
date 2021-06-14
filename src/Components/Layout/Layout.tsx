@@ -2,6 +2,7 @@ import React from 'react';
 import { Nav, Navbar, NavDropdown } from 'react-bootstrap';
 import styles from './layout.module.scss';
 import { LinkContainer } from 'react-router-bootstrap'
+import classNames from 'classnames';
 
 interface LayoutProps {
     children: React.ReactNode;
@@ -20,6 +21,9 @@ const Layout = ({ children }: LayoutProps) => {
                     <Nav>
                         <LinkContainer to="/home">
                             <Nav.Link>Home</Nav.Link>
+                        </LinkContainer>
+                        <LinkContainer to="/collection">
+                            <Nav.Link>Collection</Nav.Link>
                         </LinkContainer>
                         <NavDropdown title="Deck Builder Tool" id="basic-nav-dropdown">
                             <LinkContainer to="/deck-builder/warrior">
@@ -42,7 +46,7 @@ const Layout = ({ children }: LayoutProps) => {
         <main role="main">
             {children}
         </main>
-        <footer className="container fixed-bottom">
+        <footer className={classNames("container fixed-bottom", styles.footer)}>
             <hr />
             <p>I do not own <a href="https://acrosstheobelisk.com/"><i>Across the Obelisk</i></a> ... I just like playing the game.</p>
         </footer>
