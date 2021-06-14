@@ -7,6 +7,7 @@ import { Col, Container, Row } from 'react-bootstrap';
 import styles from './deck-builder-tool.module.scss';
 import Deck from '../../Models/Deck';
 import { saveDeck } from '../../API/API';
+import CardFilter from '../CardFilter/CardFilter';
 
 interface DeckBuilderToolProps {
     deck: Deck;
@@ -24,12 +25,16 @@ function toTitleCase(str: string) {
 const DeckBuilderTool = ({ deck }: DeckBuilderToolProps) => {
     const [cards, setCards] = useState<GameCardModel[]>([]);
     const [currentDeck, setCurrentDeck] = useState(deck);
+    const [filteredCards, setFilteredCards] = useState<GameCardModel[]>([]);
   
     useEffect(() => {
         getCards().then((cards) => {
-            setCards(cards.filter((card) => {
+            const characterTypeCards = cards.filter((card) => {
                 return card.characterType === deck.characterType;
-            }));
+            });
+            
+            setCards(characterTypeCards);
+            setFilteredCards(characterTypeCards);
         });
     }, [deck]);
     
@@ -85,7 +90,12 @@ const DeckBuilderTool = ({ deck }: DeckBuilderToolProps) => {
         <hr />
         <Row>
             <Col md={6}>
-                <h3>Deck</h3>
+                <Row>
+                    <Col>
+                        <h3>Deck</h3>
+                    </Col>
+                </Row>
+                <hr />
                 <Container className={styles.deckContainer}>
                     <Row>
                         {currentDeck.cards.map((card) => (
@@ -97,11 +107,19 @@ const DeckBuilderTool = ({ deck }: DeckBuilderToolProps) => {
                 </Container>
             </Col>
             <Col md={6} className={styles.rightContainer}>
-                <h3>Collection</h3>
+                <Row>
+                    <Col>
+                        <h3>Collection</h3>
+                    </Col>
+                    <Col>
+                        <CardFilter cards={cards} onCardsChange={(_filteredCards) => { setFilteredCards(_filteredCards); }} />
+                    </Col>
+                </Row>
+                <hr />
                 <Container className={styles.collectionContainer}>
                     <Row>
-                        {cards.map((card) => (
-                            <Col md={4} className={styles.cardContainer}>
+                        {filteredCards.map((card) => (
+                            <Col md={4} className={styles.cardContainer} key={card.characterType + card.serialNumber}>
                                 <GameCard card={card} onClick={addCardToDeck} />
                             </Col>
                         ))}
