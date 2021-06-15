@@ -1,0 +1,22 @@
+.container {
+    height: 117px;
+    width: 80px;
+}
+
+.gameCard {
+    border-radius: 12px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-repeat: contain;
+    transform:scale(0.5);
+    transform-origin: top left;
+}
+
+.cardName {
+    font-weight: 700;
+    background-color: darkslategrey;
+    color: white;
+    text-align: center;
+    opacity: .75;
+}

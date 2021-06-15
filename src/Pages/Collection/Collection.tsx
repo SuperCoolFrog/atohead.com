@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from 'react';
 import { Col, Container, Row } from 'react-bootstrap';
 import { getCards } from '../../API/API';
-import GameCard from '../../Components/GameCard/GameCard';
+import GameCard from '../../Components/SmallGameCard/SmallGameCard';
 import { default as GameCardModel } from '../../Models/GameCard';
 import CharacterType from '../../Models/CharacterType.enum';
 import styles from './collection.module.scss';
