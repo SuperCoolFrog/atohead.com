@@ -3,6 +3,7 @@ import { Col, Container, Jumbotron, Row } from 'react-bootstrap';
 import './Home.scss';
 import CharacterTypeSymbol from '../../Components/CharacterTypeSymbol/CharacterTypeSymbol';
 import CharacterType from '../../Models/CharacterType.enum';
+import Emoji from '../../Components/Emoji/Emoji';
 import { Link } from 'react-router-dom';
 import styles from './home.module.scss';
 
@@ -12,7 +13,7 @@ const App = () => {
       <Container>
         <h1>Across the Obelisk - Tools and Guides</h1>
         <p>
-          This site is a <em>Work in Progress</em>.  I wanted a way to share deck builds with my friend who got me into the game.  After searching online,
+          This site is a <em>Work in Progress</em><Emoji symbol="🚧" label="construction" />.  I wanted a way to share deck builds with my friend who got me into the game.  After searching online,
           I realized the game was too new to have something like this, so I created my own.  Feel free to use it.
         </p>
         <p>
@@ -20,8 +21,13 @@ const App = () => {
         </p>
         <p>
           gghf,<br />
-          Michael Vasquez
+          <Emoji symbol="🤓" label="nerd face"/>Michael Vasquez
         </p>
+        <hr />
+        <p>
+          <em>Special Thanks</em> to <Emoji symbol="🧠" label="brain"/><u>Tyler Smith</u> for unlocking all the cards so we have the images available
+          (not to mention introducing me to the game).
+        </p> 
       </Container>
     </Jumbotron>
     <Container>
