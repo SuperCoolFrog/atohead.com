@@ -1,16 +1,15 @@
 import React, { useEffect, useRef, useState } from 'react';
-import { Col, Container, Row } from 'react-bootstrap';
+import { Col, Container, Row, Tab, Tabs } from 'react-bootstrap';
 import { getCards } from '../../API/API';
 import GameCard from '../../Components/SmallGameCard/SmallGameCard';
 import { default as GameCardModel } from '../../Models/GameCard';
 import CharacterType from '../../Models/CharacterType.enum';
 import styles from './collection.module.scss';
+import CardFilter from '../../Components/CardFilter/CardFilter';
 
 const Collection = () => {
     const [cards, setCards] = useState<GameCardModel[]>([]);
     const [filteredCards, setFilteredCards] = useState<GameCardModel[]>([]);
-
-    const containerRef = useRef<HTMLDivElement>(null);
 
     useEffect(() => {
         getCards().then((cards) => {
@@ -18,45 +17,41 @@ const Collection = () => {
             setFilteredCards(cards);
         });
     }, []);
-
-    // useEffect(() => {
-    //     function setFirstClass(){
-    //         let children = containerRef?.current?.children;
-    //         let firstChild = containerRef?.current?.firstElementChild;
-    //         let leftPosition: number = -1;
-
-    //         if (!(firstChild && children)) {
-    //             return;
-    //         }
-            
-    //         leftPosition = (firstChild as HTMLDivElement).offsetLeft;
-
-    //         Object.keys(children)
-    //             .map(k => parseInt(k))
-    //             .forEach(k => {
-    //                 let ele = (containerRef?.current?.children[k] as HTMLDivElement);
-    //                 if (ele) {
-    //                     if (ele.offsetLeft <= leftPosition){
-    //                         ele.classList.add('firstColumn');
-    //                     } else {
-    //                         ele.classList.remove('firstColumn');
-    //                     }
-    //                 }
-    //             });
-    //     }
-    //     window.addEventListener('resize', setFirstClass);
-    //     setFirstClass();
-    // }, []);
     
-    return (<Container>
-        <h2>Warrior</h2>
-        <div id="collectionCardContainer" className={styles.collectionRow} ref={containerRef}>
-            {filteredCards.filter(c => c.characterType === CharacterType.WARRIOR).map((card) => (
-                // <div className={styles.cardContainer} key={card.characterType + card.serialNumber}>
-                    <GameCard card={card} key={card.characterType + card.serialNumber} />
-                // </div>
-            ))}
+    return (<Container className={styles.container}>
+        <div className={styles.filterContainer}>
+            <CardFilter cards={cards} onCardsChange={(_filteredCards) => { setFilteredCards(_filteredCards); }} />
         </div>
+        <Tabs defaultActiveKey="warrior" id="uncontrolled-tab-example">
+            <Tab eventKey="warrior" title="Warrior">
+                <div className={styles.collectionRow}>
+                    {filteredCards.filter(c => c.characterType === CharacterType.WARRIOR).map((card) => (
+                        <GameCard card={card} key={card.characterType + card.serialNumber} />
+                    ))}
+                </div>
+            </Tab>
+            <Tab eventKey="scout" title="Scout">
+                <div className={styles.collectionRow}>
+                    {filteredCards.filter(c => c.characterType === CharacterType.SCOUT).map((card) => (
+                        <GameCard card={card} key={card.characterType + card.serialNumber} />
+                    ))}
+                </div>
+            </Tab>
+            <Tab eventKey="mage" title="Mage">
+                <div className={styles.collectionRow}>
+                    {filteredCards.filter(c => c.characterType === CharacterType.MAGE).map((card) => (
+                        <GameCard card={card} key={card.characterType + card.serialNumber} />
+                    ))}
+                </div>
+            </Tab>
+            <Tab eventKey="healer" title="Healer">
+                <div className={styles.collectionRow}>
+                    {filteredCards.filter(c => c.characterType === CharacterType.HEALER).map((card) => (
+                        <GameCard card={card} key={card.characterType + card.serialNumber} />
+                    ))}
+                </div>
+            </Tab>
+        </Tabs>
         {/* <Row>
             {filteredCards.filter(c => c.characterType === CharacterType.WARRIOR).map((card) => (
                 <Col className={styles.cardContainer} key={card.characterType + card.serialNumber}>

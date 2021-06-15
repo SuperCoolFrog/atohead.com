@@ -1,12 +1,22 @@
+.container {
+    padding-top: 1em;
+}
+
 .collectionRow {
     display: flex;
     flex-wrap: wrap;
 
     padding-left: 75px;
-    padding-top: 100px;
+    padding-top: 125px;
 
     & > * {
         margin-left: -75px;
         margin-top: -100px;
     }
+}
+
+.filterContainer {
+    width: 300px;
+    position: absolute;
+    right: 115px;
 }
