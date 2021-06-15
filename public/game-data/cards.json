@@ -8,7 +8,7 @@
         { "characterType": "WARRIOR", "serialNumber": "5", "name": "Battle Shout", "type": "Skill", "energyCost": "3", "image": "/images/warrior_cards_page_1.png", "spriteLeft": "-547px", "spriteTop": "-440px", "spriteWidth": "160px", "spriteHeight": "235px" },
         { "characterType": "WARRIOR", "serialNumber": "6", "name": "Blade Storm", "type": "Melee Attack", "energyCost": "3", "image": "/images/warrior_cards_page_1.png", "spriteLeft": "-748px", "spriteTop": "-440px", "spriteWidth": "160px", "spriteHeight": "235px" },
 
-        { "characterType": "WARRIOR", "serialNumber": "7", "name": "Bleed Out", "type": "N/A", "energyCost": "-1", "image": "/images/warrior_cards_page_1.png", "spriteLeft": "-346px", "spriteTop": "-720px", "spriteWidth": "160px", "spriteHeight": "235px" },
+        { "characterType": "WARRIOR", "serialNumber": "7", "name": "Bleed Out", "type": "Skill", "energyCost": "2", "image": "/images/warrior_cards_page_1.png", "spriteLeft": "-346px", "spriteTop": "-720px", "spriteWidth": "160px", "spriteHeight": "235px" },
         { "characterType": "WARRIOR", "serialNumber": "8", "name": "Bloodbath", "type": "Melee Attack", "energyCost": "3", "image": "/images/warrior_cards_page_1.png", "spriteLeft": "-547px", "spriteTop": "-720px", "spriteWidth": "160px", "spriteHeight": "235px" },
         { "characterType": "WARRIOR", "serialNumber": "9", "name": "Blood Feeding", "type": "Skill", "energyCost": "1", "image": "/images/warrior_cards_page_1.png", "spriteLeft": "-748px", "spriteTop": "-720px", "spriteWidth": "160px", "spriteHeight": "235px" },
 
@@ -22,13 +22,13 @@
 
         { "characterType": "WARRIOR", "serialNumber": "16", "name": "Butchering", "type": "Melee Attack", "energyCost": "3", "image": "/images/warrior_cards_page_1.png", "spriteLeft": "-1029px", "spriteTop": "-720px", "spriteWidth": "160px", "spriteHeight": "235px" },
         { "characterType": "WARRIOR", "serialNumber": "17", "name": "Carnage", "type": "Melee Attack", "energyCost": "2", "image": "/images/warrior_cards_page_1.png", "spriteLeft": "-1230px", "spriteTop": "-720px", "spriteWidth": "160px", "spriteHeight": "235px" },
-        { "characterType": "WARRIOR", "serialNumber": "18", "name": "Challenging Shout", "type": "N/A", "energyCost": "-1", "image": "/images/warrior_cards_page_1.png", "spriteLeft": "-1431px", "spriteTop": "-720px", "spriteWidth": "160px", "spriteHeight": "235px" },
+        { "characterType": "WARRIOR", "serialNumber": "18", "name": "Challenging Shout", "type": "Defense", "energyCost": "4", "image": "/images/warrior_cards_page_1.png", "spriteLeft": "-1431px", "spriteTop": "-720px", "spriteWidth": "160px", "spriteHeight": "235px" },
         
         
 
         { "characterType": "WARRIOR", "serialNumber": "19", "name": "Change Weapon", "type": "Skill", "energyCost": "1", "image": "/images/warrior_cards_page_2.png", "spriteLeft": "-346px", "spriteTop": "-160px", "spriteWidth": "160px", "spriteHeight": "235px" },
         { "characterType": "WARRIOR", "serialNumber": "20", "name": "Charge", "type": "Melee Attack", "energyCost": "2", "image": "/images/warrior_cards_page_2.png", "spriteLeft": "-547px", "spriteTop": "-160px", "spriteWidth": "160px", "spriteHeight": "235px" },
-        { "characterType": "WARRIOR", "serialNumber": "21", "name": "Citadel", "type": "N/A", "energyCost": "-1", "image": "/images/warrior_cards_page_2.png", "spriteLeft": "-748px", "spriteTop": "-160px", "spriteWidth": "160px", "spriteHeight": "235px" },
+        { "characterType": "WARRIOR", "serialNumber": "21", "name": "Citadel", "type": "Defense", "energyCost": "9", "image": "/images/warrior_cards_page_2.png", "spriteLeft": "-748px", "spriteTop": "-160px", "spriteWidth": "160px", "spriteHeight": "235px" },
 
         { "characterType": "WARRIOR", "serialNumber": "22", "name": "Cleave", "type": "Melee Attack", "energyCost": "2", "image": "/images/warrior_cards_page_2.png", "spriteLeft": "-346px", "spriteTop": "-440px", "spriteWidth": "160px", "spriteHeight": "235px" },
         { "characterType": "WARRIOR", "serialNumber": "23", "name": "Coat of Arms", "type": "Defense", "energyCost": "3", "image": "/images/warrior_cards_page_2.png", "spriteLeft": "-547px", "spriteTop": "-440px", "spriteWidth": "160px", "spriteHeight": "235px" },
@@ -36,7 +36,7 @@
 
         { "characterType": "WARRIOR", "serialNumber": "25", "name": "Defend", "type": "Defense", "energyCost": "1", "image": "/images/warrior_cards_page_2.png", "spriteLeft": "-346px", "spriteTop": "-720px", "spriteWidth": "160px", "spriteHeight": "235px" },
         { "characterType": "WARRIOR", "serialNumber": "26", "name": "Demoralizing Shout", "type": "Skill", "energyCost": "3", "image": "/images/warrior_cards_page_2.png", "spriteLeft": "-547px", "spriteTop": "-720px", "spriteWidth": "160px", "spriteHeight": "235px" },
-        { "characterType": "WARRIOR", "serialNumber": "27", "name": "Devastate", "type": "N/A", "energyCost": "-1", "image": "/images/warrior_cards_page_2.png", "spriteLeft": "-748px", "spriteTop": "-720px", "spriteWidth": "160px", "spriteHeight": "235px" },
+        { "characterType": "WARRIOR", "serialNumber": "27", "name": "Devastate", "type": "Melee Attack", "energyCost": "2", "image": "/images/warrior_cards_page_2.png", "spriteLeft": "-748px", "spriteTop": "-720px", "spriteWidth": "160px", "spriteHeight": "235px" },
 
         { "characterType": "WARRIOR", "serialNumber": "28", "name": "Do it yourself!", "type": "Defense", "energyCost": "2", "image": "/images/warrior_cards_page_2.png", "spriteLeft": "-1029px", "spriteTop": "-160px", "spriteWidth": "160px", "spriteHeight": "235px" },
         { "characterType": "WARRIOR", "serialNumber": "29", "name": "Enrage", "type": "Skill", "energyCost": "1", "image": "/images/warrior_cards_page_2.png", "spriteLeft": "-1230px", "spriteTop": "-160px", "spriteWidth": "160px", "spriteHeight": "235px" },
@@ -68,7 +68,7 @@
         { "characterType": "WARRIOR", "serialNumber": "47", "name": "Intimidate", "type": "Skill", "energyCost": "0", "image": "/images/warrior_cards_page_3.png", "spriteLeft": "-1230px", "spriteTop": "-160px", "spriteWidth": "160px", "spriteHeight": "235px" },
         { "characterType": "WARRIOR", "serialNumber": "48", "name": "Invigorating Blow", "type": "Melee Attack", "energyCost": "3", "image": "/images/warrior_cards_page_3.png", "spriteLeft": "-1431px", "spriteTop": "-160px", "spriteWidth": "160px", "spriteHeight": "235px" },
 
-        { "characterType": "WARRIOR", "serialNumber": "49", "name": "Last Stand", "type": "N/A", "energyCost": "-1", "image": "/images/warrior_cards_page_3.png", "spriteLeft": "-1029px", "spriteTop": "-440px", "spriteWidth": "160px", "spriteHeight": "235px" },
+        { "characterType": "WARRIOR", "serialNumber": "49", "name": "Last Stand", "type": "Defense", "energyCost": "4", "image": "/images/warrior_cards_page_3.png", "spriteLeft": "-1029px", "spriteTop": "-440px", "spriteWidth": "160px", "spriteHeight": "235px" },
         { "characterType": "WARRIOR", "serialNumber": "50", "name": "Leap Slam", "type": "Melee Attack", "energyCost": "3", "image": "/images/warrior_cards_page_3.png", "spriteLeft": "-1230px", "spriteTop": "-440px", "spriteWidth": "160px", "spriteHeight": "235px" },
         { "characterType": "WARRIOR", "serialNumber": "51", "name": "Maim", "type": "Melee Attack", "energyCost": "3", "image": "/images/warrior_cards_page_3.png", "spriteLeft": "-1431px", "spriteTop": "-440px", "spriteWidth": "160px", "spriteHeight": "235px" },
 
@@ -146,11 +146,11 @@
 
         { "characterType": "SCOUT", "serialNumber": "7", "name": "Annoying Whistle", "type": "Song", "energyCost": "2", "image": "/images/scout_cards_page_1.png", "spriteLeft": "-346px", "spriteTop": "-720px", "spriteWidth": "160px", "spriteHeight": "235px" },
         { "characterType": "SCOUT", "serialNumber": "8", "name": "Backstab", "type": "Melee Attack", "energyCost": "3", "image": "/images/scout_cards_page_1.png", "spriteLeft": "-547px", "spriteTop": "-720px", "spriteWidth": "160px", "spriteHeight": "235px" },
-        { "characterType": "SCOUT", "serialNumber": "9", "name": "Ballad of Conquest", "type": "N/A", "energyCost": "-1", "image": "/images/scout_cards_page_1.png", "spriteLeft": "-748px", "spriteTop": "-720px", "spriteWidth": "160px", "spriteHeight": "235px" },
+        { "characterType": "SCOUT", "serialNumber": "9", "name": "Ballad of Conquest", "type": "Song", "energyCost": "2", "image": "/images/scout_cards_page_1.png", "spriteLeft": "-748px", "spriteTop": "-720px", "spriteWidth": "160px", "spriteHeight": "235px" },
 
         { "characterType": "SCOUT", "serialNumber": "10", "name": "Ballad of Evasion", "type": "Song", "energyCost": "2", "image": "/images/scout_cards_page_1.png", "spriteLeft": "-1029px", "spriteTop": "-160px", "spriteWidth": "160px", "spriteHeight": "235px" },
         { "characterType": "SCOUT", "serialNumber": "11", "name": "Bane", "type": "Melee Attack", "energyCost": "2", "image": "/images/scout_cards_page_1.png", "spriteLeft": "-1230px", "spriteTop": "-160px", "spriteWidth": "160px", "spriteHeight": "235px" },
-        { "characterType": "SCOUT", "serialNumber": "12", "name": "Barrage", "type": "N/A", "energyCost": "-1", "image": "/images/scout_cards_page_1.png", "spriteLeft": "-1431px", "spriteTop": "-160px", "spriteWidth": "160px", "spriteHeight": "235px" },
+        { "characterType": "SCOUT", "serialNumber": "12", "name": "Barrage", "type": "Ranged Attack", "energyCost": "5", "image": "/images/scout_cards_page_1.png", "spriteLeft": "-1431px", "spriteTop": "-160px", "spriteWidth": "160px", "spriteHeight": "235px" },
 
         { "characterType": "SCOUT", "serialNumber": "13", "name": "Blade Dance", "type": "Melee Attack", "energyCost": "4", "image": "/images/scout_cards_page_1.png", "spriteLeft": "-1029px", "spriteTop": "-440px", "spriteWidth": "160px", "spriteHeight": "235px" },
         { "characterType": "SCOUT", "serialNumber": "14", "name": "Blade Flurry", "type": "Melee Attack", "energyCost": "3", "image": "/images/scout_cards_page_1.png", "spriteLeft": "-1230px", "spriteTop": "-440px", "spriteWidth": "160px", "spriteHeight": "235px" },
@@ -166,19 +166,19 @@
         { "characterType": "SCOUT", "serialNumber": "20", "name": "Chant of Accuracy", "type": "Song", "energyCost": "1", "image": "/images/scout_cards_page_2.png", "spriteLeft": "-547px", "spriteTop": "-160px", "spriteWidth": "160px", "spriteHeight": "235px" },
         { "characterType": "SCOUT", "serialNumber": "21", "name": "Chant of Initiative", "type": "Song", "energyCost": "1", "image": "/images/scout_cards_page_2.png", "spriteLeft": "-748px", "spriteTop": "-160px", "spriteWidth": "160px", "spriteHeight": "235px" },
 
-        { "characterType": "SCOUT", "serialNumber": "22", "name": "Corrupted Blade", "type": "N/A", "energyCost": "-1", "image": "/images/scout_cards_page_2.png", "spriteLeft": "-346px", "spriteTop": "-440px", "spriteWidth": "160px", "spriteHeight": "235px" },
+        { "characterType": "SCOUT", "serialNumber": "22", "name": "Corrupted Blade", "type": "Small Weapon", "energyCost": "4", "image": "/images/scout_cards_page_2.png", "spriteLeft": "-346px", "spriteTop": "-440px", "spriteWidth": "160px", "spriteHeight": "235px" },
         { "characterType": "SCOUT", "serialNumber": "23", "name": "Debilitate", "type": "Melee Attack", "energyCost": "3", "image": "/images/scout_cards_page_2.png", "spriteLeft": "-547px", "spriteTop": "-440px", "spriteWidth": "160px", "spriteHeight": "235px" },
         { "characterType": "SCOUT", "serialNumber": "24", "name": "Deflect", "type": "Skill", "energyCost": "0", "image": "/images/scout_cards_page_2.png", "spriteLeft": "-748px", "spriteTop": "-440px", "spriteWidth": "160px", "spriteHeight": "235px" },
 
         { "characterType": "SCOUT", "serialNumber": "25", "name": "Detection", "type": "Skill", "energyCost": "1", "image": "/images/scout_cards_page_2.png", "spriteLeft": "-346px", "spriteTop": "-720px", "spriteWidth": "160px", "spriteHeight": "235px" },
         { "characterType": "SCOUT", "serialNumber": "26", "name": "Disengage", "type": "Skill", "energyCost": "2", "image": "/images/scout_cards_page_2.png", "spriteLeft": "-547px", "spriteTop": "-720px", "spriteWidth": "160px", "spriteHeight": "235px" },
-        { "characterType": "SCOUT", "serialNumber": "27", "name": "Double Strike", "type": "N/A", "energyCost": "-1", "image": "/images/scout_cards_page_2.png", "spriteLeft": "-748px", "spriteTop": "-720px", "spriteWidth": "160px", "spriteHeight": "235px" },
+        { "characterType": "SCOUT", "serialNumber": "27", "name": "Double Strike", "type": "Melee Attack", "energyCost": "2", "image": "/images/scout_cards_page_2.png", "spriteLeft": "-748px", "spriteTop": "-720px", "spriteWidth": "160px", "spriteHeight": "235px" },
 
         { "characterType": "SCOUT", "serialNumber": "28", "name": "Dual Strike", "type": "Melee Attack", "energyCost": "2", "image": "/images/scout_cards_page_2.png", "spriteLeft": "-1029px", "spriteTop": "-160px", "spriteWidth": "160px", "spriteHeight": "235px" },
-        { "characterType": "SCOUT", "serialNumber": "29", "name": "Energizing Serenade", "type": "N/A", "energyCost": "-1", "image": "/images/scout_cards_page_2.png", "spriteLeft": "-1230px", "spriteTop": "-160px", "spriteWidth": "160px", "spriteHeight": "235px" },
+        { "characterType": "SCOUT", "serialNumber": "29", "name": "Energizing Serenade", "type": "Song", "energyCost": "3", "image": "/images/scout_cards_page_2.png", "spriteLeft": "-1230px", "spriteTop": "-160px", "spriteWidth": "160px", "spriteHeight": "235px" },
         { "characterType": "SCOUT", "serialNumber": "30", "name": "Eternal Lullaby", "type": "Song", "energyCost": "5", "image": "/images/scout_cards_page_2.png", "spriteLeft": "-1431px", "spriteTop": "-160px", "spriteWidth": "160px", "spriteHeight": "235px" },
 
-        { "characterType": "SCOUT", "serialNumber": "31", "name": "Eviscerate", "type": "N/A", "energyCost": "-1", "image": "/images/scout_cards_page_2.png", "spriteLeft": "-1029px", "spriteTop": "-440px", "spriteWidth": "160px", "spriteHeight": "235px" },
+        { "characterType": "SCOUT", "serialNumber": "31", "name": "Eviscerate", "type": "Melee Attack", "energyCost": "7", "image": "/images/scout_cards_page_2.png", "spriteLeft": "-1029px", "spriteTop": "-440px", "spriteWidth": "160px", "spriteHeight": "235px" },
         { "characterType": "SCOUT", "serialNumber": "32", "name": "Explosive Shot", "type": "Ranged Attack", "energyCost": "4", "image": "/images/scout_cards_page_2.png", "spriteLeft": "-1230px", "spriteTop": "-440px", "spriteWidth": "160px", "spriteHeight": "235px" },
         { "characterType": "SCOUT", "serialNumber": "33", "name": "Expose Armor", "type": "Melee Attack", "energyCost": "3", "image": "/images/scout_cards_page_2.png", "spriteLeft": "-1431px", "spriteTop": "-440px", "spriteWidth": "160px", "spriteHeight": "235px" },
 
@@ -188,7 +188,7 @@
 
         
 
-        { "characterType": "SCOUT", "serialNumber": "37", "name": "Find Weakness", "type": "N/A", "energyCost": "-1", "image": "/images/scout_cards_page_3.png", "spriteLeft": "-346px", "spriteTop": "-160px", "spriteWidth": "160px", "spriteHeight": "235px" },
+        { "characterType": "SCOUT", "serialNumber": "37", "name": "Find Weakness", "type": "Skill", "energyCost": "1", "image": "/images/scout_cards_page_3.png", "spriteLeft": "-346px", "spriteTop": "-160px", "spriteWidth": "160px", "spriteHeight": "235px" },
         { "characterType": "SCOUT", "serialNumber": "38", "name": "Healing Serenade", "type": "Song", "energyCost": "2", "image": "/images/scout_cards_page_3.png", "spriteLeft": "-547px", "spriteTop": "-160px", "spriteWidth": "160px", "spriteHeight": "235px" },
         { "characterType": "SCOUT", "serialNumber": "39", "name": "Hidden Weapon", "type": "Skill", "energyCost": "0", "image": "/images/scout_cards_page_3.png", "spriteLeft": "-748px", "spriteTop": "-160px", "spriteWidth": "160px", "spriteHeight": "235px" },
 
@@ -196,8 +196,8 @@
         { "characterType": "SCOUT", "serialNumber": "41", "name": "Hunter's Mark", "type": "Skill", "energyCost": "1", "image": "/images/scout_cards_page_3.png", "spriteLeft": "-547px", "spriteTop": "-440px", "spriteWidth": "160px", "spriteHeight": "235px" },
         { "characterType": "SCOUT", "serialNumber": "42", "name": "Ice Shot", "type": "Ranged Attack", "energyCost": "3", "image": "/images/scout_cards_page_3.png", "spriteLeft": "-748px", "spriteTop": "-440px", "spriteWidth": "160px", "spriteHeight": "235px" },
 
-        { "characterType": "SCOUT", "serialNumber": "43", "name": "Last Requiem", "type": "N/A", "energyCost": "-1", "image": "/images/scout_cards_page_3.png", "spriteLeft": "-346px", "spriteTop": "-720px", "spriteWidth": "160px", "spriteHeight": "235px" },
-        { "characterType": "SCOUT", "serialNumber": "44", "name": "Last Reward", "type": "N/A", "energyCost": "-1", "image": "/images/scout_cards_page_3.png", "spriteLeft": "-547px", "spriteTop": "-720px", "spriteWidth": "160px", "spriteHeight": "235px" },
+        { "characterType": "SCOUT", "serialNumber": "43", "name": "Last Requiem", "type": "Song", "energyCost": "8", "image": "/images/scout_cards_page_3.png", "spriteLeft": "-346px", "spriteTop": "-720px", "spriteWidth": "160px", "spriteHeight": "235px" },
+        { "characterType": "SCOUT", "serialNumber": "44", "name": "Last Reward", "type": "Skill", "energyCost": "2", "image": "/images/scout_cards_page_3.png", "spriteLeft": "-547px", "spriteTop": "-720px", "spriteWidth": "160px", "spriteHeight": "235px" },
         { "characterType": "SCOUT", "serialNumber": "45", "name": "Lethal Shot", "type": "Ranged Attack", "energyCost": "4", "image": "/images/scout_cards_page_3.png", "spriteLeft": "-748px", "spriteTop": "-720px", "spriteWidth": "160px", "spriteHeight": "235px" },
 
         { "characterType": "SCOUT", "serialNumber": "46", "name": "Multishot", "type": "Ranged Attack", "energyCost": "2", "image": "/images/scout_cards_page_3.png", "spriteLeft": "-1029px", "spriteTop": "-160px", "spriteWidth": "160px", "spriteHeight": "235px" },
@@ -248,7 +248,7 @@
         { "characterType": "SCOUT", "serialNumber": "77", "name": "Sneak Peek", "type": "Skill", "energyCost": "0", "image": "/images/scout_cards_page_5.png", "spriteLeft": "-547px", "spriteTop": "-440px", "spriteWidth": "160px", "spriteHeight": "235px" },
         { "characterType": "SCOUT", "serialNumber": "78", "name": "Sneaky Strike", "type": "Melee Attack", "energyCost": "2", "image": "/images/scout_cards_page_5.png", "spriteLeft": "-748px", "spriteTop": "-440px", "spriteWidth": "160px", "spriteHeight": "235px" },
 
-        { "characterType": "SCOUT", "serialNumber": "79", "name": "Sniper Shot", "type": "N/A", "energyCost": "-1", "image": "/images/scout_cards_page_5.png", "spriteLeft": "-346px", "spriteTop": "-720px", "spriteWidth": "160px", "spriteHeight": "235px" },
+        { "characterType": "SCOUT", "serialNumber": "79", "name": "Sniper Shot", "type": "Ranged Attack", "energyCost": "4", "image": "/images/scout_cards_page_5.png", "spriteLeft": "-346px", "spriteTop": "-720px", "spriteWidth": "160px", "spriteHeight": "235px" },
         { "characterType": "SCOUT", "serialNumber": "80", "name": "Song of Celerity", "type": "Song", "energyCost": "1", "image": "/images/scout_cards_page_5.png", "spriteLeft": "-547px", "spriteTop": "-720px", "spriteWidth": "160px", "spriteHeight": "235px" },
         { "characterType": "SCOUT", "serialNumber": "81", "name": "Song of Quickness", "type": "Song", "energyCost": "2", "image": "/images/scout_cards_page_5.png", "spriteLeft": "-748px", "spriteTop": "-720px", "spriteWidth": "160px", "spriteHeight": "235px" },
 
@@ -267,7 +267,7 @@
         
 
         { "characterType": "SCOUT", "serialNumber": "91", "name": "Vanish", "type": "Skill", "energyCost": "0", "image": "/images/scout_cards_page_6.png", "spriteLeft": "-346px", "spriteTop": "-160px", "spriteWidth": "160px", "spriteHeight": "235px" },
-        { "characterType": "SCOUT", "serialNumber": "92", "name": "Vexing Crescendo", "type": "N/A", "energyCost": "-1", "image": "/images/scout_cards_page_6.png", "spriteLeft": "-547px", "spriteTop": "-160px", "spriteWidth": "160px", "spriteHeight": "235px" },
+        { "characterType": "SCOUT", "serialNumber": "92", "name": "Vexing Crescendo", "type": "Song", "energyCost": "2", "image": "/images/scout_cards_page_6.png", "spriteLeft": "-547px", "spriteTop": "-160px", "spriteWidth": "160px", "spriteHeight": "235px" },
         { "characterType": "SCOUT", "serialNumber": "93", "name": "Vigilance", "type": "Skill", "energyCost": "1", "image": "/images/scout_cards_page_6.png", "spriteLeft": "-748px", "spriteTop": "-160px", "spriteWidth": "160px", "spriteHeight": "235px" },
 
         { "characterType": "SCOUT", "serialNumber": "94", "name": "Viper Strike", "type": "Melee Attack", "energyCost": "1", "image": "/images/scout_cards_page_6.png", "spriteLeft": "-346px", "spriteTop": "-440px", "spriteWidth": "160px", "spriteHeight": "235px" },
@@ -295,7 +295,7 @@
         { "characterType": "MAGE", "serialNumber": "9", "name": "Cold Snap", "type": "Cold Spell", "energyCost": "1", "image": "/images/mage_cards_page_1.png", "spriteLeft": "-748px", "spriteTop": "-720px", "spriteWidth": "160px", "spriteHeight": "235px" },
 
         { "characterType": "MAGE", "serialNumber": "10", "name": "Combustion", "type": "Fire Spell", "energyCost": "3", "image": "/images/mage_cards_page_1.png", "spriteLeft": "-1029px", "spriteTop": "-160px", "spriteWidth": "160px", "spriteHeight": "235px" },
-        { "characterType": "MAGE", "serialNumber": "11", "name": "Cursenomicon", "type": "N/A", "energyCost": "-1", "image": "/images/mage_cards_page_1.png", "spriteLeft": "-1230px", "spriteTop": "-160px", "spriteWidth": "160px", "spriteHeight": "235px" },
+        { "characterType": "MAGE", "serialNumber": "11", "name": "Cursenomicon", "type": "Book", "energyCost": "2", "image": "/images/mage_cards_page_1.png", "spriteLeft": "-1230px", "spriteTop": "-160px", "spriteWidth": "160px", "spriteHeight": "235px" },
         { "characterType": "MAGE", "serialNumber": "12", "name": "Curse of Agony", "type": "Curse Spell", "energyCost": "3", "image": "/images/mage_cards_page_1.png", "spriteLeft": "-1431px", "spriteTop": "-160px", "spriteWidth": "160px", "spriteHeight": "235px" },
 
         { "characterType": "MAGE", "serialNumber": "13", "name": "Curse of Decay", "type": "Curse Spell", "energyCost": "4", "image": "/images/mage_cards_page_1.png", "spriteLeft": "-1029px", "spriteTop": "-440px", "spriteWidth": "160px", "spriteHeight": "235px" },
@@ -322,14 +322,14 @@
 
         { "characterType": "MAGE", "serialNumber": "28", "name": "Electric Discharge", "type": "Lightning Spell", "energyCost": "2", "image": "/images/mage_cards_page_2.png", "spriteLeft": "-1029px", "spriteTop": "-160px", "spriteWidth": "160px", "spriteHeight": "235px" },
         { "characterType": "MAGE", "serialNumber": "29", "name": "Electricity Manual", "type": "Book", "energyCost": "1", "image": "/images/mage_cards_page_2.png", "spriteLeft": "-1230px", "spriteTop": "-160px", "spriteWidth": "160px", "spriteHeight": "235px" },
-        { "characterType": "MAGE", "serialNumber": "30", "name": "Electrocute", "type": "N/A", "energyCost": "-1", "image": "/images/mage_cards_page_2.png", "spriteLeft": "-1431px", "spriteTop": "-160px", "spriteWidth": "160px", "spriteHeight": "235px" },
+        { "characterType": "MAGE", "serialNumber": "30", "name": "Electrocute", "type": "Lightning Spell", "energyCost": "5", "image": "/images/mage_cards_page_2.png", "spriteLeft": "-1431px", "spriteTop": "-160px", "spriteWidth": "160px", "spriteHeight": "235px" },
 
         { "characterType": "MAGE", "serialNumber": "31", "name": "Elemental Bolt", "type": "Fire Spell", "energyCost": "2", "image": "/images/mage_cards_page_2.png", "spriteLeft": "-1029px", "spriteTop": "-440px", "spriteWidth": "160px", "spriteHeight": "235px" },
         { "characterType": "MAGE", "serialNumber": "32", "name": "Elemental Ward", "type": "Skill", "energyCost": "1", "image": "/images/mage_cards_page_2.png", "spriteLeft": "-1230px", "spriteTop": "-440px", "spriteWidth": "160px", "spriteHeight": "235px" },
         { "characterType": "MAGE", "serialNumber": "33", "name": "Emberstorm", "type": "Fire Spell", "energyCost": "1", "image": "/images/mage_cards_page_2.png", "spriteLeft": "-1431px", "spriteTop": "-440px", "spriteWidth": "160px", "spriteHeight": "235px" },
 
         { "characterType": "MAGE", "serialNumber": "34", "name": "Endless Abyss", "type": "Shadow Spell", "energyCost": "6", "image": "/images/mage_cards_page_2.png", "spriteLeft": "-1029px", "spriteTop": "-720px", "spriteWidth": "160px", "spriteHeight": "235px" },
-        { "characterType": "MAGE", "serialNumber": "35", "name": "Equivalent Exchange", "type": "N/A", "energyCost": "-1", "image": "/images/mage_cards_page_2.png", "spriteLeft": "-1230px", "spriteTop": "-720px", "spriteWidth": "160px", "spriteHeight": "235px" },
+        { "characterType": "MAGE", "serialNumber": "35", "name": "Equivalent Exchange", "type": "Skill", "energyCost": "1", "image": "/images/mage_cards_page_2.png", "spriteLeft": "-1230px", "spriteTop": "-720px", "spriteWidth": "160px", "spriteHeight": "235px" },
         { "characterType": "MAGE", "serialNumber": "36", "name": "Evocation", "type": "Skill", "energyCost": "2", "image": "/images/mage_cards_page_2.png", "spriteLeft": "-1431px", "spriteTop": "-720px", "spriteWidth": "160px", "spriteHeight": "235px" },
 
         
@@ -373,10 +373,10 @@
         { "characterType": "MAGE", "serialNumber": "63", "name": "Mana Shield", "type": "Skill", "energyCost": "1", "image": "/images/mage_cards_page_4.png", "spriteLeft": "-748px", "spriteTop": "-720px", "spriteWidth": "160px", "spriteHeight": "235px" },
 
         { "characterType": "MAGE", "serialNumber": "64", "name": "Mana Surge", "type": "Skill", "energyCost": "2", "image": "/images/mage_cards_page_4.png", "spriteLeft": "-1029px", "spriteTop": "-160px", "spriteWidth": "160px", "spriteHeight": "235px" },
-        { "characterType": "MAGE", "serialNumber": "65", "name": "Mass Invisibility", "type": "N/A", "energyCost": "-1", "image": "/images/mage_cards_page_4.png", "spriteLeft": "-1230px", "spriteTop": "-160px", "spriteWidth": "160px", "spriteHeight": "235px" },
+        { "characterType": "MAGE", "serialNumber": "65", "name": "Mass Invisibility", "type": "Skill", "energyCost": "2", "image": "/images/mage_cards_page_4.png", "spriteLeft": "-1230px", "spriteTop": "-160px", "spriteWidth": "160px", "spriteHeight": "235px" },
         { "characterType": "MAGE", "serialNumber": "66", "name": "Meteorite", "type": "Fire Spell", "energyCost": "7", "image": "/images/mage_cards_page_4.png", "spriteLeft": "-1431px", "spriteTop": "-160px", "spriteWidth": "160px", "spriteHeight": "235px" },
 
-        { "characterType": "MAGE", "serialNumber": "67", "name": "Meteor Shower", "type": "N/A", "energyCost": "-1", "image": "/images/mage_cards_page_4.png", "spriteLeft": "-1029px", "spriteTop": "-440px", "spriteWidth": "160px", "spriteHeight": "235px" },
+        { "characterType": "MAGE", "serialNumber": "67", "name": "Meteor Shower", "type": "Fire Spell", "energyCost": "10", "image": "/images/mage_cards_page_4.png", "spriteLeft": "-1029px", "spriteTop": "-440px", "spriteWidth": "160px", "spriteHeight": "235px" },
         { "characterType": "MAGE", "serialNumber": "68", "name": "Mirror Images", "type": "Skill", "energyCost": "2", "image": "/images/mage_cards_page_4.png", "spriteLeft": "-1230px", "spriteTop": "-440px", "spriteWidth": "160px", "spriteHeight": "235px" },
         { "characterType": "MAGE", "serialNumber": "69", "name": "Necrotic Burst", "type": "Shadow Spell", "energyCost": "1", "image": "/images/mage_cards_page_4.png", "spriteLeft": "-1431px", "spriteTop": "-440px", "spriteWidth": "160px", "spriteHeight": "235px" },
 
@@ -402,13 +402,13 @@
         { "characterType": "MAGE", "serialNumber": "83", "name": "Searing Nova", "type": "Fire Spell", "energyCost": "2", "image": "/images/mage_cards_page_5.png", "spriteLeft": "-1230px", "spriteTop": "-160px", "spriteWidth": "160px", "spriteHeight": "235px" },
         { "characterType": "MAGE", "serialNumber": "84", "name": "Searing Touch", "type": "Fire Spell", "energyCost": "1", "image": "/images/mage_cards_page_5.png", "spriteLeft": "-1431px", "spriteTop": "-160px", "spriteWidth": "160px", "spriteHeight": "235px" },
 
-        { "characterType": "MAGE", "serialNumber": "85", "name": "Shadow Binding", "type": "N/A", "energyCost": "-1", "image": "/images/mage_cards_page_5.png", "spriteLeft": "-1029px", "spriteTop": "-440px", "spriteWidth": "160px", "spriteHeight": "235px" },
+        { "characterType": "MAGE", "serialNumber": "85", "name": "Shadow Binding", "type": "Shadow Spell", "energyCost": "3", "image": "/images/mage_cards_page_5.png", "spriteLeft": "-1029px", "spriteTop": "-440px", "spriteWidth": "160px", "spriteHeight": "235px" },
         { "characterType": "MAGE", "serialNumber": "86", "name": "Shadow Bolt", "type": "Shadow Spell", "energyCost": "2", "image": "/images/mage_cards_page_5.png", "spriteLeft": "-1230px", "spriteTop": "-440px", "spriteWidth": "160px", "spriteHeight": "235px" },
         { "characterType": "MAGE", "serialNumber": "87", "name": "Shatter", "type": "Cold Spell", "energyCost": "2", "image": "/images/mage_cards_page_5.png", "spriteLeft": "-1431px", "spriteTop": "-440px", "spriteWidth": "160px", "spriteHeight": "235px" },
 
         { "characterType": "MAGE", "serialNumber": "88", "name": "Shifting Scroll", "type": "Book", "energyCost": "0", "image": "/images/mage_cards_page_5.png", "spriteLeft": "-1029px", "spriteTop": "-720px", "spriteWidth": "160px", "spriteHeight": "235px" },
         { "characterType": "MAGE", "serialNumber": "89", "name": "Shock Nova", "type": "Lightning Spell", "energyCost": "4", "image": "/images/mage_cards_page_5.png", "spriteLeft": "-1230px", "spriteTop": "-720px", "spriteWidth": "160px", "spriteHeight": "235px" },
-        { "characterType": "MAGE", "serialNumber": "90", "name": "Siphon Life", "type": "N/A", "energyCost": "-1", "image": "/images/mage_cards_page_5.png", "spriteLeft": "-1431px", "spriteTop": "-720px", "spriteWidth": "160px", "spriteHeight": "235px" },
+        { "characterType": "MAGE", "serialNumber": "90", "name": "Siphon Life", "type": "Shadow Spell", "energyCost": "3", "image": "/images/mage_cards_page_5.png", "spriteLeft": "-1431px", "spriteTop": "-720px", "spriteWidth": "160px", "spriteHeight": "235px" },
         
         
 
@@ -420,7 +420,7 @@
         { "characterType": "MAGE", "serialNumber": "95", "name": "Transmission", "type": "Skill", "energyCost": "2", "image": "/images/mage_cards_page_6.png", "spriteLeft": "-547px", "spriteTop": "-440px", "spriteWidth": "160px", "spriteHeight": "235px" },
         { "characterType": "MAGE", "serialNumber": "96", "name": "Unstable Power", "type": "Skill", "energyCost": "0", "image": "/images/mage_cards_page_6.png", "spriteLeft": "-748px", "spriteTop": "-440px", "spriteWidth": "160px", "spriteHeight": "235px" },
 
-        { "characterType": "MAGE", "serialNumber": "97", "name": "Vampiric Tutor", "type": "N/A", "energyCost": "-1", "image": "/images/mage_cards_page_6.png", "spriteLeft": "-346px", "spriteTop": "-720px", "spriteWidth": "160px", "spriteHeight": "235px" },
+        { "characterType": "MAGE", "serialNumber": "97", "name": "Vampiric Tutor", "type": "Skill", "energyCost": "2", "image": "/images/mage_cards_page_6.png", "spriteLeft": "-346px", "spriteTop": "-720px", "spriteWidth": "160px", "spriteHeight": "235px" },
         { "characterType": "MAGE", "serialNumber": "98", "name": "Water Jet", "type": "Cold Spell", "energyCost": "1", "image": "/images/mage_cards_page_6.png", "spriteLeft": "-547px", "spriteTop": "-720px", "spriteWidth": "160px", "spriteHeight": "235px" },
         { "characterType": "MAGE", "serialNumber": "99", "name": "Winter is Coming", "type": "Cold Spell", "energyCost": "3", "image": "/images/mage_cards_page_6.png", "spriteLeft": "-748px", "spriteTop": "-720px", "spriteWidth": "160px", "spriteHeight": "235px" },
 
@@ -459,7 +459,7 @@
         
 
         { "characterType": "HEALER", "serialNumber": "19", "name": "Delay Response", "type": "Skill", "energyCost": "1", "image": "/images/healer_cards_page_2.png", "spriteLeft": "-346px", "spriteTop": "-160px", "spriteWidth": "160px", "spriteHeight": "235px" },
-        { "characterType": "HEALER", "serialNumber": "20", "name": "Demonic Tutor", "type": "N/A", "energyCost": "-1", "image": "/images/healer_cards_page_2.png", "spriteLeft": "-547px", "spriteTop": "-160px", "spriteWidth": "160px", "spriteHeight": "235px" },
+        { "characterType": "HEALER", "serialNumber": "20", "name": "Demonic Tutor", "type": "Skill", "energyCost": "2", "image": "/images/healer_cards_page_2.png", "spriteLeft": "-547px", "spriteTop": "-160px", "spriteWidth": "160px", "spriteHeight": "235px" },
         { "characterType": "HEALER", "serialNumber": "21", "name": "Desperate Prayer", "type": "Healing Spell", "energyCost": "4", "image": "/images/healer_cards_page_2.png", "spriteLeft": "-748px", "spriteTop": "-160px", "spriteWidth": "160px", "spriteHeight": "235px" },
 
         { "characterType": "HEALER", "serialNumber": "22", "name": "Detoxify", "type": "Skill", "energyCost": "0", "image": "/images/healer_cards_page_2.png", "spriteLeft": "-346px", "spriteTop": "-440px", "spriteWidth": "160px", "spriteHeight": "235px" },
@@ -541,7 +541,7 @@
         { "characterType": "HEALER", "serialNumber": "75", "name": "Sacred Bolt", "type": "Holy Spell", "energyCost": "2", "image": "/images/healer_cards_page_5.png", "spriteLeft": "-748px", "spriteTop": "-160px", "spriteWidth": "160px", "spriteHeight": "235px" },
 
         { "characterType": "HEALER", "serialNumber": "76", "name": "Sacred Ceremony", "type": "Healing Spell", "energyCost": "5", "image": "/images/healer_cards_page_5.png", "spriteLeft": "-346px", "spriteTop": "-440px", "spriteWidth": "160px", "spriteHeight": "235px" },
-        { "characterType": "HEALER", "serialNumber": "77", "name": "Sanctification", "type": "N/A", "energyCost": "-1", "image": "/images/healer_cards_page_5.png", "spriteLeft": "-547px", "spriteTop": "-440px", "spriteWidth": "160px", "spriteHeight": "235px" },
+        { "characterType": "HEALER", "serialNumber": "77", "name": "Sanctification", "type": "Holy Spell", "energyCost": "3", "image": "/images/healer_cards_page_5.png", "spriteLeft": "-547px", "spriteTop": "-440px", "spriteWidth": "160px", "spriteHeight": "235px" },
         { "characterType": "HEALER", "serialNumber": "78", "name": "Sanctuary", "type": "Defense", "energyCost": "5", "image": "/images/healer_cards_page_5.png", "spriteLeft": "-748px", "spriteTop": "-440px", "spriteWidth": "160px", "spriteHeight": "235px" },
 
         { "characterType": "HEALER", "serialNumber": "79", "name": "Save It for Later", "type": "Defense", "energyCost": "1", "image": "/images/healer_cards_page_5.png", "spriteLeft": "-346px", "spriteTop": "-720px", "spriteWidth": "160px", "spriteHeight": "235px" },
