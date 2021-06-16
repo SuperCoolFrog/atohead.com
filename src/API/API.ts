@@ -1,8 +1,11 @@
 import GameCard from '../Models/GameCard';
 import uuid from 'short-uuid';
 import Deck from '../Models/Deck';
+import GameCardUpgrade from '../Models/GameCardUpgrade';
 import CharacterType from '../Models/CharacterType.enum';
+import Upgrade from '../Models/Upgrade.enum';
 import fbAPI from './firebase-api';
+import upgradeConfig from './upgradesConfig';
 
 /** CARDS */
 
@@ -17,6 +20,8 @@ export const getCards = (): Promise<GameCard[]> => {
     return fetch('/game-data/cards.json')
     .then(response => response.json())
     .then(data => { 
+      cardsFetched = true;
+      cards = data.cards;
       return data.cards as GameCard[];
     });
 };
@@ -79,5 +84,40 @@ export function createDeck(characterType: CharacterType): Promise<Deck> {
   return Promise.resolve(nuDeck);
 };
 
-const API =  { getCards, getDeck, saveDeck };
+/** Images */
+const imageCache = {} as any;
+const upgradesCache = {} as any;
+
+export const getUpgrades = (characterType: CharacterType): Promise<GameCardUpgrade[]> => {
+    if (upgradesCache[characterType]) {
+        return Promise.resolve(upgradesCache[characterType]);
+    }
+    
+    return fetch(`/game-data/upgrades_${characterType.toLowerCase()}.json`)
+    .then(response => response.json())
+    .then(data => { 
+      const upgrades = data.upgrades;
+      upgradesCache[characterType] = upgrades;
+      return upgrades as GameCardUpgrade[];
+    });
+};
+
+export const getImage = (path: string): Promise<string> => {
+  if (imageCache[path]) {
+    Promise.resolve(imageCache[path]);
+  }
+  return fbAPI.getImage(path)
+  .then((url) => {
+    imageCache[path] = url;
+    return url;
+  });
+};
+
+export const getUpgradeImage = (characterType: CharacterType, upgrade: Upgrade) => {
+  const imagePath = `${upgradeConfig.path}/${characterType}_${upgrade}.${upgradeConfig.imageType}`;
+  
+  return getImage(imagePath);
+};
+
+const API =  { getCards, getDeck, saveDeck, getImage };
 export default API;

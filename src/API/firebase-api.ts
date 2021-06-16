@@ -1,6 +1,7 @@
 import firebase from "firebase/app";
 import "firebase/analytics";
 import "firebase/firestore";
+import "firebase/storage";
 import Deck from '../Models/Deck';
 
 var firebaseConfig = {
@@ -24,6 +25,9 @@ if (!firebase.apps.length) {
 firebase.analytics();
 firebase.firestore();
 
+const storage = firebase.storage();
+const storageRef = storage.ref();
+
 const DECK_COLL = 'decks';
 
 export const getDeck = async (id: string): Promise<Deck> => {
@@ -40,9 +44,15 @@ export const saveDeck = async (deck: Deck): Promise<Deck> => {
     });
 };
 
+export const getImage = async (path: string): Promise<string> => {
+    const imageRef = storageRef.child(path);
+    return imageRef.getDownloadURL();
+};
+
 const firebaseAPI = {
     getDeck,
     saveDeck,
+    getImage,
 };
 
 export default firebaseAPI;

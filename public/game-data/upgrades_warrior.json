@@ -1,0 +1,6 @@
+{
+    "upgrades": [
+        { "serialNumber": 1, "upgrade": 1, "energyCost": 2, "target": "Self", "vanish": true, "innate": false },
+        { "serialNumber": 1, "upgrade": 2, "energyCost": 2, "target": "Self", "vanish": false, "innate": true }
+    ]
+}
