@@ -1,6 +1,6 @@
 interface GameCard {
     characterType: string;
-    serialNumber: number;
+    serialNumber: string;
     name: string;
     type: string;
     energyCost: string;

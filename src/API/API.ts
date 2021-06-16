@@ -113,11 +113,34 @@ export const getImage = (path: string): Promise<string> => {
   });
 };
 
-export const getUpgradeImage = (characterType: CharacterType, upgrade: Upgrade) => {
-  const imagePath = `${upgradeConfig.path}/${characterType}_${upgrade}.${upgradeConfig.imageType}`;
+export const getUpgradeImage = (characterType: CharacterType, serialNumber: number) => {
+  const imagePath = `${upgradeConfig.path}/${characterType.toLowerCase()}_${serialNumber}.${upgradeConfig.imageType}`;
   
   return getImage(imagePath);
 };
 
-const API =  { getCards, getDeck, saveDeck, getImage };
+export const getCardUpgrades = async (gameCard: GameCard) => {
+    const cardUpgrades = await getUpgrades(gameCard.characterType as CharacterType);
+    const upgrades = cardUpgrades.filter((up) => up.serialNumber === parseInt(gameCard.serialNumber));
+  
+    const upgradesWithImages = upgrades.map(async (upgrade) => {
+        const image = await getUpgradeImage(gameCard.characterType as CharacterType, parseInt(gameCard.serialNumber));
+      
+        const config = (upgradeConfig as any)[upgrade.upgrade];
+      
+        return {
+          ...gameCard,
+          image,
+          energyCost: upgrade.energyCost.toString(),
+          spriteHeight: config.height,
+          spriteWidth: config.width,
+          spriteTop: config.top,
+          spriteLeft: config.left
+        } as GameCard;
+    });
+  
+    return await Promise.all(upgradesWithImages);
+};
+
+const API =  { getCards, getDeck, saveDeck, getImage, getCardUpgrades };
 export default API;
