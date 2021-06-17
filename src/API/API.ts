@@ -99,6 +99,8 @@ export const getUpgrades = (characterType: CharacterType): Promise<GameCardUpgra
       const upgrades = data.upgrades;
       upgradesCache[characterType] = upgrades;
       return upgrades as GameCardUpgrade[];
+    }).catch(() => {
+      return [];
     });
 };
 
