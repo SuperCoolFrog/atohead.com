@@ -3,6 +3,7 @@ import "firebase/analytics";
 import "firebase/firestore";
 import "firebase/storage";
 import Deck from '../Models/Deck';
+import uuid from 'short-uuid';
 
 var firebaseConfig = {
     apiKey: "AIzaSyBwaN3JgqLjChTaCqRS8tfGxVoP7tdHK-g",
@@ -34,7 +35,27 @@ export const getDeck = async (id: string): Promise<Deck> => {
     return firebase.firestore().collection(DECK_COLL).doc(id).get()
     .then((response) => {
         return response.data() as Deck;
-    })
+    }).then((deck) => {
+        let needsUpdate = deck.cards.find((card) => !card.uid);
+        
+        if (needsUpdate) {
+            deck.cards = deck.cards.map((card) => {
+                
+                if (!card.uid) {
+                    return {
+                        ...card,
+                        uid: uuid.generate() as string
+                    };
+                }
+                
+                return card;
+            });
+            
+            saveDeck(deck);
+        }
+
+        return deck;
+    });
 };
 
 export const saveDeck = async (deck: Deck): Promise<Deck> => {

@@ -2,7 +2,8 @@
     overflow: hidden;
     position: relative;
     display: flex;
-
+    border-radius: 12px;
+    
     & >* {
         position: absolute;
         top: 0;

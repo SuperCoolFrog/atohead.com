@@ -69,7 +69,7 @@ const ScaledGameCard = ({ card, onClick, scaleToHeight, scaleToWidth, includeUpg
     return (<>
         <div
             className={styles.gameCardContainer}
-            style={{ width: containerWidth, height: containerHeight}}
+            style={{ width: containerWidth, height: containerHeight, background: 'url(/images/placeholder_card.png)'}}
         >
             <div ref={target} className={styles.gameCard}
                 onClick={handleClick}
