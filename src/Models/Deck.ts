@@ -1,10 +1,10 @@
 import CharacterType from './CharacterType.enum';
-import GameCard from './GameCard';
+import DeckGameCard from './DeckGameCard';
 
 interface Deck {
     id: string;
     characterType: CharacterType;
-    cards: GameCard[];
+    cards: DeckGameCard[];
 }
 
 export default Deck;

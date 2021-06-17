@@ -1,6 +1,8 @@
 import React, { useEffect, useState } from 'react';
 import { default as GameCardModel } from '../../Models/GameCard';
+import DeckGameCard from '../../Models/DeckGameCard';
 import GameCard from '../GameCard/GameCard';
+import ScaledGameCard from '../ScaledGameCard/ScaledGameCard';
 import { getCards } from '../../API/API';
 import CharacterType from '../../Models/CharacterType.enum';
 import { Col, Container, Row } from 'react-bootstrap';
@@ -8,6 +10,7 @@ import styles from './deck-builder-tool.module.scss';
 import Deck from '../../Models/Deck';
 import { saveDeck } from '../../API/API';
 import CardFilter from '../CardFilter/CardFilter';
+import uuid from 'short-uuid';
 
 interface DeckBuilderToolProps {
     deck: Deck;
@@ -39,9 +42,13 @@ const DeckBuilderTool = ({ deck }: DeckBuilderToolProps) => {
     }, [deck]);
     
     const addCardToDeck = (card: GameCardModel) => {
+        const nuCard = {
+            ...card,
+            uid: uuid.generate() as string,
+        } as DeckGameCard;
         const updatedDeck = {
             ...currentDeck,
-            cards: [...currentDeck.cards, card],
+            cards: [...currentDeck.cards, nuCard],
         }
         
         setCurrentDeck(updatedDeck);
@@ -81,8 +88,8 @@ const DeckBuilderTool = ({ deck }: DeckBuilderToolProps) => {
     return (<Container>
         <h2>You are working with <span className={titleClassName}>{toTitleCase(deck.characterType)}</span> cards.</h2>
         <p>
-            Click on the cards to add or remove from deck.  Your deck is automatically saved.
-            
+            Click on the cards to add or remove from deck.<br />
+            Right click to view and add upgrades.<br />  Your deck is automatically saved.
         </p>
         <p>
             You can use the url <a title="Copy" onClick={copyToClipboard(url)} className={styles.copyUrl}>{url}</a> to share or edit this deck.
@@ -98,9 +105,9 @@ const DeckBuilderTool = ({ deck }: DeckBuilderToolProps) => {
                 <hr />
                 <Container className={styles.deckContainer}>
                     <Row>
-                        {currentDeck.cards.map((card) => (
-                            <Col md={4} className={styles.cardContainer}>
-                                <GameCard card={card} onClick={removeCardFromDeck} />
+                        {currentDeck.cards.map((card, i) => (
+                            <Col md={4} className={styles.cardContainer} key={'deck-' + card.uid}>
+                                <ScaledGameCard card={card} onClick={removeCardFromDeck} scaleToWidth={card.scaleToWidth} scaleToHeight={card.scaleToHeight} includeUpgrades={false} />
                             </Col>
                         ))}
                     </Row>
@@ -119,7 +126,7 @@ const DeckBuilderTool = ({ deck }: DeckBuilderToolProps) => {
                 <Container className={styles.collectionContainer}>
                     <Row>
                         {filteredCards.map((card) => (
-                            <Col md={4} className={styles.cardContainer} key={card.characterType + card.serialNumber}>
+                            <Col md={4} className={styles.cardContainer} key={'collection_' + card.characterType + card.serialNumber}>
                                 <GameCard card={card} onClick={addCardToDeck} />
                             </Col>
                         ))}

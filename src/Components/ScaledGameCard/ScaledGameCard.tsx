@@ -1,24 +1,36 @@
 import React, { MouseEventHandler, useEffect, useState } from 'react';
 import { default as GameCardModel } from '../../Models/GameCard';
-import styles from './game-card.module.scss';
+import styles from './scaled-game-card.module.scss';
 import API from '../../API/API';
 import { Overlay, Popover, Tooltip } from 'react-bootstrap';
 import { useRef } from 'react';
 import SmallGameCard from '../SmallGameCard/SmallGameCard';
 import classNames from 'classnames';
 
-interface GameCardProps {
+interface ScaledGameCardProps {
     card: GameCardModel;
+    scaleToWidth?: number;
+    scaleToHeight?: number;
     onClick?: (card:GameCardModel) => void;
+    includeUpgrades: boolean;
 }
 
-const GameCard = ({ card, onClick }: GameCardProps) => {
+const ScaledGameCard = ({ card, onClick, scaleToHeight, scaleToWidth, includeUpgrades }: ScaledGameCardProps) => {
     const [showUpgrades, setShowUpgrades] = useState(false);
     const [upgrades, setUpgrades] = useState<GameCardModel[]>([]);
     const target = useRef(null);
     const background = `url(${card.image}) ${card.spriteLeft} ${card.spriteTop}`
     
-
+    let scaledWidth = parseInt(card.spriteWidth);
+    let scaledHeight = parseInt(card.spriteHeight);
+    let transform: string = 'scale(1, 1)';
+    
+    if (scaleToWidth && scaleToHeight) {
+        scaledWidth = scaleToWidth / scaledWidth;
+        scaledHeight = scaleToHeight / scaledHeight;
+        transform = `scale(${scaledWidth}, ${scaledHeight})`;
+    }
+    
     useEffect(() => {
         if (!upgrades.length) {
             API.getCardUpgrades(card).then((upgrades) => {
@@ -34,6 +46,7 @@ const GameCard = ({ card, onClick }: GameCardProps) => {
     };
     
     const handleRightClick = (ev: React.MouseEvent) => {
+        if (!includeUpgrades) return;
         if (upgrades.length) {
             setShowUpgrades(true);
         }
@@ -50,13 +63,21 @@ const GameCard = ({ card, onClick }: GameCardProps) => {
         }
     };
     
+    const containerWidth = scaleToWidth ? scaleToWidth + 'px' : card.spriteWidth;
+    const containerHeight = scaleToHeight ? scaleToHeight + 'px' : card.spriteHeight;
+    
     return (<>
-        <div ref={target} className={styles.gameCard}
-            onClick={handleClick}
-            style={{ background, height: card.spriteHeight, width: card.spriteWidth }}
-            onContextMenu={handleRightClick}
+        <div
+            className={styles.gameCardContainer}
+            style={{ width: containerWidth, height: containerHeight}}
         >
-            { card.energyCost === "-1" && (<span className={styles.cardName}>{card.name}</span>) }
+            <div ref={target} className={styles.gameCard}
+                onClick={handleClick}
+                style={{ background, height: card.spriteHeight, width: card.spriteWidth, transform }}
+                onContextMenu={handleRightClick}
+            >
+                { card.energyCost === "-1" && (<span className={styles.cardName}>{card.name}</span>) }
+            </div>
         </div>
         <Overlay target={target} show={showUpgrades} placement="left"
             container={target.current}
@@ -82,4 +103,4 @@ const GameCard = ({ card, onClick }: GameCardProps) => {
     </>);
 };
 
-export default GameCard;
+export default ScaledGameCard;

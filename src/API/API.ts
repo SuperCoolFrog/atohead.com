@@ -135,7 +135,11 @@ export const getCardUpgrades = async (gameCard: GameCard) => {
           spriteHeight: config.height,
           spriteWidth: config.width,
           spriteTop: config.top,
-          spriteLeft: config.left
+          spriteLeft: config.left,
+          scaleToHeight: parseInt(gameCard.spriteHeight),
+          scaleToWidth: parseInt(gameCard.spriteWidth),
+          isUpgradeCard: true,
+          upgrade: upgrade.upgrade as Upgrade
         } as GameCard;
     });
   

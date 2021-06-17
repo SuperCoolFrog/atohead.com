@@ -1,0 +1,58 @@
+.gameCardContainer {
+    overflow: hidden;
+    position: relative;
+    display: flex;
+
+    & >* {
+        position: absolute;
+        top: 0;
+        left: 0;
+    }
+}
+
+.gameCard {
+    border-radius: 12px;
+    // display: flex;
+    // flex-direction: column;
+    // justify-content: center;
+    height: 100%;
+    width: 100%;
+    transform-origin: top left;
+}
+
+.cardName {
+    font-weight: 700;
+    background-color: darkslategrey;
+    color: white;
+    text-align: center;
+    opacity: .75;
+}
+
+.closeButtonContainer {
+    text-align: right;
+    padding: 8px 16px 0px 16px;
+}
+
+.closeUpgradesButton {
+    display: inline-block;
+    border: none;
+    outline: none;
+    box-shadow: 0;
+    background-color: transparent;
+}
+
+.dark {
+    background-color: #212529 !important;
+    color: white;
+    border-color: #212529 !important;
+}
+
+.upgradesContainer {
+    position: relative;
+    
+    & >* {
+        position: absolute;
+        top: 0;
+        left: 0;
+    }
+}
