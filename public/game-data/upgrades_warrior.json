@@ -3,6 +3,10 @@
         { "serialNumber": 1, "upgrade": 1, "energyCost": 2, "target": "Self", "vanish": true, "innate": false },
         { "serialNumber": 1, "upgrade": 2, "energyCost": 2, "target": "Self", "vanish": false, "innate": true },
         { "serialNumber": 2, "upgrade": 1, "energyCost": 0, "target": "All Heroes", "vanish": true, "innate": false },
-        { "serialNumber": 2, "upgrade": 2, "energyCost": 1, "target": "All Heroes", "vanish": false, "innate": false }
+        { "serialNumber": 2, "upgrade": 2, "energyCost": 1, "target": "All Heroes", "vanish": false, "innate": false },
+        { "serialNumber": 3, "upgrade": 1, "energyCost": 0, "target": "All Heroes", "vanish": true, "innate": false },
+        { "serialNumber": 3, "upgrade": 2, "energyCost": 1, "target": "All Heroes", "vanish": false, "innate": false },
+        { "serialNumber": 4, "upgrade": 1, "energyCost": 1, "target": "Self", "vanish": true, "innate": false },
+        { "serialNumber": 4, "upgrade": 2, "energyCost": 1, "target": "Self", "vanish": false, "innate": true }
     ]
 }

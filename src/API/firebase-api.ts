@@ -67,7 +67,9 @@ export const saveDeck = async (deck: Deck): Promise<Deck> => {
 
 export const getImage = async (path: string): Promise<string> => {
     const imageRef = storageRef.child(path);
-    return imageRef.getDownloadURL();
+    return imageRef.getDownloadURL()
+        .then(url => url)
+        .catch(() => ''); // doesn't exist
 };
 
 const firebaseAPI = {

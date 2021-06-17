@@ -117,8 +117,11 @@ export const getImage = (path: string): Promise<string> => {
 
 export const getUpgradeImage = (characterType: CharacterType, serialNumber: number) => {
   const imagePath = `${upgradeConfig.path}/${characterType.toLowerCase()}_${serialNumber}.${upgradeConfig.imageType}`;
+  const defaultImage = '/images/placeholder_card.png';
   
-  return getImage(imagePath);
+  return getImage(imagePath).then((imagePath) => {
+    return imagePath || defaultImage;
+  });
 };
 
 export const getCardUpgrades = async (gameCard: GameCard) => {

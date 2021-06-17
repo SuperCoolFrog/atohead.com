@@ -25,7 +25,7 @@ const App = () => {
         </p>
         <hr />
         <p>
-          <em>Special Thanks</em> to <Emoji symbol="🧠" label="brain"/><u>Tyler Smith</u> for unlocking all the cards so we have the images available
+          <em>Special Thanks</em> to <Emoji symbol="🧠" label="brain"/><u>A Ghost</u> for unlocking all the cards so we have the images available
           (not to mention introducing me to the game).
         </p> 
       </Container>
