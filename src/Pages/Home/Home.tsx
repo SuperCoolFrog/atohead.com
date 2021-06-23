@@ -60,10 +60,12 @@ const App = () => {
       </Row>
     </Container>
     <Container  className={styles.contentContainer}>
-      <h2>ATO Head WIP and Coming Soon</h2>
+      <hr/>
+      <h2>Coming Soon</h2>
       <p>
         Current work being done in the following areas to improve ATO Head:
         <ul>
+          <li>Enemy Details</li>
           <li>Team Building Tool - Create a team and deck</li>
           <li>News Updates and highlights about Across the Obelisk</li>
           <li>Guides on teams and decks to try out</li>
