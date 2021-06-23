@@ -1,3 +1,25 @@
+.homeContainer {
+    position: relative;
+}
+
+.backgroundImage {
+    /* The image used */
+    background-image: url(./images/first_map.png);
+  
+    /* Set a specific height */
+    min-height: 250px; 
+  
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+.contentContainer {
+    padding-bottom: 2em;
+}
+
 .deckBuilderLinkContainer {
     width: 50%;
 }

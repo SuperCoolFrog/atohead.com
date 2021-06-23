@@ -8,7 +8,8 @@ import { Link } from 'react-router-dom';
 import styles from './home.module.scss';
 
 const App = () => {
-  return (<>
+  return (<div className={styles.homeContainer}>
+    <div className={styles.backgroundImage} />
     <Jumbotron>
       <Container>
         <h1>Across the Obelisk - Tools and Guides</h1>
@@ -30,7 +31,7 @@ const App = () => {
         </p> 
       </Container>
     </Jumbotron>
-    <Container>
+    <Container className={styles.contentContainer}>
       <h2>Craft a Deck</h2>
       <p>
         Create a deck with the deck builder tool.  You will get a shareable link that you can post or share with a friend.
@@ -57,10 +58,9 @@ const App = () => {
           </Link>
         </Col>
       </Row>
-    
-      <hr />
-
-      <h2>ATO WIP and Coming Soon</h2>
+    </Container>
+    <Container  className={styles.contentContainer}>
+      <h2>ATO Head WIP and Coming Soon</h2>
       <p>
         Current work being done in the following areas to improve ATO Head:
         <ul>
@@ -70,7 +70,7 @@ const App = () => {
         </ul>
       </p>
     </Container>
-  </>);
+  </div>);
 }
 
 export default App;

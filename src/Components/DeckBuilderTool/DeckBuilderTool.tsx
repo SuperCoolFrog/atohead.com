@@ -85,7 +85,7 @@ const DeckBuilderTool = ({ deck }: DeckBuilderToolProps) => {
     ? styles.characterTitleMage
     : styles.characterTitleHealer;
 
-    return (<Container>
+    return (<Container className={styles.container}>
         <h2>You are working with <span className={titleClassName}>{toTitleCase(deck.characterType)}</span> cards.</h2>
         <p>
             Click on the cards to add or remove from deck.<br />

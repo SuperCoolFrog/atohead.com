@@ -12,7 +12,7 @@ const Layout = ({ children }: LayoutProps) => {
 
     return (<>
         <div className={styles.layoutNavBarContainer}>
-            <Navbar bg={"dark"} variant="dark" className={styles.layoutNavBar}>
+            <Navbar bg={"dark"} variant="dark" className={styles.layoutNavBar} fixed='top'>
                 <LinkContainer to="/home">
                     <Navbar.Brand>ATO Head</Navbar.Brand>
                 </LinkContainer>
@@ -43,7 +43,7 @@ const Layout = ({ children }: LayoutProps) => {
                 </Navbar.Collapse>
             </Navbar>
         </div>
-        <main role="main">
+        <main role="main" className={styles.main}>
             {children}
         </main>
         <footer className={classNames("container fixed-bottom", styles.footer)}>
