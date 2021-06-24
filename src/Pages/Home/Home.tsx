@@ -1,5 +1,5 @@
 import React from 'react';
-import { Col, Container, Jumbotron, Row } from 'react-bootstrap';
+import { Alert, Col, Container, Jumbotron, Row } from 'react-bootstrap';
 import './Home.scss';
 import CharacterTypeSymbol from '../../Components/CharacterTypeSymbol/CharacterTypeSymbol';
 import CharacterType from '../../Models/CharacterType.enum';
@@ -12,7 +12,14 @@ const App = () => {
     <div className={styles.backgroundImage} />
     <Jumbotron>
       <Container>
-        <h1>Across the Obelisk - Tools and Guides</h1>
+        <Alert variant="warning">
+          <strong><a href="https://store.steampowered.com/news/app/1385380/view/5581629847738913784" target='_blank'>Patch 0.6.5 is Live!</a></strong>
+          - Currently we are only up to date to <strong>Patch (v.0.6.18)</strong> but we
+          are excited to play through the new patch and get these updates included into the site.
+        </Alert>
+      </Container>
+      <Container>
+        <h1>Across the Obelisk - Tools and Guides (v.0.6.18d)</h1>
         <p>
           This site is a <em>Work in Progress</em><Emoji symbol="🚧" label="construction" />.  I wanted a way to share deck builds with my friend who got me into the game.  After searching online,
           I realized the game was too new to have something like this, so I created my own.  Feel free to use it.
