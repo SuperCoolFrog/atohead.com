@@ -49,3 +49,20 @@ $details-font-size: 10px;
 .detailsHeader {
     margin-top: 1em;
 }
+
+.initialCardsRow {
+    display: flex;
+    justify-content: space-between;
+}
+
+.countContainer {
+    margin-top: 3px;
+    text-align: center;
+}
+.countNumber {
+    padding: 1px 10px;
+    background-color: lighten($color-dark, 10%);
+    font-weight: bold;
+    border-color: black;
+    border-radius: 3px;
+}
