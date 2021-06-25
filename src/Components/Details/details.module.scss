@@ -66,3 +66,14 @@ $details-font-size: 10px;
     border-color: black;
     border-radius: 3px;
 }
+
+.weaponCardImageContainer {
+    
+    height: 125px;
+    width: 90px;
+
+    img {
+        height: 100%;
+        width: 100%
+    }
+}

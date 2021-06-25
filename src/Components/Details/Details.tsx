@@ -104,6 +104,13 @@ const Details = () => {
                         </div>))}
                     </div>
                 </Col>
+                <Col sm={4}>
+                    <h4 className={styles.detailsHeader}>Weapon</h4>
+                    <hr />
+                    <div className={styles.weaponCardImageContainer}>
+                        <img src='/images/placeholder_card.png'></img>
+                    </div>
+                </Col>
             </Row>
         </Container>
     </Container>)
