@@ -91,7 +91,7 @@ const Details = () => {
                     <h4 className={styles.detailsHeader}>Initial Cards</h4>
                     <hr />
                     <div className={styles.initialCardsRow}>
-                        {initialCards.map((card) => (<div className={styles.initialCardContainer}>
+                        {initialCards.map((card) => (<div key={`init-card-${card.name}-${card.serialNumber}`} className={styles.initialCardContainer}>
                             <ScaledGameCard
                                 card={card}
                                 includeUpgrades={false}
