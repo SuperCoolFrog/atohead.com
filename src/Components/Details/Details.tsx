@@ -38,29 +38,33 @@ const Details = () => {
                     <hr />
                     <Container>
                         <Row>
-                        { resistances.map(({name, value}) => (<>
-                            <Col sm="5">
+                        { resistances.map(({name, value}, i) => (
+                            <Col sm="5" key={`${name}-${value}-${i}`}>
                                 <label className={styles.label}>{name}</label>
                                 <span className={styles.detail}>{value}</span>
                             </Col>
-                        </>))}
+                        ))}
                         </Row>       
                     </Container>
 
                     <h4 className={styles.detailsHeader}>Traits</h4>
                     <hr />
                     <Container>
-                        { traits.map(({name, value}) => (<>
-                        <Row>
+                        { traits.map(({name, value}, i) => (
+                        <Row key={`row-${name}-${value}-${i}`}>
                             <Col sm="3">
                                 <label className={styles.label}>{name}</label>
                             </Col>
-                            { value.map((_value) => (
-                                <Col className={styles.traitDetail}><span className={classNames(styles.detail)}>{_value}</span></Col>
+                            { value.map((_value, i) => (
+                                <Col className={styles.traitDetail} key={`trait-col-${name}-${_value}-${i}`}>
+                                    <span className={classNames(styles.detail)}>{_value}</span>
+                                </Col>
                             ))}
-                        </Row>       
-                        </>))}
+                        </Row>))}
                     </Container>
+
+                    <h4 className={styles.detailsHeader}>Initial Cards</h4>
+                    <hr />
                 </Col>
                 <Col md="6">
                     <div className={styles.imageContainer}>
