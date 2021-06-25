@@ -1,0 +1,51 @@
+@import '../../Styles/common.scss';
+
+$details-font-size: 10px;
+
+.container {
+    color: white;
+    background-color: $color-dark;
+    border-radius: 6px;
+    padding-bottom: 2em;
+}
+
+.characterType {
+    font-size: 16px;
+    font-style: italic;
+}
+
+.detailsContainer {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.imageContainer {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.label {
+    color: #c9aa71;
+    font-weight: bold;
+    margin-right: 1em;
+}
+
+.detail {
+    font-weight: bold;
+}
+
+.traitDetail {
+    width: 100%;
+    background-color: lighten($color-dark, 10%);
+    border-radius: 3px;
+    margin: 3px 1em 3px 0px;
+    text-align: center;
+}
+
+.detailsHeader {
+    margin-top: 1em;
+}

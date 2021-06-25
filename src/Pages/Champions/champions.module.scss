@@ -1,0 +1,6 @@
+@import '../../Styles/common.scss';
+
+
+.container {
+    @include page-container;
+}

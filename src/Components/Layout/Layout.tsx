@@ -39,6 +39,9 @@ const Layout = ({ children }: LayoutProps) => {
                                 <NavDropdown.Item>Healer</NavDropdown.Item>
                             </LinkContainer>
                         </NavDropdown>
+                        <LinkContainer to="/champions">
+                            <Nav.Link>Champions</Nav.Link>
+                        </LinkContainer>
                     </Nav>
                 </Navbar.Collapse>
             </Navbar>

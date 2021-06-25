@@ -8,6 +8,7 @@ import {
 import Home from '../../Pages/Home/Home';
 import Collection from '../../Pages/Collection/Collection';
 import DeckBuilder from '../../Pages/DeckBuilder/DeckBuilder';
+import Champions from '../../Pages/Champions/Champions';
 
 const Router = () => {
     return (<Switch>
@@ -16,6 +17,9 @@ const Router = () => {
       </Route>
       <Route exact path="/collection">
         <Collection />
+      </Route>
+      <Route exact path="/champions">
+        <Champions />
       </Route>
       <Route path="/deck-builder/:characterType">
         <DeckBuilder />
