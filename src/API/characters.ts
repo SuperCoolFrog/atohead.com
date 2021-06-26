@@ -25,6 +25,7 @@ export const getChampions = (): Promise<Character[]> => {
             id: data.id,
             name: data.name,
             job: data.job,
+            jobColor: data.jobColor,
             characterType: data.characterType as CharacterType,
             traits,
             resistances,
@@ -38,4 +39,10 @@ export const getChampions = (): Promise<Character[]> => {
     CACHE.champions = champions;
     
     return Promise.resolve(champions);
+};
+
+export const getChampion = async (id: string): Promise<Character> => {
+    const champions = await getChampions();
+    
+    return champions.find((champ) => champ.id === id) as Character;
 };

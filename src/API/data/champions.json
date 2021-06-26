@@ -4,6 +4,7 @@
             "id": "magnus",
             "name": "Magnus",
             "job": "Mercenary",
+            "jobColor": "red",
             "characterType": "WARRIOR",
             "traits": [
                 { "tier": "Innate", "traits": ["Well Trained||At the start of the combat gain 2 Reinforce."] },

@@ -1,4 +1,4 @@
-interface TraitDescription {
+export interface TraitDescription {
     title: string;
     description: string;
 }

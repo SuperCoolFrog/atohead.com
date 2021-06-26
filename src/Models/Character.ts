@@ -8,6 +8,7 @@ interface Character {
     id: string;
     name: string;
     job: string;
+    jobColor: string;
     characterType: CharacterType;
     traits: Trait[];
     resistances: Resistance[];
