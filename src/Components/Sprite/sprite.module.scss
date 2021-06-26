@@ -1,0 +1,23 @@
+.spriteContainer {
+    overflow: hidden;
+    position: relative;
+    display: flex;
+    border-radius: 12px;
+    
+    & >* {
+        position: absolute;
+        top: 0;
+        left: 0;
+    }
+}
+
+.sprite {
+    border-radius: 3px;
+    height: 100%;
+    width: 100%;
+    transform-origin: top left;
+}
+
+.clickable {
+    cursor: pointer;
+}

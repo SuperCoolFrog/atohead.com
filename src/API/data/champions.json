@@ -1,26 +1,27 @@
 {
     "champions": [
         {
+            "id": "magnus",
             "name": "Magnus",
             "job": "Mercenary",
             "characterType": "WARRIOR",
             "traits": [
-                { "name": "Innate", "traits": ["Well Trained||At the start of the combat gain 2 Reinforce."] },
-                { "name": "Level 2", "traits": ["Quick||Speed +3", "Sturdy||Max HP +25"] },
-                { "name": "Level 3", "traits": ["Offense Mastery||Cost of \"Melee Attack\" cards -1.", "Defense Mastery||Cost of \"Defense\" cards -1."] },
-                { "name": "Level 4", "traits": ["Hardened||All resistances +10%", "Athletic||Max HP +40"] },
-                { "name": "Level 5", "traits": ["Weapon Expert||Slashing, Blunt, and Piercing damage done +6.", "Tireless||Energy regeneration +2."] }
+                { "tier": "Innate", "traits": ["Well Trained||At the start of the combat gain 2 Reinforce."] },
+                { "tier": "Level 2", "traits": ["Quick||Speed +3", "Sturdy||Max HP +25"] },
+                { "tier": "Level 3", "traits": ["Offense Mastery||Cost of \"Melee Attack\" cards -1.", "Defense Mastery||Cost of \"Defense\" cards -1."] },
+                { "tier": "Level 4", "traits": ["Hardened||All resistances +10%", "Athletic||Max HP +40"] },
+                { "tier": "Level 5", "traits": ["Weapon Expert||Slashing, Blunt, and Piercing damage done +6.", "Tireless||Energy regeneration +2."] }
             ],
             "resistances": [
-                { "resistance": "Slash", "value": "27%" },
-                { "resistance": "Blunt", "value": "27%" },
-                { "resistance": "Piercing", "value": "27%" },
-                { "resistance": "Fire", "value": "12%" },
-                { "resistance": "Cold", "value": "17%" },
-                { "resistance": "Lightning", "value": "12%" },
-                { "resistance": "Mind", "value": "22%" },
-                { "resistance": "Holy", "value": "12%" },
-                { "resistance": "Shadow", "value": "12%" }
+                { "resistanceType": "Slash", "value": "27%" },
+                { "resistanceType": "Blunt", "value": "27%" },
+                { "resistanceType": "Piercing", "value": "27%" },
+                { "resistanceType": "Fire", "value": "12%" },
+                { "resistanceType": "Cold", "value": "17%" },
+                { "resistanceType": "Lightning", "value": "12%" },
+                { "resistanceType": "Mind", "value": "22%" },
+                { "resistanceType": "Holy", "value": "12%" },
+                { "resistanceType": "Shadow", "value": "12%" }
             ],
             "innateCards": [
                 { "count": 4, "characterType": "WARRIOR", "serialNumber": "32", "name": "Fast Strike", "type": "Melee Attack", "energyCost": "1", "image": "/images/warrior_cards_page_2.png", "spriteLeft": "-1230px", "spriteTop": "-440px", "spriteWidth": "160px", "spriteHeight": "235px" },
@@ -32,7 +33,7 @@
                 { "count": 1, "characterType": "WARRIOR", "serialNumber": "54", "name": "Piercing Howl", "type": "Skill", "energyCost": "1", "image": "/images/warrior_cards_page_3.png", "spriteLeft": "-1431px", "spriteTop": "-720px", "spriteWidth": "160px", "spriteHeight": "235px" }
             ],
             "weaponSprite": { "image": "/images/magnus_details.png", "spriteLeft": "-1706px", "spriteTop": "-572px", "spriteWidth": "146px", "spriteHeight": "213px" },
-            "headshotSprite": { "image": "/images/magnus_details.png", "spriteLeft": "-1518px", "spriteTop": "-332px", "spriteWidth": "124px", "spriteHeight": "195px" },
+            "headshotSprite": { "image": "/images/tier_1_characters.png", "spriteLeft": "-1518px", "spriteTop": "-332px", "spriteWidth": "124px", "spriteHeight": "195px" },
             "fullBodySprite": { "image": "/images/magnus_details.png", "spriteLeft": "-955px", "spriteTop": "0px", "spriteWidth": "250px", "spriteHeight": "365px" }
         }
     ]

@@ -6,6 +6,7 @@ import CharacterType from '../Models/CharacterType.enum';
 import Upgrade from '../Models/Upgrade.enum';
 import fbAPI from './firebase-api';
 import upgradeConfig from './upgradesConfig';
+import * as charactersAPI from './characters';
 
 /** CARDS */
 
@@ -151,5 +152,8 @@ export const getCardUpgrades = async (gameCard: GameCard) => {
     return await Promise.all(upgradesWithImages);
 };
 
-const API =  { getCards, getDeck, saveDeck, getImage, getCardUpgrades };
+const API =  {
+  getCards, getDeck, saveDeck, getImage, getCardUpgrades,
+  ...charactersAPI,
+};
 export default API;
