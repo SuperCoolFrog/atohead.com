@@ -73,6 +73,45 @@
             "weaponSprite": { "image": "/images/andrin_details.png", "spriteLeft": "-1706px", "spriteTop": "-572px", "spriteWidth": "146px", "spriteHeight": "213px" },
             "headshotSprite": { "image": "/images/tier_1_characters.png", "spriteLeft": "-1358px", "spriteTop": "-332px", "spriteWidth": "124px", "spriteHeight": "195px" },
             "fullBodySprite": { "image": "/images/andrin_details.png", "spriteLeft": "-955px", "spriteTop": "0px", "spriteWidth": "250px", "spriteHeight": "365px" }
+        },
+        {
+            "id": "evelyn",
+            "name": "Evelyn",
+            "job": "Elementalist",
+            "jobColor": "cornflowerblue",
+            "characterType": "MAGE",
+            "traits": [
+                { "tier": "Innate", "traits": ["Temperate||At the start of the combat gain 2 Insulate."] },
+                { "tier": "Level 2", "traits": ["Cautious||At the start of the combat gain 2 Buffer.", "Clever||At the start of the combat gain 1 Inspire."] },
+                { "tier": "Level 3", "traits": ["Elemental Amplifier||Burn +2, Chill +2, and Spark +2.", "Versatile||When you play a \"Fire Spell\" card gain 2 Powerful, \"Cold Spel\" card gain 8 block, \"Lightning Spell\" card Dispel 1."] },
+                { "tier": "Level 4", "traits": ["Healthy||Max HP +15.", "Resistant||Fire, Cold, and Lightning resistances +18%."] },
+                { "tier": "Level 5", "traits": [
+                    "Elemental Weaver||When you play a \"Fire Spell\", \"Cold Spell\" or \"Lightning Spell\" card Gain 1 Energize, once per round for each card type (MAX 3 Energize).",
+                    "Glass Cannon||All Damage done +50%. Max HP -40."
+                ]}
+            ],
+            "resistances": [
+                { "resistanceType": "Slash", "value": "12%" },
+                { "resistanceType": "Blunt", "value": "12%" },
+                { "resistanceType": "Piercing", "value": "12%" },
+                { "resistanceType": "Fire", "value": "27%" },
+                { "resistanceType": "Cold", "value": "27%" },
+                { "resistanceType": "Lightning", "value": "27%" },
+                { "resistanceType": "Mind", "value": "17%" },
+                { "resistanceType": "Holy", "value": "17%" },
+                { "resistanceType": "Shadow", "value": "17%" }
+            ],
+            "innateCards": [
+                { "count": 4, "characterType": "MAGE", "serialNumber": "43", "name": "Frostbolt", "type": "Cold Spell", "energyCost": "2", "image": "/images/mage_cards_page_3.png", "spriteLeft": "-346px", "spriteTop": "-720px", "spriteWidth": "160px", "spriteHeight": "235px" },
+                { "count": 3, "characterType": "MAGE", "serialNumber": "38", "name": "Fire Blast", "type": "Fire Spell", "energyCost": "0", "image": "/images/mage_cards_page_3.png", "spriteLeft": "-547px", "spriteTop": "-160px", "spriteWidth": "160px", "spriteHeight": "235px" },
+                { "count": 3, "characterType": "MAGE", "serialNumber": "7", "name": "Charge Battery", "type": "Lightning Spell", "energyCost": "1", "image": "/images/mage_cards_page_1.png", "spriteLeft": "-346px", "spriteTop": "-720px", "spriteWidth": "160px", "spriteHeight": "235px" },
+                { "count": 2, "characterType": "MAGE", "serialNumber": "95", "name": "Transmission", "type": "Skill", "energyCost": "2", "image": "/images/mage_cards_page_6.png", "spriteLeft": "-547px", "spriteTop": "-440px", "spriteWidth": "160px", "spriteHeight": "235px" },
+                { "count": 2, "characterType": "MAGE", "serialNumber": "32", "name": "Elemental Ward", "type": "Skill", "energyCost": "1", "image": "/images/mage_cards_page_2.png", "spriteLeft": "-1230px", "spriteTop": "-440px", "spriteWidth": "160px", "spriteHeight": "235px" },
+                { "count": 1, "characterType": "MAGE", "serialNumber": "62", "name": "Mana Gem", "type": "Skill", "energyCost": "0", "image": "/images/mage_cards_page_4.png", "spriteLeft": "-547px", "spriteTop": "-720px", "spriteWidth": "160px", "spriteHeight": "235px" }
+            ],
+            "weaponSprite": { "image": "/images/evelyn_details.png", "spriteLeft": "-1706px", "spriteTop": "-572px", "spriteWidth": "146px", "spriteHeight": "213px" },
+            "headshotSprite": { "image": "/images/tier_1_characters.png", "spriteLeft": "-1198px", "spriteTop": "-332px", "spriteWidth": "124px", "spriteHeight": "195px" },
+            "fullBodySprite": { "image": "/images/evelyn_details.png", "spriteLeft": "-955px", "spriteTop": "0px", "spriteWidth": "250px", "spriteHeight": "365px" }
         }
     ]
 }

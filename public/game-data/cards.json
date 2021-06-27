@@ -369,7 +369,7 @@
         { "characterType": "MAGE", "serialNumber": "60", "name": "Living Flame", "type": "Fire Spell", "energyCost": "2", "image": "/images/mage_cards_page_4.png", "spriteLeft": "-748px", "spriteTop": "-440px", "spriteWidth": "160px", "spriteHeight": "235px" },
 
         { "characterType": "MAGE", "serialNumber": "61", "name": "Malicious Eye", "type": "Shadow Spell", "energyCost": "0", "image": "/images/mage_cards_page_4.png", "spriteLeft": "-346px", "spriteTop": "-720px", "spriteWidth": "160px", "spriteHeight": "235px" },
-        { "characterType": "MAGE", "serialNumber": "62", "name": "Mana gem", "type": "Skill", "energyCost": "0", "image": "/images/mage_cards_page_4.png", "spriteLeft": "-547px", "spriteTop": "-720px", "spriteWidth": "160px", "spriteHeight": "235px" },
+        { "characterType": "MAGE", "serialNumber": "62", "name": "Mana Gem", "type": "Skill", "energyCost": "0", "image": "/images/mage_cards_page_4.png", "spriteLeft": "-547px", "spriteTop": "-720px", "spriteWidth": "160px", "spriteHeight": "235px" },
         { "characterType": "MAGE", "serialNumber": "63", "name": "Mana Shield", "type": "Skill", "energyCost": "1", "image": "/images/mage_cards_page_4.png", "spriteLeft": "-748px", "spriteTop": "-720px", "spriteWidth": "160px", "spriteHeight": "235px" },
 
         { "characterType": "MAGE", "serialNumber": "64", "name": "Mana Surge", "type": "Skill", "energyCost": "2", "image": "/images/mage_cards_page_4.png", "spriteLeft": "-1029px", "spriteTop": "-160px", "spriteWidth": "160px", "spriteHeight": "235px" },
