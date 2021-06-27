@@ -67,8 +67,8 @@ const Details = ({ character }: DetailsProps) => {
                             <ScaledGameCard
                                 card={card}
                                 includeUpgrades={false}
-                                scaleToHeight={parseInt(card.spriteHeight) / 2}
-                                scaleToWidth={parseInt(card.spriteWidth) / 2}
+                                scaleToHeight={parseInt(card.spriteHeight) / 1.5}
+                                scaleToWidth={parseInt(card.spriteWidth) / 1.5}
                             />
                             <div className={styles.countContainer}>
                                 <span className={styles.countNumber}>{card.count}</span>

@@ -1,4 +1,24 @@
 {
+    "mixins": {
+        "innateCardSprite1": { "spriteLeft": "-984px", "spriteTop": "-842px", "spriteWidth": "113px", "spriteHeight": "165px" },
+        "innateCardSprite2": { "spriteLeft": "-1114px", "spriteTop": "-842px", "spriteWidth": "113px", "spriteHeight": "165px" },
+        "innateCardSprite3": { "spriteLeft": "-1244px", "spriteTop": "-842px", "spriteWidth": "113px", "spriteHeight": "165px" },
+        "innateCardSprite4": { "spriteLeft": "-1374px", "spriteTop": "-842px", "spriteWidth": "113px", "spriteHeight": "165px" },
+        "innateCardSprite5": { "spriteLeft": "-1504px", "spriteTop": "-842px", "spriteWidth": "113px", "spriteHeight": "165px" },
+        "innateCardSprite6": { "spriteLeft": "-1634px", "spriteTop": "-842px", "spriteWidth": "113px", "spriteHeight": "165px" },
+        "innateCardSprite7": { "spriteLeft": "-1764px", "spriteTop": "-842px", "spriteWidth": "113px", "spriteHeight": "165px" },
+        
+        "weaponSprite": { "spriteLeft": "-1706px", "spriteTop": "-572px", "spriteWidth": "146px", "spriteHeight": "213px" },
+        "headshotSprite": { "spriteLeft": "-1518px", "spriteTop": "-332px", "spriteWidth": "124px", "spriteHeight": "195px" },
+        "fullBodySprite": { "spriteLeft": "-955px", "spriteTop": "0px", "spriteWidth": "250px", "spriteHeight": "365px" },
+        
+        "tier1Img": { "image": "/images/tier_1_characters.png" },
+
+        "magnusDetailsImg": { "image": "/images/magnus_details.png" },
+        "andrinDetailsImg": { "image": "/images/andrin_details.png" },
+        "evelynDetailsImg": { "image": "/images/evelyn_details.png" },
+        "reginaldDetailsImg": { "image": "/images/reginald_details.png" }
+    },
     "champions": [
         {
             "id": "magnus",
@@ -25,17 +45,17 @@
                 { "resistanceType": "Shadow", "value": "12%" }
             ],
             "innateCards": [
-                { "count": 4, "characterType": "WARRIOR", "serialNumber": "32", "name": "Fast Strike", "type": "Melee Attack", "energyCost": "1", "image": "/images/warrior_cards_page_2.png", "spriteLeft": "-1230px", "spriteTop": "-440px", "spriteWidth": "160px", "spriteHeight": "235px" },
-                { "count": 4, "characterType": "WARRIOR", "serialNumber": "25", "name": "Defend", "type": "Defense", "energyCost": "1", "image": "/images/warrior_cards_page_2.png", "spriteLeft": "-346px", "spriteTop": "-720px", "spriteWidth": "160px", "spriteHeight": "235px" },
-                { "count": 2, "characterType": "WARRIOR", "serialNumber": "46", "name": "Intercept", "type": "Defense", "energyCost": "0", "image": "/images/warrior_cards_page_3.png", "spriteLeft": "-1029px", "spriteTop": "-160px", "spriteWidth": "160px", "spriteHeight": "235px" },
-                { "count": 2, "characterType": "WARRIOR", "serialNumber": "64", "name": "Rend", "type": "Melee Attack", "energyCost": "2", "image": "/images/warrior_cards_page_4.png", "spriteLeft": "-1029px", "spriteTop": "-160px", "spriteWidth": "160px", "spriteHeight": "235px" },
-                { "count": 1, "characterType": "WARRIOR", "serialNumber": "3", "name": "Barricade", "type": "Defense", "energyCost": "2", "image": "/images/warrior_cards_page_1.png", "spriteLeft": "-748px", "spriteTop": "-160px", "spriteWidth": "160px", "spriteHeight": "235px" },
-                { "count": 1, "characterType": "WARRIOR", "serialNumber": "29", "name": "Enrage", "type": "Skill", "energyCost": "1", "image": "/images/warrior_cards_page_2.png", "spriteLeft": "-1230px", "spriteTop": "-160px", "spriteWidth": "160px", "spriteHeight": "235px" },
-                { "count": 1, "characterType": "WARRIOR", "serialNumber": "54", "name": "Piercing Howl", "type": "Skill", "energyCost": "1", "image": "/images/warrior_cards_page_3.png", "spriteLeft": "-1431px", "spriteTop": "-720px", "spriteWidth": "160px", "spriteHeight": "235px" }
+                { "count": 4, "characterType": "WARRIOR", "serialNumber": "32", "name": "Fast Strike", "type": "Melee Attack", "energyCost": "1", "@mixin": "innateCardSprite1,magnusDetailsImg" },
+                { "count": 4, "characterType": "WARRIOR", "serialNumber": "25", "name": "Defend", "type": "Defense", "energyCost": "1", "@mixin": "innateCardSprite2,magnusDetailsImg" },
+                { "count": 2, "characterType": "WARRIOR", "serialNumber": "46", "name": "Intercept", "type": "Defense", "energyCost": "0", "@mixin": "innateCardSprite3,magnusDetailsImg" },
+                { "count": 2, "characterType": "WARRIOR", "serialNumber": "64", "name": "Rend", "type": "Melee Attack", "energyCost": "2", "@mixin": "innateCardSprite4,magnusDetailsImg" },
+                { "count": 1, "characterType": "WARRIOR", "serialNumber": "3", "name": "Barricade", "type": "Defense", "energyCost": "2", "@mixin": "innateCardSprite5,magnusDetailsImg" },
+                { "count": 1, "characterType": "WARRIOR", "serialNumber": "29", "name": "Enrage", "type": "Skill", "energyCost": "1", "@mixin": "innateCardSprite6,magnusDetailsImg" },
+                { "count": 1, "characterType": "WARRIOR", "serialNumber": "999", "name": "Captains Howl", "type": "Skill", "energyCost": "1", "@mixin": "innateCardSprite7,magnusDetailsImg" }
             ],
-            "weaponSprite": { "image": "/images/magnus_details.png", "spriteLeft": "-1706px", "spriteTop": "-572px", "spriteWidth": "146px", "spriteHeight": "213px" },
-            "headshotSprite": { "image": "/images/tier_1_characters.png", "spriteLeft": "-1518px", "spriteTop": "-332px", "spriteWidth": "124px", "spriteHeight": "195px" },
-            "fullBodySprite": { "image": "/images/magnus_details.png", "spriteLeft": "-955px", "spriteTop": "0px", "spriteWidth": "250px", "spriteHeight": "365px" }
+            "fullBodySprite": { "@mixin": "fullBodySprite,magnusDetailsImg" },
+            "weaponSprite": { "@mixin": "weaponSprite,magnusDetailsImg" },
+            "headshotSprite": {  "spriteLeft": "-1518px", "spriteTop": "-332px", "spriteWidth": "124px", "spriteHeight": "195px", "@mixin": "tier1Img" }
         },
         {
             "id": "andrin",
@@ -62,17 +82,17 @@
                 { "resistanceType": "Shadow", "value": "17%" }
             ],
             "innateCards": [
-                { "count": 4, "characterType": "SCOUT", "serialNumber": "75", "name": "Slice", "type": "Melee Attack", "energyCost": "1", "image": "/images/scout_cards_page_5.png", "spriteLeft": "-748px", "spriteTop": "-160px", "spriteWidth": "160px", "spriteHeight": "235px" },
-                { "count": 4, "characterType": "SCOUT", "serialNumber": "3", "name": "Aimed Shot", "type": "Ranged Attack", "energyCost": "2", "image": "/images/scout_cards_page_1.png", "spriteLeft": "-748px", "spriteTop": "-160px", "spriteWidth": "160px", "spriteHeight": "235px" },
-                { "count": 2, "characterType": "SCOUT", "serialNumber": "24", "name": "Deflect", "type": "Skill", "energyCost": "0", "image": "/images/scout_cards_page_2.png", "spriteLeft": "-748px", "spriteTop": "-440px", "spriteWidth": "160px", "spriteHeight": "235px" },
-                { "count": 2, "characterType": "SCOUT", "serialNumber": "65", "name": "Rupture", "type": "Melee Attack", "energyCost": "2", "image": "/images/scout_cards_page_4.png", "spriteLeft": "-1230px", "spriteTop": "-160px", "spriteWidth": "160px", "spriteHeight": "235px" },
-                { "count": 1, "characterType": "SCOUT", "serialNumber": "2", "name": "Adrenaline", "type": "Skill", "energyCost": "0", "image": "/images/scout_cards_page_1.png", "spriteLeft": "-547px", "spriteTop": "-160px", "spriteWidth": "160px", "spriteHeight": "235px" },
-                { "count": 1, "characterType": "SCOUT", "serialNumber": "41", "name": "Hunter's Mark", "type": "Skill", "energyCost": "1", "image": "/images/scout_cards_page_3.png", "spriteLeft": "-547px", "spriteTop": "-440px", "spriteWidth": "160px", "spriteHeight": "235px" },
-                { "count": 1, "characterType": "SCOUT", "serialNumber": "88", "name": "Trace", "type": "Skill", "energyCost": "0", "image": "/images/scout_cards_page_5.png", "spriteLeft": "-1029px", "spriteTop": "-720px", "spriteWidth": "160px", "spriteHeight": "235px" }
+                { "count": 4, "characterType": "SCOUT", "serialNumber": "75", "name": "Slice", "type": "Melee Attack", "energyCost": "1", "@mixin": "innateCardSprite1,andrinDetailsImg" },
+                { "count": 4, "characterType": "SCOUT", "serialNumber": "3", "name": "Aimed Shot", "type": "Ranged Attack", "energyCost": "2",  "@mixin": "innateCardSprite2,andrinDetailsImg" },
+                { "count": 2, "characterType": "SCOUT", "serialNumber": "24", "name": "Deflect", "type": "Skill", "energyCost": "0", "@mixin": "innateCardSprite3,andrinDetailsImg" },
+                { "count": 2, "characterType": "SCOUT", "serialNumber": "65", "name": "Rupture", "type": "Melee Attack", "energyCost": "2", "@mixin": "innateCardSprite4,andrinDetailsImg" },
+                { "count": 1, "characterType": "SCOUT", "serialNumber": "2", "name": "Adrenaline", "type": "Skill", "energyCost": "0", "@mixin": "innateCardSprite5,andrinDetailsImg" },
+                { "count": 1, "characterType": "SCOUT", "serialNumber": "41", "name": "Hunter's Mark", "type": "Skill", "energyCost": "1", "@mixin": "innateCardSprite6,andrinDetailsImg" },
+                { "count": 1, "characterType": "SCOUT", "serialNumber": "999", "name": "Expert Tracker", "type": "Skill", "energyCost": "0", "@mixin": "innateCardSprite7,andrinDetailsImg" }
             ],
-            "weaponSprite": { "image": "/images/andrin_details.png", "spriteLeft": "-1706px", "spriteTop": "-572px", "spriteWidth": "146px", "spriteHeight": "213px" },
-            "headshotSprite": { "image": "/images/tier_1_characters.png", "spriteLeft": "-1358px", "spriteTop": "-332px", "spriteWidth": "124px", "spriteHeight": "195px" },
-            "fullBodySprite": { "image": "/images/andrin_details.png", "spriteLeft": "-955px", "spriteTop": "0px", "spriteWidth": "250px", "spriteHeight": "365px" }
+            "fullBodySprite": { "@mixin": "fullBodySprite,andrinDetailsImg" },
+            "weaponSprite": { "@mixin": "weaponSprite,andrinDetailsImg" },
+            "headshotSprite": { "spriteLeft": "-1358px", "spriteTop": "-332px", "spriteWidth": "124px", "spriteHeight": "195px", "@mixin": "tier1Img" }
         },
         {
             "id": "evelyn",
@@ -102,16 +122,17 @@
                 { "resistanceType": "Shadow", "value": "17%" }
             ],
             "innateCards": [
-                { "count": 4, "characterType": "MAGE", "serialNumber": "43", "name": "Frostbolt", "type": "Cold Spell", "energyCost": "2", "image": "/images/mage_cards_page_3.png", "spriteLeft": "-346px", "spriteTop": "-720px", "spriteWidth": "160px", "spriteHeight": "235px" },
-                { "count": 3, "characterType": "MAGE", "serialNumber": "38", "name": "Fire Blast", "type": "Fire Spell", "energyCost": "0", "image": "/images/mage_cards_page_3.png", "spriteLeft": "-547px", "spriteTop": "-160px", "spriteWidth": "160px", "spriteHeight": "235px" },
-                { "count": 3, "characterType": "MAGE", "serialNumber": "7", "name": "Charge Battery", "type": "Lightning Spell", "energyCost": "1", "image": "/images/mage_cards_page_1.png", "spriteLeft": "-346px", "spriteTop": "-720px", "spriteWidth": "160px", "spriteHeight": "235px" },
-                { "count": 2, "characterType": "MAGE", "serialNumber": "95", "name": "Transmission", "type": "Skill", "energyCost": "2", "image": "/images/mage_cards_page_6.png", "spriteLeft": "-547px", "spriteTop": "-440px", "spriteWidth": "160px", "spriteHeight": "235px" },
-                { "count": 2, "characterType": "MAGE", "serialNumber": "32", "name": "Elemental Ward", "type": "Skill", "energyCost": "1", "image": "/images/mage_cards_page_2.png", "spriteLeft": "-1230px", "spriteTop": "-440px", "spriteWidth": "160px", "spriteHeight": "235px" },
-                { "count": 1, "characterType": "MAGE", "serialNumber": "62", "name": "Mana Gem", "type": "Skill", "energyCost": "0", "image": "/images/mage_cards_page_4.png", "spriteLeft": "-547px", "spriteTop": "-720px", "spriteWidth": "160px", "spriteHeight": "235px" }
+                { "count": 4, "characterType": "MAGE", "serialNumber": "43", "name": "Frostbolt", "type": "Cold Spell", "energyCost": "2", "@mixin": "innateCardSprite1,evelynDetailsImg" },
+                { "count": 3, "characterType": "MAGE", "serialNumber": "38", "name": "Fire Blast", "type": "Fire Spell", "energyCost": "0", "@mixin": "innateCardSprite2,evelynDetailsImg" },
+                { "count": 3, "characterType": "MAGE", "serialNumber": "7", "name": "Charge Battery", "type": "Lightning Spell", "energyCost": "1", "@mixin": "innateCardSprite3,evelynDetailsImg" },
+                { "count": 2, "characterType": "MAGE", "serialNumber": "95", "name": "Transmission", "type": "Skill", "energyCost": "2", "@mixin": "innateCardSprite4,evelynDetailsImg"},
+                { "count": 2, "characterType": "MAGE", "serialNumber": "32", "name": "Elemental Ward", "type": "Skill", "energyCost": "1", "@mixin": "innateCardSprite5,evelynDetailsImg" },
+                { "count": 1, "characterType": "MAGE", "serialNumber": "62", "name": "Mana Gem", "type": "Skill", "energyCost": "0", "@mixin": "innateCardSprite6,evelynDetailsImg" },
+                { "count": 1, "characterType": "MAGE", "serialNumber": "999", "name": "Cold Spark", "type": "Cold Spell", "energyCost": "2", "@mixin": "innateCardSprite7,evelynDetailsImg" }
             ],
-            "weaponSprite": { "image": "/images/evelyn_details.png", "spriteLeft": "-1706px", "spriteTop": "-572px", "spriteWidth": "146px", "spriteHeight": "213px" },
-            "headshotSprite": { "image": "/images/tier_1_characters.png", "spriteLeft": "-1198px", "spriteTop": "-332px", "spriteWidth": "124px", "spriteHeight": "195px" },
-            "fullBodySprite": { "image": "/images/evelyn_details.png", "spriteLeft": "-955px", "spriteTop": "0px", "spriteWidth": "250px", "spriteHeight": "365px" }
+            "fullBodySprite": { "@mixin": "fullBodySprite,evelynDetailsImg" },
+            "weaponSprite": { "@mixin": "weaponSprite,evelynDetailsImg" },
+            "headshotSprite": { "spriteLeft": "-1198px", "spriteTop": "-332px", "spriteWidth": "124px", "spriteHeight": "195px", "@mixin": "tier1Img" }
         },
         {
             "id": "reginald",
@@ -147,16 +168,17 @@
                 { "resistanceType": "Shadow", "value": "12%" }
             ],
             "innateCards": [
-                { "count": 4, "characterType": "HEALER", "serialNumber": "39", "name": "Heal", "type": "Healing Spell", "energyCost": "2", "image": "/images/healer_cards_page_3.png", "spriteLeft": "-748px", "spriteTop": "-160px", "spriteWidth": "160px", "spriteHeight": "235px" },
-                { "count": 3, "characterType": "HEALER", "serialNumber": "4", "name": "Barrier", "type": "Defense", "energyCost": "1", "image": "/images/healer_cards_page_1.png", "spriteLeft": "-346px", "spriteTop": "-440px", "spriteWidth": "160px", "spriteHeight": "235px" },
-                { "count": 3, "characterType": "HEALER", "serialNumber": "32", "name": "Flash", "type": "Holy Spell", "energyCost": "1", "image": "/images/healer_cards_page_2.png", "spriteLeft": "-1230px", "spriteTop": "-440px", "spriteWidth": "160px", "spriteHeight": "235px" },
-                { "count": 2, "characterType": "HEALER", "serialNumber": "34", "name": "Foresight", "type": "Skill", "energyCost": "0", "image": "/images/healer_cards_page_2.png", "spriteLeft": "-1029px", "spriteTop": "-720px", "spriteWidth": "160px", "spriteHeight": "235px" },
-                { "count": 2, "characterType": "HEALER", "serialNumber": "47", "name": "Holy Smite", "type": "Holy Spell", "energyCost": "2", "image": "/images/healer_cards_page_3.png", "spriteLeft": "-1230px", "spriteTop": "-160px", "spriteWidth": "160px", "spriteHeight": "235px" },
-                { "count": 1, "characterType": "HEALER", "serialNumber": "40", "name": "Healing Rain", "type": "Healing Spell", "energyCost": "0", "image": "/images/healer_cards_page_3.png", "spriteLeft": "-346px", "spriteTop": "-440px", "spriteWidth": "160px", "spriteHeight": "235px" }
+                { "count": 4, "characterType": "HEALER", "serialNumber": "39", "name": "Heal", "type": "Healing Spell", "energyCost": "2", "@mixin": "innateCardSprite1,reginaldDetailsImg" },
+                { "count": 3, "characterType": "HEALER", "serialNumber": "4", "name": "Barrier", "type": "Defense", "energyCost": "1", "@mixin": "innateCardSprite2,reginaldDetailsImg" },
+                { "count": 3, "characterType": "HEALER", "serialNumber": "32", "name": "Flash", "type": "Holy Spell", "energyCost": "1", "@mixin": "innateCardSprite3,reginaldDetailsImg" },
+                { "count": 2, "characterType": "HEALER", "serialNumber": "34", "name": "Foresight", "type": "Skill", "energyCost": "0", "@mixin": "innateCardSprite4,reginaldDetailsImg" },
+                { "count": 2, "characterType": "HEALER", "serialNumber": "47", "name": "Holy Smite", "type": "Holy Spell", "energyCost": "2", "@mixin": "innateCardSprite5,reginaldDetailsImg" },
+                { "count": 1, "characterType": "HEALER", "serialNumber": "40", "name": "Healing Rain", "type": "Healing Spell", "energyCost": "0", "@mixin": "innateCardSprite6,reginaldDetailsImg" },
+                { "count": 1, "characterType": "HEALER", "serialNumber": "999", "name": "Divine Grace", "type": "Healing Spell", "energyCost": "1", "@mixin": "innateCardSprite7,reginaldDetailsImg" }
             ],
-            "weaponSprite": { "image": "/images/reginald_details.png", "spriteLeft": "-1706px", "spriteTop": "-572px", "spriteWidth": "146px", "spriteHeight": "213px" },
-            "headshotSprite": { "image": "/images/tier_1_characters.png", "spriteLeft": "-1038px", "spriteTop": "-332px", "spriteWidth": "124px", "spriteHeight": "195px" },
-            "fullBodySprite": { "image": "/images/reginald_details.png", "spriteLeft": "-955px", "spriteTop": "0px", "spriteWidth": "250px", "spriteHeight": "365px" }
+            "fullBodySprite": { "@mixin": "fullBodySprite,reginaldDetailsImg" },
+            "weaponSprite": { "@mixin": "weaponSprite,reginaldDetailsImg" },
+            "headshotSprite": { "spriteLeft": "-1038px", "spriteTop": "-332px", "spriteWidth": "124px", "spriteHeight": "195px", "@mixin": "tier1Img" }
         }
     ]
 }
