@@ -14,8 +14,6 @@ export const getChampions = (): Promise<Character[]> => {
     
     const processed = preprocess(ChampionsDatum);
     
-    console.log({ processed });
-
     const champions: Character[] = processed.champions.map((data: any) => {
         const traits = data.traits.map((d: any) => {
             return new Trait(d.tier, d.traits);
