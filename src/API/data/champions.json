@@ -200,19 +200,19 @@
             "jobColor": "cornflowerblue",
             "characterType": "MAGE",
             "traits": [
-                { "tier": "Innate", "traits": ["Ardent"] },
-                { "tier": "Level 2", "traits": ["Resistant", "Clever"] },
+                { "tier": "Innate", "traits": ["Ardent||At the start of the combat gain 3 Powerful and suffer 3 Burn."] },
+                { "tier": "Level 2", "traits": ["Resistant||Fire, Cold, and Lightning resistances +18%.", "Clever||At the start of combat gain 1 Inspire."] },
                 { "tier": "Level 3", "traits": [
-                    "Incendiary",
-                    "Firestarter"
+                    "Incendiary||When dealing damage with a Hit, apply 3 Burn.",
+                    "Firestarter||When you play a \"Fire Spell\" card, refund 1 Energy."
                 ]},
                 { "tier": "Level 4", "traits": [
-                    "Healthy",
-                    "Fireproof"
+                    "Healthy||Max HP +15.",
+                    "Fireproof||Immune to Burn."
                 ]},
                 { "tier": "Level 5", "traits": [
-                    "Wildfire",
-                    "Glass Cannon"
+                    "Wildfire||Burn +4.",
+                    "Glass Cannon||All Damage done +50%. Max HP -40."
                 ]}
             ],
             "resistances": [
@@ -246,19 +246,19 @@
             "jobColor": "red",
             "characterType": "WARRIOR",
             "traits": [
-                { "tier": "Innate", "traits": ["Furious"] },
-                { "tier": "Level 2", "traits": ["Quick", "Combat Ready"] },
+                { "tier": "Innate", "traits": ["Furious||At your turn gain 2 Fury."] },
+                { "tier": "Level 2", "traits": ["Quick||Speed +3.", "Combat Ready||At the start of combat gain 1 Energize."] },
                 { "tier": "Level 3", "traits": [
-                    "Bloody",
-                    "Offense Mastery"
+                    "Bloody||When dealing damage with a Hit, apply 3 Bleed.",
+                    "Offense Mastery||Cost of \"Melee Attack\" cards -1."
                 ]},
                 { "tier": "Level 4", "traits": [
-                    "Steel Veins",
-                    "Athletic"
+                    "Steel Veins||Immune to Bleed.",
+                    "Athletic||Max HP +40."
                 ]},
                 { "tier": "Level 5", "traits": [
-                    "Endless Fury",
-                    "Tireless"
+                    "Endless Fury||Fury +3.",
+                    "Tireless||Energy regeneration +2."
                 ]}
             ],
             "resistances": [
@@ -292,19 +292,19 @@
             "jobColor": "red",
             "characterType": "WARRIOR",
             "traits": [
-                { "tier": "Innate", "traits": ["Unbreakable"] },
-                { "tier": "Level 2", "traits": ["Hardened", "Athletic"] },
+                { "tier": "Innate", "traits": ["Unbreakable||At the start of the combat all heroes gain 6 Block, Heiner also gains 2 Fortify."] },
+                { "tier": "Level 2", "traits": ["Hardened||All resistances +10%.", "Athletic||Max HP +40."] },
                 { "tier": "Level 3", "traits": [
-                    "Shield Expert",
-                    "Defense Master"
+                    "Shield Expert||When you play a \"Melee Attack\" card, gain 9 Block.",
+                    "Defense Master||Cost of \"Defense\" cards -1."
                 ]},
                 { "tier": "Level 4", "traits": [
-                    "Fortress",
-                    "Steel Veins"
+                    "Fortress||Fortify +1.",
+                    "Steel Veins||Immune to Bleed."
                 ]},
                 { "tier": "Level 5", "traits": [
-                    "Indomitable",
-                    "Tireless"
+                    "Indomitable||When fully blocking a Hit, gain X Shield (X is half the damage blocked).",
+                    "Tireless||Energy regeneration +2."
                 ]}
             ],
             "resistances": [
@@ -338,19 +338,19 @@
             "jobColor": "cornflowerblue",
             "characterType": "MAGE",
             "traits": [
-                { "tier": "Innate", "traits": ["Voodoo"] },
-                { "tier": "Level 2", "traits": ["Quick", "Healthy"] },
+                { "tier": "Innate", "traits": ["Voodoo||When you apply \"Dark\" charges, heal the most damaged hero for that amount. This heal does not gain bonuses."] },
+                { "tier": "Level 2", "traits": ["Quick||Speed +3.", "Healthy||Max HP +15."] },
                 { "tier": "Level 3", "traits": [
-                    "Jinx",
-                    "Healing Surge"
+                    "Jinx||When dealing damage with a Hit, apply 2 Dark.",
+                    "Healing Surge||When you play a \"Healing Spell\" card, refund 1 Energy."
                 ]},
                 { "tier": "Level 4", "traits": [
-                    "Calm",
-                    "Vitalizer"
+                    "Calm||Mind, Holy, and Shadow resistances +18%.",
+                    "Vitalizer||Vitality +1."
                 ]},
                 { "tier": "Level 5", "traits": [
-                    "Mojo",
-                    "Shadowform"
+                    "Mojo||When you play a \"Healing Spell\" card, apply 2 Regeneration and Dispel 1 to all heroes.",
+                    "Shadowform||All Damage done +30% and Dark +1."
                 ]}
             ],
             "resistances": [
@@ -384,19 +384,19 @@
             "jobColor": "goldenrod",
             "characterType": "HEALER",
             "traits": [
-                { "tier": "Innate", "traits": ["Shielder"] },
-                { "tier": "Level 2", "traits": ["Cautious", "Healthy"] },
+                { "tier": "Innate", "traits": ["Shielder||When you apply \"Shield\" charges, heal for 30% of that amount. This heal does not gain bonuses."] },
+                { "tier": "Level 2", "traits": ["Cautious||At the start of combat gain 2 Buffer.", "Healthy||Max HP +15."] },
                 { "tier": "Level 3", "traits": [
-                    "Sacred",
-                    "Defense Mastery"
+                    "Sacred||Sanctify +3.",
+                    "Defense Mastery||Cost of \"Defense\" cards -1."
                 ]},
                 { "tier": "Level 4", "traits": [
-                    "Calm",
-                    "Vitalizer"
+                    "Calm||Mind, Holy, and Shadow resistances +18%.",
+                    "Vitalizer||Vitality +1."
                 ]},
                 { "tier": "Level 5", "traits": [
-                    "Dome Of Light",
-                    "Reverberation"
+                    "Dome Of Light||When you play a \"Defense\" card, apply 6 Shield to all heroes.",
+                    "Reverberation||When you play a \"Holy Spell\" card, reduce the cost of all \"Holy Spell\" cards in your hand by 1 this turn."
                 ]}
             ],
             "resistances": [
@@ -430,19 +430,19 @@
             "jobColor": "green",
             "characterType": "SCOUT",
             "traits": [
-                { "tier": "Innate", "traits": ["Nightstalker"] },
-                { "tier": "Level 2", "traits": ["Sneaky", "Sturdy"] },
+                { "tier": "Innate", "traits": ["Nightstalker||At the start of combat gain 2 Stealth."] },
+                { "tier": "Level 2", "traits": ["Sneaky||Stealth +1.", "Sturdy||Max HP +25."] },
                 { "tier": "Level 3", "traits": [
-                    "Envenom",
-                    "Momentum"
+                    "Envenom||When dealing damage with a Hit, apply 3 Poison.",
+                    "Momentum||When you play a \"Melee Attack\" card, refund 1 Energy."
                 ]},
                 { "tier": "Level 4", "traits": [
-                    "Green Blood",
-                    "Barkskin"
+                    "Green Blood||Immune to Poison.",
+                    "Barkskin||Slashing, Blunt, and Piercing resistances +18%."
                 ]},
                 { "tier": "Level 5", "traits": [
-                    "Veil Of Shadows",
-                    "Wide Sleeves"
+                    "Veil Of Shadows||At the start of the round gain 2 Stealth.",
+                    "Wide Sleeves||When you play a \"Small Weapon\" card, shuffle a random \"Small Weapon\" card into your deck with cost 0 and vanish. Max 2 times per round."
                 ]}
             ],
             "resistances": [
