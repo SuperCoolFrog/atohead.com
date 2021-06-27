@@ -28,7 +28,7 @@ const Champions = () => {
     return (<Container className={styles.container}>
         <Row>
             { champions.map((champ) => (
-            <Col md="2">
+            <Col md="2" className={styles.spriteCol}>
                 <Sprite sprite={champ.headshotSprite} onClick={() => (setRedirectId(champ.id))} />
             </Col>
             ))}

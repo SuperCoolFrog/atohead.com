@@ -18,10 +18,18 @@
         "headshotSprite4": { "spriteLeft": "-1518px", "spriteTop": "-332px", "spriteWidth": "124px", "spriteHeight": "195px" },
         
         "tier1Img": { "image": "/images/tier_1_characters.png" },
+        "tier2Img": { "image": "/images/tier_2_characters.png" },
+        "tier3Img": { "image": "/images/tier_3_characters.png" },
 
         "magnusDetailsImg": { "image": "/images/magnus_details.png" },
         "andrinDetailsImg": { "image": "/images/andrin_details.png" },
         "evelynDetailsImg": { "image": "/images/evelyn_details.png" },
+        "corneliusDetailsImg": { "image": "/images/cornelius_details.png" },
+        "grukliDetailsImg": { "image": "/images/grukli_details.png" },
+        "heinerDetailsImg": { "image": "/images/heiner_details.png" },
+        "malukahDetailsImg": { "image": "/images/malukah_details.png" },
+        "ottisDetailsImg": { "image": "/images/ottis_details.png" },
+        "thulsDetailsImg": { "image": "/images/thuls_details.png" },
         "reginaldDetailsImg": { "image": "/images/reginald_details.png" }
     },
     "champions": [
@@ -127,7 +135,7 @@
                 { "resistanceType": "Shadow", "value": "17%" }
             ],
             "innateCards": [
-                { "count": 4, "characterType": "MAGE", "serialNumber": "43", "name": "Frostbolt", "type": "Cold Spell", "energyCost": "2", "@mixin": "innateCardSprite1,evelynDetailsImg" },
+                { "count": 3, "characterType": "MAGE", "serialNumber": "43", "name": "Frostbolt", "type": "Cold Spell", "energyCost": "2", "@mixin": "innateCardSprite1,evelynDetailsImg" },
                 { "count": 3, "characterType": "MAGE", "serialNumber": "38", "name": "Fire Blast", "type": "Fire Spell", "energyCost": "0", "@mixin": "innateCardSprite2,evelynDetailsImg" },
                 { "count": 3, "characterType": "MAGE", "serialNumber": "7", "name": "Charge Battery", "type": "Lightning Spell", "energyCost": "1", "@mixin": "innateCardSprite3,evelynDetailsImg" },
                 { "count": 2, "characterType": "MAGE", "serialNumber": "95", "name": "Transmission", "type": "Skill", "energyCost": "2", "@mixin": "innateCardSprite4,evelynDetailsImg"},
@@ -173,7 +181,7 @@
                 { "resistanceType": "Shadow", "value": "12%" }
             ],
             "innateCards": [
-                { "count": 4, "characterType": "HEALER", "serialNumber": "39", "name": "Heal", "type": "Healing Spell", "energyCost": "2", "@mixin": "innateCardSprite1,reginaldDetailsImg" },
+                { "count": 3, "characterType": "HEALER", "serialNumber": "39", "name": "Heal", "type": "Healing Spell", "energyCost": "2", "@mixin": "innateCardSprite1,reginaldDetailsImg" },
                 { "count": 3, "characterType": "HEALER", "serialNumber": "4", "name": "Barrier", "type": "Defense", "energyCost": "1", "@mixin": "innateCardSprite2,reginaldDetailsImg" },
                 { "count": 3, "characterType": "HEALER", "serialNumber": "32", "name": "Flash", "type": "Holy Spell", "energyCost": "1", "@mixin": "innateCardSprite3,reginaldDetailsImg" },
                 { "count": 2, "characterType": "HEALER", "serialNumber": "34", "name": "Foresight", "type": "Skill", "energyCost": "0", "@mixin": "innateCardSprite4,reginaldDetailsImg" },
@@ -184,6 +192,282 @@
             "fullBodySprite": { "@mixin": "fullBodySprite,reginaldDetailsImg" },
             "weaponSprite": { "@mixin": "weaponSprite,reginaldDetailsImg" },
             "headshotSprite": { "@mixin": "headshotSprite1,tier1Img" }
+        },
+        {
+            "id": "cornelius",
+            "name": "Cornelius",
+            "job": "Pyromancer",
+            "jobColor": "cornflowerblue",
+            "characterType": "MAGE",
+            "traits": [
+                { "tier": "Innate", "traits": ["Ardent"] },
+                { "tier": "Level 2", "traits": ["Resistant", "Clever"] },
+                { "tier": "Level 3", "traits": [
+                    "Incendiary",
+                    "Firestarter"
+                ]},
+                { "tier": "Level 4", "traits": [
+                    "Healthy",
+                    "Fireproof"
+                ]},
+                { "tier": "Level 5", "traits": [
+                    "Wildfire",
+                    "Glass Cannon"
+                ]}
+            ],
+            "resistances": [
+                { "resistanceType": "Slash", "value": "4%" },
+                { "resistanceType": "Blunt", "value": "4%" },
+                { "resistanceType": "Piercing", "value": "4%" },
+                { "resistanceType": "Fire", "value": "29%" },
+                { "resistanceType": "Cold", "value": "4%" },
+                { "resistanceType": "Lightning", "value": "14%" },
+                { "resistanceType": "Mind", "value": "14%" },
+                { "resistanceType": "Holy", "value": "9%" },
+                { "resistanceType": "Shadow", "value": "14%" }
+            ],
+            "innateCards": [
+                { "count": 4, "characterType": "MAGE", "serialNumber": "1", "name": "Flare", "type": "Fire Spell", "energyCost": "2", "@mixin": "innateCardSprite1,corneliusDetailsImg" },
+                { "count": 3, "characterType": "MAGE", "serialNumber": "2", "name": "Searing Touch", "type": "Fire Spell", "energyCost": "1", "@mixin": "innateCardSprite2,corneliusDetailsImg" },
+                { "count": 2, "characterType": "MAGE", "serialNumber": "3", "name": "Fireball", "type": "Fire Spell", "energyCost": "3", "@mixin": "innateCardSprite3,corneliusDetailsImg" },
+                { "count": 2, "characterType": "MAGE", "serialNumber": "4", "name": "Heat Wave", "type": "Fire Spell", "energyCost": "0", "@mixin": "innateCardSprite4,corneliusDetailsImg" },
+                { "count": 2, "characterType": "MAGE", "serialNumber": "5", "name": "Scroll of Intellect", "type": "Book", "energyCost": "0", "@mixin": "innateCardSprite5,corneliusDetailsImg" },
+                { "count": 1, "characterType": "MAGE", "serialNumber": "6", "name": "Inner Combustion", "type": "Fire Spell", "energyCost": "1", "@mixin": "innateCardSprite6,corneliusDetailsImg" },
+                { "count": 1, "characterType": "MAGE", "serialNumber": "7", "name": "Fiery Shield", "type": "Fire Spell", "energyCost": "2", "@mixin": "innateCardSprite7,corneliusDetailsImg" }
+            ],
+            "fullBodySprite": { "@mixin": "fullBodySprite,corneliusDetailsImg" },
+            "weaponSprite": { "@mixin": "weaponSprite,corneliusDetailsImg" },
+            "headshotSprite": { "@mixin": "headshotSprite2,tier2Img" }
+        },
+        {
+            "id": "grukli",
+            "name": "Grukli",
+            "job": "Berserker",
+            "jobColor": "red",
+            "characterType": "WARRIOR",
+            "traits": [
+                { "tier": "Innate", "traits": ["Furious"] },
+                { "tier": "Level 2", "traits": ["Quick", "Combat Ready"] },
+                { "tier": "Level 3", "traits": [
+                    "Bloody",
+                    "Offense Mastery"
+                ]},
+                { "tier": "Level 4", "traits": [
+                    "Steel Veins",
+                    "Athletic"
+                ]},
+                { "tier": "Level 5", "traits": [
+                    "Endless Fury",
+                    "Tireless"
+                ]}
+            ],
+            "resistances": [
+                { "resistanceType": "Slash", "value": "10%" },
+                { "resistanceType": "Blunt", "value": "10%" },
+                { "resistanceType": "Piercing", "value": "10%" },
+                { "resistanceType": "Fire", "value": "0%" },
+                { "resistanceType": "Cold", "value": "10%" },
+                { "resistanceType": "Lightning", "value": "0%" },
+                { "resistanceType": "Mind", "value": "5%" },
+                { "resistanceType": "Holy", "value": "0%" },
+                { "resistanceType": "Shadow", "value": "5%" }
+            ],
+            "innateCards": [
+                { "count": 3, "characterType": "WARRIOR", "serialNumber": "1", "name": "Precise Strike", "type": "Melee Attack", "energyCost": "2", "@mixin": "innateCardSprite1,grukliDetailsImg" },
+                { "count": 3, "characterType": "WARRIOR", "serialNumber": "2", "name": "Punch", "type": "Melee Attack", "energyCost": "0", "@mixin": "innateCardSprite2,grukliDetailsImg" },
+                { "count": 3, "characterType": "WARRIOR", "serialNumber": "3", "name": "Intercept", "type": "Defense", "energyCost": "0", "@mixin": "innateCardSprite3,grukliDetailsImg" },
+                { "count": 2, "characterType": "WARRIOR", "serialNumber": "4", "name": "Blood For Blood", "type": "Melee Attack", "energyCost": "1", "@mixin": "innateCardSprite4,grukliDetailsImg" },
+                { "count": 2, "characterType": "WARRIOR", "serialNumber": "5", "name": "Reckless Charge", "type": "Melee Attack", "energyCost": "3", "@mixin": "innateCardSprite5,grukliDetailsImg" },
+                { "count": 1, "characterType": "WARRIOR", "serialNumber": "6", "name": "Bloodrage", "type": "Skill", "energyCost": "0", "@mixin": "innateCardSprite6,grukliDetailsImg" },
+                { "count": 1, "characterType": "WARRIOR", "serialNumber": "7", "name": "Vigorous Fury", "type": "Skill", "energyCost": "0", "@mixin": "innateCardSprite7,grukliDetailsImg" }
+            ],
+            "fullBodySprite": { "@mixin": "fullBodySprite,grukliDetailsImg" },
+            "weaponSprite": { "@mixin": "weaponSprite,grukliDetailsImg" },
+            "headshotSprite": { "@mixin": "headshotSprite4,tier3Img" }
+        },
+        {
+            "id": "heiner",
+            "name": "Heiner",
+            "job": "Sentinel",
+            "jobColor": "red",
+            "characterType": "WARRIOR",
+            "traits": [
+                { "tier": "Innate", "traits": ["Unbreakable"] },
+                { "tier": "Level 2", "traits": ["Hardened", "Athletic"] },
+                { "tier": "Level 3", "traits": [
+                    "Shield Expert",
+                    "Defense Master"
+                ]},
+                { "tier": "Level 4", "traits": [
+                    "Fortress",
+                    "Steel Veins"
+                ]},
+                { "tier": "Level 5", "traits": [
+                    "Indomitable",
+                    "Tireless"
+                ]}
+            ],
+            "resistances": [
+                { "resistanceType": "Slash", "value": "25%" },
+                { "resistanceType": "Blunt", "value": "10%" },
+                { "resistanceType": "Piercing", "value": "25%" },
+                { "resistanceType": "Fire", "value": "10%" },
+                { "resistanceType": "Cold", "value": "10%" },
+                { "resistanceType": "Lightning", "value": "10%" },
+                { "resistanceType": "Mind", "value": "15%" },
+                { "resistanceType": "Holy", "value": "15%" },
+                { "resistanceType": "Shadow", "value": "15%" }
+            ],
+            "innateCards": [
+                { "count": 3, "characterType": "WARRIOR", "serialNumber": "1", "name": "Guard", "type": "Defense", "energyCost": "2", "@mixin": "innateCardSprite1,heinerDetailsImg" },
+                { "count": 3, "characterType": "WARRIOR", "serialNumber": "2", "name": "Intercept", "type": "Defense", "energyCost": "0", "@mixin": "innateCardSprite2,heinerDetailsImg" },
+                { "count": 3, "characterType": "WARRIOR", "serialNumber": "3", "name": "Steelskin", "type": "Defense", "energyCost": "0", "@mixin": "innateCardSprite3,heinerDetailsImg" },
+                { "count": 2, "characterType": "WARRIOR", "serialNumber": "4", "name": "Bluff", "type": "Melee Attack", "energyCost": "1", "@mixin": "innateCardSprite4,heinerDetailsImg" },
+                { "count": 2, "characterType": "WARRIOR", "serialNumber": "5", "name": "Sunder Armor", "type": "Melee Attack", "energyCost": "3", "@mixin": "innateCardSprite5,heinerDetailsImg" },
+                { "count": 1, "characterType": "WARRIOR", "serialNumber": "6", "name": "Shield Charge", "type": "Melee Attack", "energyCost": "0", "@mixin": "innateCardSprite6,heinerDetailsImg" },
+                { "count": 1, "characterType": "WARRIOR", "serialNumber": "7", "name": "Heat Laser", "type": "Skill", "energyCost": "0", "@mixin": "innateCardSprite7,heinerDetailsImg" }
+            ],
+            "fullBodySprite": { "@mixin": "fullBodySprite,heinerDetailsImg" },
+            "weaponSprite": { "@mixin": "weaponSprite,heinerDetailsImg" },
+            "headshotSprite": { "@mixin": "headshotSprite4,tier2Img" }
+        },
+        {
+            "id": "malukah",
+            "name": "Malukah",
+            "job": "Voodoo Witch",
+            "jobColor": "cornflowerblue",
+            "characterType": "MAGE",
+            "traits": [
+                { "tier": "Innate", "traits": ["Voodoo"] },
+                { "tier": "Level 2", "traits": ["Quick", "Healthy"] },
+                { "tier": "Level 3", "traits": [
+                    "Jinx",
+                    "Healing Surge"
+                ]},
+                { "tier": "Level 4", "traits": [
+                    "Calm",
+                    "Vitalizer"
+                ]},
+                { "tier": "Level 5", "traits": [
+                    "Mojo",
+                    "Shadowform"
+                ]}
+            ],
+            "resistances": [
+                { "resistanceType": "Slash", "value": "12%" },
+                { "resistanceType": "Blunt", "value": "12%" },
+                { "resistanceType": "Piercing", "value": "12%" },
+                { "resistanceType": "Fire", "value": "22%" },
+                { "resistanceType": "Cold", "value": "22%" },
+                { "resistanceType": "Lightning", "value": "12%" },
+                { "resistanceType": "Mind", "value": "27%" },
+                { "resistanceType": "Holy", "value": "12%" },
+                { "resistanceType": "Shadow", "value": "32%" }
+            ],
+            "innateCards": [
+                { "count": 3, "characterType": "MAGE", "serialNumber": "1", "name": "Shadow Mend", "type": "Healing Spell", "energyCost": "1", "@mixin": "innateCardSprite1,malukahDetailsImg" },
+                { "count": 3, "characterType": "MAGE", "serialNumber": "2", "name": "Vitalize", "type": "Healing Spell", "energyCost": "2", "@mixin": "innateCardSprite2,malukahDetailsImg" },
+                { "count": 3, "characterType": "MAGE", "serialNumber": "3", "name": "Black Karma", "type": "Shadow Spell", "energyCost": "1", "@mixin": "innateCardSprite3,malukahDetailsImg" },
+                { "count": 2, "characterType": "MAGE", "serialNumber": "4", "name": "Vile Lance", "type": "Shadow Spell", "energyCost": "2", "@mixin": "innateCardSprite4,malukahDetailsImg" },
+                { "count": 2, "characterType": "MAGE", "serialNumber": "5", "name": "Bad Augury", "type": "Shadow Spell", "energyCost": "0", "@mixin": "innateCardSprite5,malukahDetailsImg" },
+                { "count": 1, "characterType": "MAGE", "serialNumber": "6", "name": "Dispel Magic", "type": "Skill", "energyCost": "1", "@mixin": "innateCardSprite6,malukahDetailsImg" },
+                { "count": 1, "characterType": "MAGE", "serialNumber": "7", "name": "Malediction", "type": "Shadow Spell", "energyCost": "0", "@mixin": "innateCardSprite7,malukahDetailsImg" }
+            ],
+            "fullBodySprite": { "@mixin": "fullBodySprite,malukahDetailsImg" },
+            "weaponSprite": { "@mixin": "weaponSprite,malukahDetailsImg" },
+            "headshotSprite": { "@mixin": "headshotSprite1,tier3Img" }
+        },
+        {
+            "id": "ottis",
+            "name": "Ottis",
+            "job": "Priest",
+            "jobColor": "goldenrod",
+            "characterType": "HEALER",
+            "traits": [
+                { "tier": "Innate", "traits": ["Shielder"] },
+                { "tier": "Level 2", "traits": ["Cautious", "Healthy"] },
+                { "tier": "Level 3", "traits": [
+                    "Sacred",
+                    "Defense Mastery"
+                ]},
+                { "tier": "Level 4", "traits": [
+                    "Calm",
+                    "Vitalizer"
+                ]},
+                { "tier": "Level 5", "traits": [
+                    "Dome Of Light",
+                    "Reverberation"
+                ]}
+            ],
+            "resistances": [
+                { "resistanceType": "Slash", "value": "4%" },
+                { "resistanceType": "Blunt", "value": "4%" },
+                { "resistanceType": "Piercing", "value": "4%" },
+                { "resistanceType": "Fire", "value": "4%" },
+                { "resistanceType": "Cold", "value": "4%" },
+                { "resistanceType": "Lightning", "value": "9%" },
+                { "resistanceType": "Mind", "value": "14%" },
+                { "resistanceType": "Holy", "value": "19%" },
+                { "resistanceType": "Shadow", "value": "14%" }
+            ],
+            "innateCards": [
+                { "count": 3, "characterType": "HEALER", "serialNumber": "1", "name": "Heal", "type": "Healing Spell", "energyCost": "2", "@mixin": "innateCardSprite1,ottisDetailsImg" },
+                { "count": 3, "characterType": "HEALER", "serialNumber": "2", "name": "Barrier", "type": "Defense", "energyCost": "1", "@mixin": "innateCardSprite2,ottisDetailsImg" },
+                { "count": 2, "characterType": "HEALER", "serialNumber": "3", "name": "Sacred Bolt", "type": "Holy Spell", "energyCost": "2", "@mixin": "innateCardSprite3,ottisDetailsImg" },
+                { "count": 2, "characterType": "HEALER", "serialNumber": "4", "name": "Shield Of Warding", "type": "Defense", "energyCost": "2", "@mixin": "innateCardSprite4,ottisDetailsImg" },
+                { "count": 2, "characterType": "HEALER", "serialNumber": "5", "name": "Sunbeam", "type": "Holy Spell", "energyCost": "1", "@mixin": "innateCardSprite5,ottisDetailsImg" },
+                { "count": 2, "characterType": "HEALER", "serialNumber": "6", "name": "Infuse Courage", "type": "Defense", "energyCost": "1", "@mixin": "innateCardSprite6,ottisDetailsImg" },
+                { "count": 1, "characterType": "HEALER", "serialNumber": "7", "name": "Atonement", "type": "Holy Spell", "energyCost": "0", "@mixin": "innateCardSprite7,ottisDetailsImg" }
+            ],
+            "fullBodySprite": { "@mixin": "fullBodySprite,ottisDetailsImg" },
+            "weaponSprite": { "@mixin": "weaponSprite,ottisDetailsImg" },
+            "headshotSprite": { "@mixin": "headshotSprite1,tier2Img" }
+        },
+        {
+            "id": "thuls",
+            "name": "Thuls",
+            "job": "Assassin",
+            "jobColor": "green",
+            "characterType": "SCOUT",
+            "traits": [
+                { "tier": "Innate", "traits": ["Nightstalker"] },
+                { "tier": "Level 2", "traits": ["Sneaky", "Sturdy"] },
+                { "tier": "Level 3", "traits": [
+                    "Envenom",
+                    "Momentum"
+                ]},
+                { "tier": "Level 4", "traits": [
+                    "Green Blood",
+                    "Barkskin"
+                ]},
+                { "tier": "Level 5", "traits": [
+                    "Veil Of Shadows",
+                    "Wide Sleeves"
+                ]}
+            ],
+            "resistances": [
+                { "resistanceType": "Slash", "value": "17%" },
+                { "resistanceType": "Blunt", "value": "17%" },
+                { "resistanceType": "Piercing", "value": "17%" },
+                { "resistanceType": "Fire", "value": "22%" },
+                { "resistanceType": "Cold", "value": "22%" },
+                { "resistanceType": "Lightning", "value": "12%" },
+                { "resistanceType": "Mind", "value": "22%" },
+                { "resistanceType": "Holy", "value": "12%" },
+                { "resistanceType": "Shadow", "value": "27%" }
+            ],
+            "innateCards": [
+                { "count": 4, "characterType": "SCOUT", "serialNumber": "1", "name": "Viper Strike", "type": "Melee Attack", "energyCost": "1", "@mixin": "innateCardSprite1,thulsDetailsImg" },
+                { "count": 3, "characterType": "SCOUT", "serialNumber": "2", "name": "Poison Dart", "type": "Small Weapon", "energyCost": "0", "@mixin": "innateCardSprite2,thulsDetailsImg" },
+                { "count": 3, "characterType": "SCOUT", "serialNumber": "3", "name": "Dual Strike", "type": "Melee Attack", "energyCost": "2", "@mixin": "innateCardSprite3,thulsDetailsImg" },
+                { "count": 2, "characterType": "SCOUT", "serialNumber": "4", "name": "Blur", "type": "Skill", "energyCost": "1", "@mixin": "innateCardSprite4,thulsDetailsImg" },
+                { "count": 1, "characterType": "SCOUT", "serialNumber": "5", "name": "Ambush", "type": "Melee Attack", "energyCost": "3", "@mixin": "innateCardSprite5,thulsDetailsImg" },
+                { "count": 1, "characterType": "SCOUT", "serialNumber": "6", "name": "Sneak Peek", "type": "Skill", "energyCost": "0", "@mixin": "innateCardSprite6,thulsDetailsImg" },
+                { "count": 1, "characterType": "SCOUT", "serialNumber": "7", "name": "Killer Instinct", "type": "Skill", "energyCost": "0", "@mixin": "innateCardSprite7,thulsDetailsImg" }
+            ],
+            "fullBodySprite": { "@mixin": "fullBodySprite,thulsDetailsImg" },
+            "weaponSprite": { "@mixin": "weaponSprite,thulsDetailsImg" },
+            "headshotSprite": { "@mixin": "headshotSprite3,tier2Img" }
         }
     ]
 }
