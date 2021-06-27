@@ -39,9 +39,13 @@ export const getChampions = (): Promise<Character[]> => {
         } as Character;
     });
     
-    CACHE.champions = champions;
+    CACHE.champions = champions.sort((a, b) => {
+        if (a.name < b.name) return -1;
+        if (a.name > b.name) return 1;
+        return 0;
+    });
     
-    return Promise.resolve(champions);
+    return Promise.resolve(CACHE.champions);
 };
 
 export const getChampion = async (id: string): Promise<Character> => {
