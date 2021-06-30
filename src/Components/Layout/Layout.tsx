@@ -42,6 +42,9 @@ const Layout = ({ children }: LayoutProps) => {
                         <LinkContainer to="/champions">
                             <Nav.Link>Champions</Nav.Link>
                         </LinkContainer>
+                        <LinkContainer to="/monsters">
+                            <Nav.Link>Monsters</Nav.Link>
+                        </LinkContainer>
                     </Nav>
                 </Navbar.Collapse>
             </Navbar>

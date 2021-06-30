@@ -7,6 +7,7 @@ import Upgrade from '../Models/Upgrade.enum';
 import fbAPI from './firebase-api';
 import upgradeConfig from './upgradesConfig';
 import * as charactersAPI from './characters';
+import * as monstersAPI from './monsters';
 
 /** CARDS */
 
@@ -155,5 +156,6 @@ export const getCardUpgrades = async (gameCard: GameCard) => {
 const API =  {
   getCards, getDeck, saveDeck, getImage, getCardUpgrades,
   ...charactersAPI,
+  ...monstersAPI,
 };
 export default API;

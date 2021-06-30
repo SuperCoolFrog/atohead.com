@@ -1,0 +1,103 @@
+{
+    "mixins": {
+        "headshotSprite": {
+            "image": "/images/monsters/monster_headshots.png",
+            "spriteWidth": "80px",
+            "spriteHeight": "124px"
+        }
+    },
+    "monsters": [
+        {
+            "id": "maruader",
+            "name": "Maruader",
+            "resistances": [
+                {
+                    "resistanceType": "Slash",
+                    "value": "33%"
+                },
+                {
+                    "resistanceType": "Blunt",
+                    "value": "38%"
+                },
+                {
+                    "resistanceType": "Piercing",
+                    "value": "33%"
+                },
+                {
+                    "resistanceType": "Fire",
+                    "value": "-12%"
+                },
+                {
+                    "resistanceType": "Cold",
+                    "value": "12%"
+                },
+                {
+                    "resistanceType": "Lightning",
+                    "value": "-12%"
+                },
+                {
+                    "resistanceType": "Mind",
+                    "value": "18%"
+                },
+                {
+                    "resistanceType": "Holy",
+                    "value": "12%"
+                },
+                {
+                    "resistanceType": "Shadow",
+                    "value": "18%"
+                }
+            ],
+            "headshotSprite": {
+                "spriteSheetIndex": 0,
+                "@mixin": "headshotSprite"
+            }
+        },
+        {
+            "id": "raider",
+            "name": "Raider",
+            "resistances": [
+                {
+                    "resistanceType": "Slash",
+                    "value": "30%"
+                },
+                {
+                    "resistanceType": "Blunt",
+                    "value": "26%"
+                },
+                {
+                    "resistanceType": "Piercing",
+                    "value": "26%"
+                },
+                {
+                    "resistanceType": "Fire",
+                    "value": "22%"
+                },
+                {
+                    "resistanceType": "Cold",
+                    "value": "-12%"
+                },
+                {
+                    "resistanceType": "Lightning",
+                    "value": "15%"
+                },
+                {
+                    "resistanceType": "Mind",
+                    "value": "-12%"
+                },
+                {
+                    "resistanceType": "Holy",
+                    "value": "12%"
+                },
+                {
+                    "resistanceType": "Shadow",
+                    "value": "22%"
+                }
+            ],
+            "headshotSprite": {
+                "spriteSheetIndex": 1,
+                "@mixin": "headshotSprite"
+            }
+        }
+    ]
+}

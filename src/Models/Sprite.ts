@@ -4,6 +4,7 @@ interface Sprite {
     spriteTop: string;
     spriteWidth: string;
     spriteHeight: string;
+    spriteSheetIndex: number;
 }
 
 export default Sprite;

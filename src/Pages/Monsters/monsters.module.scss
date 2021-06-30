@@ -1,0 +1,10 @@
+@import '../../Styles/common.scss';
+
+
+.container {
+    @include page-container;
+}
+
+.spriteCol {
+    padding-bottom: 1em;
+}

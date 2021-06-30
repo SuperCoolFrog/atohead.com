@@ -10,6 +10,7 @@ import Collection from '../../Pages/Collection/Collection';
 import DeckBuilder from '../../Pages/DeckBuilder/DeckBuilder';
 import Champions from '../../Pages/Champions/Champions';
 import ChampionDetails from '../../Pages/ChampionDetails/ChampionDetails';
+import Monsters from '../../Pages/Monsters/Monsters';
 
 const Router = () => {
     return (<Switch>
@@ -24,6 +25,9 @@ const Router = () => {
       </Route>
       <Route exact path="/champion/:id">
         <ChampionDetails />
+      </Route>
+      <Route exact path="/monsters">
+        <Monsters />
       </Route>
       <Route path="/deck-builder/:characterType">
         <DeckBuilder />
