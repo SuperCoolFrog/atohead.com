@@ -11,6 +11,7 @@ import DeckBuilder from '../../Pages/DeckBuilder/DeckBuilder';
 import Champions from '../../Pages/Champions/Champions';
 import ChampionDetails from '../../Pages/ChampionDetails/ChampionDetails';
 import Monsters from '../../Pages/Monsters/Monsters';
+import MonsterDetails from '../../Pages/MonsterDetails/MonsterDetails';
 
 const Router = () => {
     return (<Switch>
@@ -26,11 +27,14 @@ const Router = () => {
       <Route exact path="/champion/:id">
         <ChampionDetails />
       </Route>
+      <Route path="/deck-builder/:characterType">
+        <DeckBuilder />
+      </Route>
       <Route exact path="/monsters">
         <Monsters />
       </Route>
-      <Route path="/deck-builder/:characterType">
-        <DeckBuilder />
+      <Route exact path="/monster/:id">
+        <MonsterDetails />
       </Route>
       <Redirect to="/home"/>
     </Switch>);

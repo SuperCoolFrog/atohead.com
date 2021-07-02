@@ -21,7 +21,8 @@ try {
         { resistanceType: 'Holy', value: `${holy}%` },
         { resistanceType: 'Shadow', value: `${shadow}%` }
       ],
-      headshotSprite : { spriteSheetIndex: i, "@mixin": 'headshotSprite' }
+      headshotSprite: { spriteSheetIndex: i, "@mixin": 'headshotSprite' },
+      fullBodySprite: { spriteSheetIndex: i, "@mixin": 'fullBodySprite' }
     }
   });
 

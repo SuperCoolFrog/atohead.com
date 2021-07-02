@@ -8,9 +8,11 @@ interface SpriteProps {
     scaleToWidth?: number;
     scaleToHeight?: number;
     onClick?: (card:SpriteModel) => void;
+    transparentBackground?: boolean;
+    sharpCorners?: boolean;
 }
 
-const Sprite = ({ sprite, onClick, scaleToHeight, scaleToWidth }: SpriteProps) => {
+const Sprite = ({ sprite, onClick, scaleToHeight, scaleToWidth, sharpCorners, transparentBackground }: SpriteProps) => {
     const background = `url(${sprite.image}) ${sprite.spriteLeft} ${sprite.spriteTop}`
     
     let scaledWidth = parseInt(sprite.spriteWidth);
@@ -32,12 +34,14 @@ const Sprite = ({ sprite, onClick, scaleToHeight, scaleToWidth }: SpriteProps) =
     const containerWidth = scaleToWidth ? scaleToWidth + 'px' : sprite.spriteWidth;
     const containerHeight = scaleToHeight ? scaleToHeight + 'px' : sprite.spriteHeight;
     
+    const containerBackground = transparentBackground ? 'transparent' : 'url(/images/placeholder_card.png)'; 
+    
     return (<>
         <div
-            className={styles.spriteContainer}
-            style={{ width: containerWidth, height: containerHeight, background: 'url(/images/placeholder_card.png)'}}
+            className={classNames(styles.spriteContainer, { [styles.rounded]: !sharpCorners })}
+            style={{ width: containerWidth, height: containerHeight, background: containerBackground }}
         >
-            <div className={classNames(styles.sprite, { [styles.clickable]: !!onClick })}
+            <div className={classNames(styles.sprite, { [styles.clickable]: !!onClick, [styles.rounded]: !sharpCorners })}
                 onClick={handleClick}
                 style={{ background, height: sprite.spriteHeight, width: sprite.spriteWidth, transform }}
             >

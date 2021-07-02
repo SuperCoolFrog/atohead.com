@@ -1,13 +1,8 @@
+import Character from "./Character";
 import Resistance from "./Resistance";
 import Sprite from "./Sprite";
 
-interface Monster {
-    id: string;
-    name: string;
-    job: string;
-    jobColor: string;
-    resistances: Resistance[];
-    headshotSprite: Sprite;
+interface Monster extends Character {
 }
 
 export default Monster;

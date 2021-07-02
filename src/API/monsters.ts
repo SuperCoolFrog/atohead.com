@@ -20,15 +20,20 @@ export const getMonsters = async (): Promise<Monster[]> => {
     const monsters: Monster[] = processed.monsters.map((data: any) => {
         const resistances = data.resistances.map((r: any) => (r as Resistance))
         const headshotSprite = data.headshotSprite as Sprite;
+        const fullBodySprite = data.fullBodySprite as Sprite;
         
         headshotSprite.spriteTop = -(parseInt(headshotSprite.spriteWidth) * (Math.floor(headshotSprite.spriteSheetIndex / 10))) + 'px';
         headshotSprite.spriteLeft = -(parseInt(headshotSprite.spriteWidth) * (headshotSprite.spriteSheetIndex % 10)) + 'px';
+
+        fullBodySprite.spriteTop = -(parseInt(fullBodySprite.spriteWidth) * (Math.floor(fullBodySprite.spriteSheetIndex / 10))) + 'px';
+        fullBodySprite.spriteLeft = -(parseInt(fullBodySprite.spriteWidth) * (fullBodySprite.spriteSheetIndex % 10)) + 'px';
         
         return {
             id: data.id,
             name: data.name,
             resistances,
             headshotSprite,
+            fullBodySprite,
         } as Monster;
     });
     

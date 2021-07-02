@@ -4,6 +4,11 @@
             "image": "/images/monsters/monster_headshots.png",
             "spriteWidth": "80px",
             "spriteHeight": "124px"
+        },
+        "fullBodySprite": {
+            "image": "/images/monsters/monster_full_bodies.png",
+            "spriteWidth": "200px",
+            "spriteHeight": "400px"
         }
     },
     "monsters": [
@@ -51,6 +56,10 @@
             "headshotSprite": {
                 "spriteSheetIndex": 0,
                 "@mixin": "headshotSprite"
+            },
+            "fullBodySprite": {
+                "spriteSheetIndex": 0,
+                "@mixin": "fullBodySprite"
             }
         },
         {
@@ -97,6 +106,10 @@
             "headshotSprite": {
                 "spriteSheetIndex": 1,
                 "@mixin": "headshotSprite"
+            },
+            "fullBodySprite": {
+                "spriteSheetIndex": 1,
+                "@mixin": "fullBodySprite"
             }
         }
     ]
