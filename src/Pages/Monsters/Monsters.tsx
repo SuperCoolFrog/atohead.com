@@ -25,12 +25,12 @@ const Monsters = () => {
         return <Redirect to={`/monster/${redirectId}`} />;
     }
 
-
     return (<Container className={styles.container}>
         <Row>
             { monsters.map((m) => (
             <Col md="2" className={styles.spriteCol} key={m.id}>
                 <Sprite sprite={m.headshotSprite} onClick={() => (setRedirectId(m.id))} />
+                <div className={styles.monsterName} onClick={() => (setRedirectId(m.id))}>{m.name}</div>
             </Col>
             ))}
         </Row>
